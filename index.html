@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ff7a18" />
+    <meta
+      name="description"
+      content="Dětský kvíz s výběrem obtížnosti, počtu otázek a závěrečným hodnocením."
+    />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Dětský kvíz</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <main class="card" id="app" aria-live="polite">
+        <section class="screen screen-active" data-screen="welcome">
+          <p class="eyebrow">Kvízová aplikace</p>
+          <h1>AHOJ TEREZO</h1>
+          <p class="lead">
+            Vyber si sadu otázek a pak počet otázek. Za každou správnou odpověď
+            získáš 1 bod.
+          </p>
+
+          <div class="choice-grid" id="packChoices"></div>
+
+          <button class="primary-button" id="goToQuestionCount" disabled>
+            Pokračovat
+          </button>
+        </section>
+
+        <section class="screen" data-screen="count">
+          <p class="eyebrow">Krok 2</p>
+          <h2>Kolik otázek chceš?</h2>
+          <p class="lead" id="selectedPackLabel"></p>
+
+          <div class="choice-grid compact" id="questionCountChoices"></div>
+
+          <div class="button-row">
+            <button class="secondary-button" data-action="back-to-welcome">
+              Zpět
+            </button>
+            <button class="primary-button" id="goToCategory" disabled>
+              Pokračovat
+            </button>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="category">
+          <p class="eyebrow">Krok 3</p>
+          <h2>Jaké otázky chceš?</h2>
+          <p class="lead" id="selectedQuizSetupLabel"></p>
+
+          <div class="choice-grid" id="categoryChoices"></div>
+
+          <div class="button-row">
+            <button class="secondary-button" data-action="back-to-count">
+              Zpět
+            </button>
+            <button class="primary-button" id="startQuiz" disabled>
+              Spustit kvíz
+            </button>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="quiz">
+          <div class="quiz-topbar">
+            <div>
+              <p class="eyebrow">Otázka <span id="questionIndex">1</span></p>
+              <p class="pack-chip" id="quizPackName"></p>
+            </div>
+            <div class="score-pill">
+              Body: <strong id="scoreLabel">0</strong>
+            </div>
+          </div>
+
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+
+          <h2 id="questionText"></h2>
+          <div class="answers" id="answers"></div>
+          <p class="feedback" id="feedback" hidden></p>
+
+          <div class="button-row">
+            <button class="secondary-button" data-action="restart">
+              Nový kvíz
+            </button>
+            <button class="primary-button" id="nextQuestion" disabled>
+              Další otázka
+            </button>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="result">
+          <p class="eyebrow">Hotovo</p>
+          <h2 id="resultHeading"></h2>
+          <p class="lead" id="resultSummary"></p>
+          <div class="result-card">
+            <p>Správně: <strong id="finalScore"></strong></p>
+            <p>Úspěšnost: <strong id="finalPercentage"></strong></p>
+            <p>Hodnocení: <strong id="finalRating"></strong></p>
+          </div>
+
+          <div class="button-row">
+            <button class="secondary-button" data-action="restart">
+              Hrát znovu
+            </button>
+            <button class="primary-button" data-action="back-to-welcome">
+              Změnit výběr
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="choiceButtonTemplate">
+      <button class="choice-button" type="button"></button>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

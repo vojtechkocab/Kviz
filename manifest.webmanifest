@@ -1,0 +1,24 @@
+{
+  "name": "Dětský kvíz",
+  "short_name": "Kvíz",
+  "description": "PWA kvíz s lehčí a těžší sadou otázek.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff4cf",
+  "theme_color": "#ff7a18",
+  "lang": "cs-CZ",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
