@@ -3,27 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ff7a18" />
+    <meta name="theme-color" content="#ff8d6a" />
     <meta
       name="description"
-      content="Dětský kvíz s výběrem obtížnosti, počtu otázek a závěrečným hodnocením."
+      content="Kvíz, ve kterém dítě pomáhá uzdravit králíčka pomocí správných odpovědí."
     />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Dětský kvíz</title>
+    <title>Králíčkův kvíz</title>
   </head>
   <body>
     <div class="app-shell">
       <main class="card" id="app" aria-live="polite">
         <section class="screen screen-active" data-screen="welcome">
-          <p class="eyebrow">Kvízová aplikace</p>
-          <h1>AHOJ TEREZO</h1>
-          <p class="lead">
-            Vyber si sadu otázek a pak počet otázek. Za každou správnou odpověď
-            získáš 1 bod.
-          </p>
+          <p class="eyebrow">Péče o králíčka</p>
+          <div class="hero">
+            <div>
+              <h1>Zachraň králíčka</h1>
+              <p class="lead">
+                Na začátku je králíček nemocný. Za každou správnou odpověď dostane
+                sílu a bude zdravější. Cílem je získat 100 bodů dřív, než přijdou
+                tři chyby.
+              </p>
+              <ul class="intro-list">
+                <li>Správná odpověď: +5 bodů</li>
+                <li>3 správně po sobě: bonus +15 bodů</li>
+                <li>3 správně do 10 sekund: další bonus +15 bodů</li>
+              </ul>
+            </div>
+            <div class="rabbit-hero" aria-hidden="true">
+              <img
+                class="rabbit-photo"
+                src="./assets/rabbit-sick.png"
+                alt="Nemocný králíček s chladivým obkladem"
+              />
+              <p class="rabbit-note">Nemocný, ale statečný</p>
+            </div>
+          </div>
 
           <div class="choice-grid" id="packChoices"></div>
 
@@ -40,11 +58,11 @@
           <div class="choice-grid compact" id="questionCountChoices"></div>
 
           <div class="button-row">
-            <button class="secondary-button" data-action="back-to-welcome">
-              Zpět
-            </button>
             <button class="primary-button" id="goToCategory" disabled>
               Pokračovat
+            </button>
+            <button class="secondary-button" data-action="back-to-welcome">
+              Zpět
             </button>
           </div>
         </section>
@@ -57,23 +75,41 @@
           <div class="choice-grid" id="categoryChoices"></div>
 
           <div class="button-row">
+            <button class="primary-button" id="startQuiz" disabled>
+              Spustit hru
+            </button>
             <button class="secondary-button" data-action="back-to-count">
               Zpět
-            </button>
-            <button class="primary-button" id="startQuiz" disabled>
-              Spustit kvíz
             </button>
           </div>
         </section>
 
         <section class="screen" data-screen="quiz">
-          <div class="quiz-topbar">
-            <div>
-              <p class="eyebrow">Otázka <span id="questionIndex">1</span></p>
-              <p class="pack-chip" id="quizPackName"></p>
+          <div class="care-status">
+            <div class="rabbit-panel">
+              <div class="rabbit-avatar" id="rabbitAvatar" aria-hidden="true">🤒🐰</div>
+              <div>
+                <p class="eyebrow">Stav králíčka</p>
+                <h2 id="rabbitStateLabel">Nemocný králíček</h2>
+                <p class="lead compact" id="rabbitStateText">
+                  Odpovídej správně, ať se mu vrátí síla.
+                </p>
+              </div>
             </div>
-            <div class="score-pill">
-              Body: <strong id="scoreLabel">0</strong>
+
+            <div class="status-grid">
+              <div class="status-pill">
+                <span>Body</span>
+                <strong id="scoreLabel">0 / 100</strong>
+              </div>
+              <div class="status-pill">
+                <span>Životy</span>
+                <strong id="livesLabel">❤️❤️❤️</strong>
+              </div>
+              <div class="status-pill">
+                <span>Série</span>
+                <strong id="streakLabel">0</strong>
+              </div>
             </div>
           </div>
 
@@ -81,28 +117,56 @@
             <div class="progress-fill" id="progressFill"></div>
           </div>
 
+          <div class="quiz-topbar">
+            <div>
+              <p class="eyebrow">Otázka <span id="questionIndex">1</span></p>
+              <p class="pack-chip" id="quizPackName"></p>
+            </div>
+            <div class="score-pill" id="timerLabel">Čas na bonus: 10.0 s</div>
+          </div>
+
           <h2 id="questionText"></h2>
           <div class="answers" id="answers"></div>
           <p class="feedback" id="feedback" hidden></p>
 
           <div class="button-row">
-            <button class="secondary-button" data-action="restart">
-              Nový kvíz
-            </button>
             <button class="primary-button" id="nextQuestion" disabled>
               Další otázka
+            </button>
+            <button class="secondary-button" data-action="restart">
+              Nová hra
             </button>
           </div>
         </section>
 
         <section class="screen" data-screen="result">
-          <p class="eyebrow">Hotovo</p>
-          <h2 id="resultHeading"></h2>
-          <p class="lead" id="resultSummary"></p>
+          <p class="eyebrow">Výsledek</p>
+          <div class="result-hero">
+            <div class="result-rabbit" id="resultRabbit" aria-hidden="true">🐰</div>
+            <div>
+              <h2 id="resultHeading"></h2>
+              <p class="lead" id="resultSummary"></p>
+            </div>
+          </div>
+
           <div class="result-card">
-            <p>Správně: <strong id="finalScore"></strong></p>
-            <p>Úspěšnost: <strong id="finalPercentage"></strong></p>
-            <p>Hodnocení: <strong id="finalRating"></strong></p>
+            <p>Body: <strong id="finalScore"></strong></p>
+            <p>Zbývající životy: <strong id="finalLives"></strong></p>
+            <p>Nejdelší série: <strong id="finalStreak"></strong></p>
+            <p>Stav králíčka: <strong id="finalRating"></strong></p>
+          </div>
+
+          <div class="result-media" id="resultMedia" hidden>
+            <video
+              id="winVideo"
+              class="win-video"
+              controls
+              playsinline
+              preload="metadata"
+            >
+              <source src="./assets/rabbit-win.mp4" type="video/mp4" />
+              Váš prohlížeč neumí přehrát toto video.
+            </video>
           </div>
 
           <div class="button-row">

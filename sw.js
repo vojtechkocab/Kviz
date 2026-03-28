@@ -6,6 +6,8 @@ const ASSETS = [
   "./app.js",
   "./manifest.webmanifest",
   "./kviz_otazky_pro_aplikaci.json",
+  "./assets/rabbit-sick.png",
+  "./assets/rabbit-win.mp4",
   "./icons/icon.svg",
   "./icons/apple-touch-icon.svg",
   "./icons/maskable-icon.svg",
