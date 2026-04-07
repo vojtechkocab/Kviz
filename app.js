@@ -43,7 +43,7 @@ const PHASES = [
     promptLabel: "Králíček prosí o pomoc",
     promptTitle: "Je mi špatně a motá se mi hlava.",
     promptText: "Pomůžeš mi a uzdravíš mě?",
-    promptImage: "./assets/rabbit-prompt-04.png",
+    promptImage: "./assets/rabbit-prompt-01.png",
   },
   {
     id: 1,
@@ -51,7 +51,7 @@ const PHASES = [
     promptLabel: "Králíčkovi je lépe",
     promptTitle: "Už je mi lépe, ale ještě trošku jsem nemocný.",
     promptText: "Pomůžeš mi ještě?",
-    promptImage: "./assets/rabbit-prompt-03.png",
+    promptImage: "./assets/rabbit-prompt-02.png",
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const PHASES = [
     promptLabel: "Králíček je skoro zdravý",
     promptTitle: "Už jsem skoro zdravý, jen se mi ještě trošku motá hlava.",
     promptText: "Pomůžeš mi ještě?",
-    promptImage: "./assets/rabbit-prompt-02.png",
+    promptImage: "./assets/rabbit-prompt-03.png",
   },
 ];
 
