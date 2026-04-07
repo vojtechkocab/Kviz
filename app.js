@@ -43,6 +43,7 @@ const PHASES = [
     promptLabel: "Králíček prosí o pomoc",
     promptTitle: "Je mi špatně a motá se mi hlava.",
     promptText: "Pomůžeš mi a uzdravíš mě?",
+    promptImage: "./assets/rabbit-prompt-04.png",
   },
   {
     id: 1,
@@ -50,6 +51,7 @@ const PHASES = [
     promptLabel: "Králíčkovi je lépe",
     promptTitle: "Už je mi lépe, ale ještě trošku jsem nemocný.",
     promptText: "Pomůžeš mi ještě?",
+    promptImage: "./assets/rabbit-prompt-03.png",
   },
   {
     id: 2,
@@ -57,6 +59,7 @@ const PHASES = [
     promptLabel: "Králíček je skoro zdravý",
     promptTitle: "Už jsem skoro zdravý, jen se mi ještě trošku motá hlava.",
     promptText: "Pomůžeš mi ještě?",
+    promptImage: "./assets/rabbit-prompt-02.png",
   },
 ];
 
@@ -81,6 +84,7 @@ const subjectChoices = document.querySelector("#subjectChoices");
 const selectedSubjectLabel = document.querySelector("#selectedSubjectLabel");
 const storyVideo = document.querySelector("#storyVideo");
 const promptStageLabel = document.querySelector("#promptStageLabel");
+const rabbitPromptImage = document.querySelector("#rabbitPromptImage");
 const rabbitPromptTitle = document.querySelector("#rabbitPromptTitle");
 const rabbitPromptText = document.querySelector("#rabbitPromptText");
 const livesLabel = document.querySelector("#livesLabel");
@@ -260,6 +264,7 @@ function finishVideoStep() {
 
 function renderRabbitPrompt(phase) {
   promptStageLabel.textContent = phase.promptLabel;
+  rabbitPromptImage.src = phase.promptImage;
   rabbitPromptTitle.textContent = phase.promptTitle;
   rabbitPromptText.textContent = phase.promptText;
 }

@@ -71,7 +71,9 @@
 
       <section class="screen" data-screen="rabbit-prompt">
         <p class="eyebrow" id="promptStageLabel">Králíček prosí o pomoc</p>
-        <div class="rabbit-bubble" id="rabbitBubble">🐰</div>
+        <div class="rabbit-image-panel">
+          <img id="rabbitPromptImage" src="./assets/rabbit-prompt-01.png" alt="Králíček prosí o pomoc" />
+        </div>
         <h1 id="rabbitPromptTitle">Pomůžeš mi?</h1>
         <p class="lead" id="rabbitPromptText"></p>
         <div class="decision-panel">
@@ -108,7 +110,9 @@
 
       <section class="screen" data-screen="fail">
         <p class="eyebrow">Králíček potřebuje další pokus</p>
-        <div class="rabbit-bubble">🤒🐰</div>
+        <div class="rabbit-image-panel">
+          <img src="./assets/rabbit-prompt-04.png" alt="Nemocný králíček" />
+        </div>
         <h1>Teď se to nepovedlo</h1>
         <p class="lead">Došly tři životy. Králíček se ještě neuzdravil, ale můžeš to zkusit znovu.</p>
         <button class="primary-button" data-action="restart-game">Zkusit znovu</button>
@@ -117,7 +121,9 @@
 
       <section class="screen" data-screen="complete">
         <p class="eyebrow">Králíček je zdravý</p>
-        <div class="rabbit-bubble celebration">🐰✨</div>
+        <div class="rabbit-image-panel celebration">
+          <img src="./assets/rabbit-prompt-01.png" alt="Zdravý králíček" />
+        </div>
         <h1>Děkuji za uzdravení!</h1>
         <p class="lead">Pomohl/a jsi králíčkovi projít celým léčením. Teď už je veselý a zdravý.</p>
         <button class="primary-button" data-action="home">Zpět na začátek</button>
