@@ -173,6 +173,7 @@ function normalizeQuestions(questions, source) {
     text: question.question,
     options: question.options,
     correctIndex: question.correct_index,
+    correctAnswer: question.options[question.correct_index],
     category: question.category,
     source,
   }));
@@ -297,12 +298,19 @@ function renderQuestion() {
   questionText.textContent = question.text;
   answers.innerHTML = "";
 
-  question.options.forEach((option, index) => {
+  const shuffledOptions = shuffle(
+    question.options.map((option) => ({
+      text: option,
+      isCorrect: option === question.correctAnswer,
+    })),
+  );
+
+  shuffledOptions.forEach((option) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "answer-button";
-    button.textContent = option;
-    button.addEventListener("click", () => answerQuestion(index, button, question));
+    button.textContent = option.text;
+    button.addEventListener("click", () => answerQuestion(option, button, question));
     answers.appendChild(button);
   });
 
@@ -320,17 +328,17 @@ function getNextQuestion() {
   return question;
 }
 
-async function answerQuestion(selectedIndex, clickedButton, question) {
+async function answerQuestion(selectedOption, clickedButton, question) {
   if (state.answered) {
     return;
   }
 
   state.answered = true;
-  const isCorrect = selectedIndex === question.correctIndex;
+  const isCorrect = selectedOption.isCorrect;
 
-  [...answers.querySelectorAll(".answer-button")].forEach((button, index) => {
+  [...answers.querySelectorAll(".answer-button")].forEach((button) => {
     button.disabled = true;
-    if (index === question.correctIndex) {
+    if (button.textContent === question.correctAnswer) {
       button.classList.add("correct");
     }
   });
@@ -340,7 +348,7 @@ async function answerQuestion(selectedIndex, clickedButton, question) {
     await handleCorrectAnswer();
   } else {
     clickedButton.classList.add("wrong");
-    handleWrongAnswer(question.options[question.correctIndex]);
+    handleWrongAnswer(question.correctAnswer);
   }
 
   updateHud();

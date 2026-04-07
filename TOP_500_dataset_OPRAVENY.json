@@ -10,7 +10,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "8"
       ],
       "correct_index": 0
     },
@@ -22,7 +22,7 @@
       "options": [
         "doma",
         "na střeše",
-        "v lednici 😄"
+        "v lednici"
       ],
       "correct_index": 0
     },
@@ -33,8 +33,8 @@
       "question": "Co nejčastěji jí kočka",
       "options": [
         "granule",
-        "kameny",
-        "palačinky 😄"
+        "trávu",
+        "palačinky"
       ],
       "correct_index": 0
     },
@@ -42,11 +42,11 @@
       "id": 4,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře kočka",
+      "question": "Co je typické pro kočku",
       "options": [
         "vousky",
-        "kola",
-        "zip 😄"
+        "ruce",
+        "oblečení"
       ],
       "correct_index": 0
     },
@@ -58,7 +58,7 @@
       "options": [
         "savec",
         "rostlina",
-        "nábytek 😄"
+        "nábytek"
       ],
       "correct_index": 0
     },
@@ -70,7 +70,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "8"
       ],
       "correct_index": 0
     },
@@ -80,9 +80,9 @@
       "difficulty": "easy",
       "question": "Kde bydlí pes",
       "options": [
-        "doma",
+        "v boudě",
         "na střeše",
-        "v lednici 😄"
+        "v lednici"
       ],
       "correct_index": 0
     },
@@ -94,7 +94,7 @@
       "options": [
         "granule",
         "kameny",
-        "palačinky 😄"
+        "palačinky"
       ],
       "correct_index": 0
     },
@@ -102,11 +102,11 @@
       "id": 9,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře pes",
+      "question": "Co je typické pro psa",
       "options": [
-        "čich",
-        "kola",
-        "zip 😄"
+        "dobrý čich",
+        "chobot",
+        "zip"
       ],
       "correct_index": 0
     },
@@ -117,8 +117,8 @@
       "question": "Do jaké skupiny patří pes",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "houba",
+        "skříně"
       ],
       "correct_index": 0
     },
@@ -129,8 +129,8 @@
       "question": "Kolik nohou má kráva",
       "options": [
         "4",
-        "2",
-        "8 😄"
+        "3",
+        "10"
       ],
       "correct_index": 0
     },
@@ -141,8 +141,8 @@
       "question": "Kde bydlí kráva",
       "options": [
         "na farmě",
-        "na střeše",
-        "v lednici 😄"
+        "na půdě",
+        "ve vodě"
       ],
       "correct_index": 0
     },
@@ -153,8 +153,8 @@
       "question": "Co nejčastěji jí kráva",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "maso",
+        "koblihy"
       ],
       "correct_index": 0
     },
@@ -162,11 +162,11 @@
       "id": 14,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře kráva",
+      "question": "Co je typické pro krávu",
       "options": [
         "rohy",
-        "kola",
-        "zip 😄"
+        "hubené tělo",
+        "klobouk"
       ],
       "correct_index": 0
     },
@@ -177,8 +177,8 @@
       "question": "Do jaké skupiny patří kráva",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "pták",
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -189,8 +189,8 @@
       "question": "Kolik nohou má kůň",
       "options": [
         "4",
-        "2",
-        "8 😄"
+        "5",
+        "6"
       ],
       "correct_index": 0
     },
@@ -201,8 +201,8 @@
       "question": "Kde bydlí kůň",
       "options": [
         "ve stáji",
-        "na střeše",
-        "v lednici 😄"
+        "ve sklepě",
+        "ve stanu"
       ],
       "correct_index": 0
     },
@@ -213,8 +213,8 @@
       "question": "Co nejčastěji jí kůň",
       "options": [
         "seno",
-        "kameny",
-        "palačinky 😄"
+        "nic",
+        "sýry"
       ],
       "correct_index": 0
     },
@@ -222,11 +222,11 @@
       "id": 19,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře kůň",
+      "question": "Co je typické pro koně",
       "options": [
-        "hřívu",
-        "kola",
-        "zip 😄"
+        "hříva",
+        "čtyři oči",
+        "krátký ohon"
       ],
       "correct_index": 0
     },
@@ -237,8 +237,8 @@
       "question": "Do jaké skupiny patří kůň",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "plaz",
+        "hlavonožec"
       ],
       "correct_index": 0
     },
@@ -250,7 +250,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "3"
       ],
       "correct_index": 0
     },
@@ -261,8 +261,8 @@
       "question": "Kde bydlí ovce",
       "options": [
         "na farmě",
-        "na střeše",
-        "v lednici 😄"
+        "v obýváku",
+        "v lese"
       ],
       "correct_index": 0
     },
@@ -273,8 +273,8 @@
       "question": "Co nejčastěji jí ovce",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "šunku",
+        "šušně"
       ],
       "correct_index": 0
     },
@@ -282,11 +282,11 @@
       "id": 24,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře ovce",
+      "question": "Co je typické pro ovci",
       "options": [
-        "vlnu",
-        "kola",
-        "zip 😄"
+        "vlna",
+        "vlasy",
+        "bučení"
       ],
       "correct_index": 0
     },
@@ -297,8 +297,8 @@
       "question": "Do jaké skupiny patří ovce",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "pták",
+        "rostlina"
       ],
       "correct_index": 0
     },
@@ -309,8 +309,8 @@
       "question": "Kolik nohou má koza",
       "options": [
         "4",
-        "2",
-        "8 😄"
+        "3",
+        "6"
       ],
       "correct_index": 0
     },
@@ -321,8 +321,8 @@
       "question": "Kde bydlí koza",
       "options": [
         "na farmě",
-        "na střeše",
-        "v lednici 😄"
+        "na stromě",
+        "na poušti"
       ],
       "correct_index": 0
     },
@@ -333,8 +333,8 @@
       "question": "Co nejčastěji jí koza",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "ryby",
+        "palačinky"
       ],
       "correct_index": 0
     },
@@ -342,11 +342,11 @@
       "id": 29,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře koza",
+      "question": "Co je typické pro kozu",
       "options": [
         "rohy",
-        "kola",
-        "zip 😄"
+        "ruce",
+        "kalhoty"
       ],
       "correct_index": 0
     },
@@ -357,8 +357,8 @@
       "question": "Do jaké skupiny patří koza",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "obojživelník",
+        "hmyz"
       ],
       "correct_index": 0
     },
@@ -369,8 +369,8 @@
       "question": "Kolik nohou má slepice",
       "options": [
         "2",
-        "2",
-        "8 😄"
+        "3",
+        "4"
       ],
       "correct_index": 0
     },
@@ -381,8 +381,8 @@
       "question": "Kde bydlí slepice",
       "options": [
         "v kurníku",
-        "na střeše",
-        "v lednici 😄"
+        "na plotě",
+        "v úlu"
       ],
       "correct_index": 0
     },
@@ -394,7 +394,7 @@
       "options": [
         "zrní",
         "kameny",
-        "palačinky 😄"
+        "koblihy"
       ],
       "correct_index": 0
     },
@@ -402,11 +402,11 @@
       "id": 34,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře slepice",
+      "question": "Co je typické pro slepici",
       "options": [
         "vejce",
-        "kola",
-        "zip 😄"
+        "čtyři nohy",
+        "mečení"
       ],
       "correct_index": 0
     },
@@ -417,8 +417,8 @@
       "question": "Do jaké skupiny patří slepice",
       "options": [
         "pták",
-        "rostlina",
-        "nábytek 😄"
+        "savec",
+        "hudební nástroj"
       ],
       "correct_index": 0
     },
@@ -429,8 +429,8 @@
       "question": "Kolik nohou má kachna",
       "options": [
         "2",
-        "2",
-        "8 😄"
+        "4",
+        "6"
       ],
       "correct_index": 0
     },
@@ -441,8 +441,8 @@
       "question": "Kde bydlí kachna",
       "options": [
         "u vody",
-        "na střeše",
-        "v lednici 😄"
+        "na ledě",
+        "v jeskyni"
       ],
       "correct_index": 0
     },
@@ -453,8 +453,8 @@
       "question": "Co nejčastěji jí kachna",
       "options": [
         "zrní",
-        "kameny",
-        "palačinky 😄"
+        "šunku",
+        "sýr"
       ],
       "correct_index": 0
     },
@@ -462,11 +462,11 @@
       "id": 39,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře kachna",
+      "question": "Co je typické pro kachnu",
       "options": [
         "plovací blány",
-        "kola",
-        "zip 😄"
+        "ruce",
+        "zuby"
       ],
       "correct_index": 0
     },
@@ -477,8 +477,8 @@
       "question": "Do jaké skupiny patří kachna",
       "options": [
         "pták",
-        "rostlina",
-        "nábytek 😄"
+        "plaz",
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -489,8 +489,8 @@
       "question": "Kolik nohou má husa",
       "options": [
         "2",
-        "2",
-        "8 😄"
+        "4",
+        "3"
       ],
       "correct_index": 0
     },
@@ -502,7 +502,7 @@
       "options": [
         "u vody",
         "na střeše",
-        "v lednici 😄"
+        "v lese"
       ],
       "correct_index": 0
     },
@@ -513,8 +513,8 @@
       "question": "Co nejčastěji jí husa",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "písek",
+        "pavouky"
       ],
       "correct_index": 0
     },
@@ -522,11 +522,11 @@
       "id": 44,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře husa",
+      "question": "Co je typické pro husu",
       "options": [
         "dlouhý krk",
-        "kola",
-        "zip 😄"
+        "rty",
+        "srst"
       ],
       "correct_index": 0
     },
@@ -537,8 +537,8 @@
       "question": "Do jaké skupiny patří husa",
       "options": [
         "pták",
-        "rostlina",
-        "nábytek 😄"
+        "savec",
+        "rostlina"
       ],
       "correct_index": 0
     },
@@ -550,7 +550,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "3"
       ],
       "correct_index": 0
     },
@@ -561,8 +561,8 @@
       "question": "Kde bydlí žába",
       "options": [
         "u vody",
-        "na střeše",
-        "v lednici 😄"
+        "na stromě",
+        "v televizi"
       ],
       "correct_index": 0
     },
@@ -573,8 +573,8 @@
       "question": "Co nejčastěji jí žába",
       "options": [
         "hmyz",
-        "kameny",
-        "palačinky 😄"
+        "trávu",
+        "nic"
       ],
       "correct_index": 0
     },
@@ -582,11 +582,11 @@
       "id": 49,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře žába",
+      "question": "Co je typické pro žábu",
       "options": [
         "skoky",
-        "kola",
-        "zip 😄"
+        "křídla",
+        "nehty"
       ],
       "correct_index": 0
     },
@@ -597,8 +597,8 @@
       "question": "Do jaké skupiny patří žába",
       "options": [
         "obojživelník",
-        "rostlina",
-        "nábytek 😄"
+        "plaz",
+        "savec"
       ],
       "correct_index": 0
     },
@@ -609,8 +609,8 @@
       "question": "Kolik nohou má včela",
       "options": [
         "6",
-        "2",
-        "8 😄"
+        "4",
+        "12"
       ],
       "correct_index": 0
     },
@@ -621,8 +621,8 @@
       "question": "Kde bydlí včela",
       "options": [
         "v úlu",
-        "na střeše",
-        "v lednici 😄"
+        "ve vodě",
+        "na Měsíci"
       ],
       "correct_index": 0
     },
@@ -633,8 +633,8 @@
       "question": "Co nejčastěji jí včela",
       "options": [
         "nektar",
-        "kameny",
-        "palačinky 😄"
+        "trávu",
+        "dřevo"
       ],
       "correct_index": 0
     },
@@ -642,11 +642,11 @@
       "id": 54,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře včela",
+      "question": "Co je typické pro včelu",
       "options": [
         "žihadlo",
-        "kola",
-        "zip 😄"
+        "ruce",
+        "zuby"
       ],
       "correct_index": 0
     },
@@ -657,8 +657,8 @@
       "question": "Do jaké skupiny patří včela",
       "options": [
         "hmyz",
-        "rostlina",
-        "nábytek 😄"
+        "pták",
+        "savec"
       ],
       "correct_index": 0
     },
@@ -670,7 +670,7 @@
       "options": [
         "6",
         "2",
-        "8 😄"
+        "4"
       ],
       "correct_index": 0
     },
@@ -681,8 +681,8 @@
       "question": "Kde bydlí mravenec",
       "options": [
         "v mraveništi",
-        "na střeše",
-        "v lednici 😄"
+        "na poušti",
+        "ve vodě"
       ],
       "correct_index": 0
     },
@@ -692,9 +692,9 @@
       "difficulty": "easy",
       "question": "Co nejčastěji jí mravenec",
       "options": [
-        "drobky",
-        "kameny",
-        "palačinky 😄"
+        "sladké plody",
+        "máslo",
+        "ryby"
       ],
       "correct_index": 0
     },
@@ -702,11 +702,11 @@
       "id": 59,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře mravenec",
+      "question": "Co je typické pro mravence",
       "options": [
         "kusadla",
-        "kola",
-        "zip 😄"
+        "křídla",
+        "dlouhý krk"
       ],
       "correct_index": 0
     },
@@ -717,8 +717,8 @@
       "question": "Do jaké skupiny patří mravenec",
       "options": [
         "hmyz",
-        "rostlina",
-        "nábytek 😄"
+        "pavouk",
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -730,7 +730,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "5"
       ],
       "correct_index": 0
     },
@@ -741,8 +741,8 @@
       "question": "Kde bydlí slon",
       "options": [
         "v savaně",
-        "na střeše",
-        "v lednici 😄"
+        "v úlu",
+        "v rybníku"
       ],
       "correct_index": 0
     },
@@ -754,7 +754,7 @@
       "options": [
         "listy",
         "kameny",
-        "palačinky 😄"
+        "lvy"
       ],
       "correct_index": 0
     },
@@ -762,11 +762,11 @@
       "id": 64,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře slon",
+      "question": "Co je typické pro slona",
       "options": [
         "chobot",
-        "kola",
-        "zip 😄"
+        "tenké nohy",
+        "křídla"
       ],
       "correct_index": 0
     },
@@ -777,8 +777,8 @@
       "question": "Do jaké skupiny patří slon",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "oboživelník",
+        "pták"
       ],
       "correct_index": 0
     },
@@ -790,7 +790,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "3"
       ],
       "correct_index": 0
     },
@@ -801,8 +801,8 @@
       "question": "Kde bydlí žirafa",
       "options": [
         "v savaně",
-        "na střeše",
-        "v lednici 😄"
+        "na Marsu",
+        "v jezeře"
       ],
       "correct_index": 0
     },
@@ -813,8 +813,8 @@
       "question": "Co nejčastěji jí žirafa",
       "options": [
         "listy",
-        "kameny",
-        "palačinky 😄"
+        "ptáky",
+        "palačinky"
       ],
       "correct_index": 0
     },
@@ -822,11 +822,11 @@
       "id": 69,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře žirafa",
+      "question": "Co je typické pro žirafu",
       "options": [
         "dlouhý krk",
-        "kola",
-        "zip 😄"
+        "žádné nohy",
+        "peří"
       ],
       "correct_index": 0
     },
@@ -838,7 +838,7 @@
       "options": [
         "savec",
         "rostlina",
-        "nábytek 😄"
+        "plaz"
       ],
       "correct_index": 0
     },
@@ -849,8 +849,8 @@
       "question": "Kolik nohou má zebra",
       "options": [
         "4",
-        "2",
-        "8 😄"
+        "3",
+        "5"
       ],
       "correct_index": 0
     },
@@ -861,8 +861,8 @@
       "question": "Kde bydlí zebra",
       "options": [
         "v savaně",
-        "na střeše",
-        "v lednici 😄"
+        "na zahradě",
+        "v džungli"
       ],
       "correct_index": 0
     },
@@ -873,8 +873,8 @@
       "question": "Co nejčastěji jí zebra",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "maso",
+        "topinky"
       ],
       "correct_index": 0
     },
@@ -882,11 +882,11 @@
       "id": 74,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře zebra",
+      "question": "Co je typické pro zebru",
       "options": [
         "pruhy",
-        "kola",
-        "zip 😄"
+        "vlasy",
+        "ruce"
       ],
       "correct_index": 0
     },
@@ -897,8 +897,8 @@
       "question": "Do jaké skupiny patří zebra",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "houba",
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -909,8 +909,8 @@
       "question": "Kolik nohou má lev",
       "options": [
         "4",
-        "2",
-        "8 😄"
+        "3",
+        "6"
       ],
       "correct_index": 0
     },
@@ -921,8 +921,8 @@
       "question": "Kde bydlí lev",
       "options": [
         "v savaně",
-        "na střeše",
-        "v lednici 😄"
+        "v džungli",
+        "ve městě"
       ],
       "correct_index": 0
     },
@@ -933,8 +933,8 @@
       "question": "Co nejčastěji jí lev",
       "options": [
         "maso",
-        "kameny",
-        "palačinky 😄"
+        "trávu",
+        "pavouky"
       ],
       "correct_index": 0
     },
@@ -942,11 +942,11 @@
       "id": 79,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře lev",
+      "question": "Co je typické pro lva",
       "options": [
-        "hřívu",
-        "kola",
-        "zip 😄"
+        "hříva",
+        "zobák",
+        "ploutev"
       ],
       "correct_index": 0
     },
@@ -957,8 +957,8 @@
       "question": "Do jaké skupiny patří lev",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "plák",
+        "nářadí"
       ],
       "correct_index": 0
     },
@@ -970,7 +970,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "6"
       ],
       "correct_index": 0
     },
@@ -981,8 +981,8 @@
       "question": "Kde bydlí jelen",
       "options": [
         "v lese",
-        "na střeše",
-        "v lednici 😄"
+        "na dvoře",
+        "na farmě"
       ],
       "correct_index": 0
     },
@@ -993,8 +993,8 @@
       "question": "Co nejčastěji jí jelen",
       "options": [
         "trávu",
-        "kameny",
-        "palačinky 😄"
+        "hvězdy",
+        "maso"
       ],
       "correct_index": 0
     },
@@ -1002,11 +1002,11 @@
       "id": 84,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře jelen",
+      "question": "Co je typické pro jelena",
       "options": [
         "parohy",
-        "kola",
-        "zip 😄"
+        "chapadla",
+        "dlouhé vlasy"
       ],
       "correct_index": 0
     },
@@ -1017,8 +1017,8 @@
       "question": "Do jaké skupiny patří jelen",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "obojživelník",
+        "pták"
       ],
       "correct_index": 0
     },
@@ -1030,7 +1030,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "6"
       ],
       "correct_index": 0
     },
@@ -1041,8 +1041,8 @@
       "question": "Kde bydlí ježek",
       "options": [
         "v lese",
-        "na střeše",
-        "v lednici 😄"
+        "na půdě",
+        "ve vodě"
       ],
       "correct_index": 0
     },
@@ -1052,9 +1052,9 @@
       "difficulty": "easy",
       "question": "Co nejčastěji jí ježek",
       "options": [
-        "hmyz",
-        "kameny",
-        "palačinky 😄"
+        "brouky",
+        "trávou",
+        "salámem"
       ],
       "correct_index": 0
     },
@@ -1062,11 +1062,11 @@
       "id": 89,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře ježek",
+      "question": "Co je typické pro ježka",
       "options": [
         "bodliny",
-        "kola",
-        "zip 😄"
+        "rohy",
+        "křídla"
       ],
       "correct_index": 0
     },
@@ -1077,8 +1077,8 @@
       "question": "Do jaké skupiny patří ježek",
       "options": [
         "savec",
-        "rostlina",
-        "nábytek 😄"
+        "obojživelník",
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -1090,7 +1090,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "5"
       ],
       "correct_index": 0
     },
@@ -1101,8 +1101,8 @@
       "question": "Kde bydlí králík",
       "options": [
         "v noře",
-        "na střeše",
-        "v lednici 😄"
+        "na záchodě",
+        "ve vysokých horách"
       ],
       "correct_index": 0
     },
@@ -1113,8 +1113,8 @@
       "question": "Co nejčastěji jí králík",
       "options": [
         "mrkev",
-        "kameny",
-        "palačinky 😄"
+        "kuřata",
+        "maso"
       ],
       "correct_index": 0
     },
@@ -1122,11 +1122,11 @@
       "id": 94,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře králík",
+      "question": "Co je typické pro králíka",
       "options": [
         "dlouhé uši",
-        "kola",
-        "zip 😄"
+        "křídla",
+        "je jedovatý"
       ],
       "correct_index": 0
     },
@@ -1138,7 +1138,7 @@
       "options": [
         "savec",
         "rostlina",
-        "nábytek 😄"
+        "ryba"
       ],
       "correct_index": 0
     },
@@ -1150,7 +1150,7 @@
       "options": [
         "0",
         "2",
-        "8 😄"
+        "4"
       ],
       "correct_index": 0
     },
@@ -1161,8 +1161,8 @@
       "question": "Kde bydlí ryba",
       "options": [
         "ve vodě",
-        "na střeše",
-        "v lednici 😄"
+        "na souši",
+        "ve vzduchu"
       ],
       "correct_index": 0
     },
@@ -1174,7 +1174,7 @@
       "options": [
         "řasy",
         "kameny",
-        "palačinky 😄"
+        "listy"
       ],
       "correct_index": 0
     },
@@ -1182,11 +1182,11 @@
       "id": 99,
       "category": "zvířata",
       "difficulty": "easy",
-      "question": "Co je typické pro zvíře ryba",
+      "question": "Co je typické pro rybu",
       "options": [
         "ploutve",
-        "kola",
-        "zip 😄"
+        "křídla",
+        "kalhoty"
       ],
       "correct_index": 0
     },
@@ -1197,8 +1197,8 @@
       "question": "Do jaké skupiny patří ryba",
       "options": [
         "ryba",
-        "rostlina",
-        "nábytek 😄"
+        "pták",
+        "savec"
       ],
       "correct_index": 0
     },
@@ -1210,7 +1210,7 @@
       "options": [
         "Praha",
         "Brno",
-        "Obývák 😄"
+        "Rybníky"
       ],
       "correct_index": 0
     },
@@ -1222,7 +1222,7 @@
       "options": [
         "Koruna česká",
         "Euro",
-        "Knoflíky 😄"
+        "Knoflíky"
       ],
       "correct_index": 0
     },
@@ -1234,7 +1234,7 @@
       "options": [
         "Sněžka",
         "Praděd",
-        "Polštář 😄"
+        "Krtinec"
       ],
       "correct_index": 0
     },
@@ -1246,7 +1246,7 @@
       "options": [
         "Vltava",
         "Morava",
-        "Sirup 😄"
+        "Sirup"
       ],
       "correct_index": 0
     },
@@ -1258,7 +1258,7 @@
       "options": [
         "Bílá červená modrá",
         "Zelená žlutá černá",
-        "Duhová 😄"
+        "Duhová"
       ],
       "correct_index": 0
     },
@@ -1270,7 +1270,7 @@
       "options": [
         "Kde domov můj",
         "Hej pane zajíci",
-        "Prší prší 😄"
+        "Prší prší"
       ],
       "correct_index": 0
     },
@@ -1282,7 +1282,7 @@
       "options": [
         "Karlův most",
         "Mostek u školy",
-        "Londýnský most 😄"
+        "Londýnská lávka"
       ],
       "correct_index": 0
     },
@@ -1294,7 +1294,7 @@
       "options": [
         "Pražský hrad",
         "Karlštejn",
-        "Dům na stromě 😄"
+        "Dům na stromě"
       ],
       "correct_index": 0
     },
@@ -1306,7 +1306,7 @@
       "options": [
         "Pardubice",
         "Praha",
-        "Perníkov 😄"
+        "Perníkov"
       ],
       "correct_index": 0
     },
@@ -1318,7 +1318,7 @@
       "options": [
         "Plzeň",
         "Brno",
-        "Limonádov 😄"
+        "Limonádov"
       ],
       "correct_index": 0
     },
@@ -1330,7 +1330,7 @@
       "options": [
         "Liberec",
         "Zlín",
-        "Kobercov 😄"
+        "Ještěrkov"
       ],
       "correct_index": 0
     },
@@ -1342,7 +1342,7 @@
       "options": [
         "Brno",
         "Olomouc",
-        "Sklep 😄"
+        "Sklep"
       ],
       "correct_index": 0
     },
@@ -1354,7 +1354,7 @@
       "options": [
         "Pardubice",
         "Most",
-        "Kolo 😄"
+        "Velikánov"
       ],
       "correct_index": 0
     },
@@ -1366,7 +1366,7 @@
       "options": [
         "Krkonoše",
         "Beskydy",
-        "Kopečky 😄"
+        "Kopečky"
       ],
       "correct_index": 0
     },
@@ -1378,7 +1378,7 @@
       "options": [
         "Jeseníky",
         "Šumava",
-        "Perník 😄"
+        "Perníky"
       ],
       "correct_index": 0
     },
@@ -1390,7 +1390,7 @@
       "options": [
         "Lípa",
         "Palma",
-        "Okurka 😄"
+        "Okurka"
       ],
       "correct_index": 0
     },
@@ -1402,7 +1402,7 @@
       "options": [
         "Karlovy Vary",
         "Ostrava",
-        "Vaflov 😄"
+        "Vaflov"
       ],
       "correct_index": 0
     },
@@ -1414,7 +1414,7 @@
       "options": [
         "Český Krumlov",
         "Třebíč",
-        "Kostkov 😄"
+        "Kostkov"
       ],
       "correct_index": 0
     },
@@ -1426,7 +1426,7 @@
       "options": [
         "Mladá Boleslav",
         "Plzeň",
-        "Volantov 😄"
+        "Volantov"
       ],
       "correct_index": 0
     },
@@ -1437,8 +1437,8 @@
       "question": "Jak se jmenuje stát na východ od Česka",
       "options": [
         "Slovensko",
-        "Německo",
-        "Afrika 😄"
+        "Francie",
+        "Afrika"
       ],
       "correct_index": 0
     },
@@ -1449,8 +1449,8 @@
       "question": "Jak se jmenuje stát na západ od Česka",
       "options": [
         "Německo",
-        "Polsko",
-        "Lednice 😄"
+        "Rusko",
+        "Lednice"
       ],
       "correct_index": 0
     },
@@ -1462,7 +1462,7 @@
       "options": [
         "Rakousko",
         "Dánsko",
-        "Mars 😄"
+        "Mars"
       ],
       "correct_index": 0
     },
@@ -1474,7 +1474,7 @@
       "options": [
         "Polsko",
         "Itálie",
-        "Kobliha 😄"
+        "Kobliha"
       ],
       "correct_index": 0
     },
@@ -1486,7 +1486,7 @@
       "options": [
         "Čeština",
         "Španělština",
-        "Žirafština 😄"
+        "Marťanština"
       ],
       "correct_index": 0
     },
@@ -1498,7 +1498,7 @@
       "options": [
         "3",
         "4",
-        "12 😄"
+        "12"
       ],
       "correct_index": 0
     },
@@ -1510,7 +1510,7 @@
       "options": [
         "Lev",
         "Medvěd",
-        "Dinosaurus 😄"
+        "Dinosaurus"
       ],
       "correct_index": 0
     },
@@ -1518,11 +1518,11 @@
       "id": 127,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Jihomoravský",
+      "question": "Jaké je krajské město pro Jihomoravský kraj",
       "options": [
         "Brno",
         "Praha",
-        "Pískoviště 😄"
+        "Pískoviště"
       ],
       "correct_index": 0
     },
@@ -1530,11 +1530,11 @@
       "id": 128,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Jihočeský",
+      "question": "Jaké je krajské město pro Jihočeský kraj",
       "options": [
         "České Budějovice",
         "Praha",
-        "Pískoviště 😄"
+        "Rybníky"
       ],
       "correct_index": 0
     },
@@ -1542,11 +1542,11 @@
       "id": 129,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Moravskoslezský",
+      "question": "Jaké je krajské město pro Moravskoslezský kraj",
       "options": [
         "Ostrava",
         "Praha",
-        "Pískoviště 😄"
+        "Morava"
       ],
       "correct_index": 0
     },
@@ -1554,11 +1554,11 @@
       "id": 130,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Plzeňský",
+      "question": "Jaké je krajské město pro Plzeňský kraj",
       "options": [
         "Plzeň",
         "Praha",
-        "Pískoviště 😄"
+        "Plazice"
       ],
       "correct_index": 0
     },
@@ -1566,11 +1566,11 @@
       "id": 131,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Liberecký",
+      "question": "Jaké je krajské město pro Liberecký kraj",
       "options": [
         "Liberec",
         "Praha",
-        "Pískoviště 😄"
+        "Moravský Krumlov"
       ],
       "correct_index": 0
     },
@@ -1578,11 +1578,11 @@
       "id": 132,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Olomoucký",
+      "question": "Jaké je krajské město pro Olomoucký kraj",
       "options": [
         "Olomouc",
         "Praha",
-        "Pískoviště 😄"
+        "Brno"
       ],
       "correct_index": 0
     },
@@ -1590,11 +1590,11 @@
       "id": 133,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Pardubický",
+      "question": "Jaké je krajské město pro Pardubický kraj",
       "options": [
         "Pardubice",
         "Praha",
-        "Pískoviště 😄"
+        "Asie"
       ],
       "correct_index": 0
     },
@@ -1602,11 +1602,11 @@
       "id": 134,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Královéhradecký",
+      "question": "Jaké je krajské město pro Královéhradecký kraj",
       "options": [
         "Hradec Králové",
         "Praha",
-        "Pískoviště 😄"
+        "Nosálkov"
       ],
       "correct_index": 0
     },
@@ -1614,11 +1614,11 @@
       "id": 135,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Zlínský",
+      "question": "Jaké je krajské město pro Zlínský kraj",
       "options": [
         "Zlín",
         "Praha",
-        "Pískoviště 😄"
+        "Paprikov"
       ],
       "correct_index": 0
     },
@@ -1626,11 +1626,11 @@
       "id": 136,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Kraj Vysočina",
+      "question": "Jaké je krajské město pro kraj Vysočina",
       "options": [
         "Jihlava",
         "Praha",
-        "Pískoviště 😄"
+        "Kbelíkov"
       ],
       "correct_index": 0
     },
@@ -1638,11 +1638,11 @@
       "id": 137,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Karlovarský",
+      "question": "Jaké je krajské město pro Karlovarský kraj",
       "options": [
         "Karlovy Vary",
         "Praha",
-        "Pískoviště 😄"
+        "Pálava"
       ],
       "correct_index": 0
     },
@@ -1650,11 +1650,11 @@
       "id": 138,
       "category": "ČR",
       "difficulty": "easy",
-      "question": "Jaké je krajské město pro Ústecký",
+      "question": "Jaké je krajské město pro Ústecký kraj",
       "options": [
         "Ústí nad Labem",
         "Praha",
-        "Pískoviště 😄"
+        "Pilníkov"
       ],
       "correct_index": 0
     },
@@ -1666,7 +1666,7 @@
       "options": [
         "žalud",
         "žebra",
-        "křídla 😄"
+        "jehličí"
       ],
       "correct_index": 0
     },
@@ -1677,8 +1677,8 @@
       "question": "Co je typické pro strom smrk",
       "options": [
         "šiška",
-        "žebra",
-        "křídla 😄"
+        "listy",
+        "křídla"
       ],
       "correct_index": 0
     },
@@ -1689,8 +1689,8 @@
       "question": "Co je typické pro strom jabloň",
       "options": [
         "jablko",
-        "žebra",
-        "křídla 😄"
+        "jehličí",
+        "zobák"
       ],
       "correct_index": 0
     },
@@ -1701,8 +1701,8 @@
       "question": "Co je typické pro strom hrušeň",
       "options": [
         "hruška",
-        "žebra",
-        "křídla 😄"
+        "švestka",
+        "korálky"
       ],
       "correct_index": 0
     },
@@ -1713,8 +1713,8 @@
       "question": "Co je typické pro strom třešeň",
       "options": [
         "třešeň",
-        "žebra",
-        "křídla 😄"
+        "jehličí",
+        "ořechy"
       ],
       "correct_index": 0
     },
@@ -1724,9 +1724,9 @@
       "difficulty": "easy",
       "question": "Co je typické pro strom bříza",
       "options": [
-        "bílou kůru",
-        "žebra",
-        "křídla 😄"
+        "bílá kůra",
+        "jablka",
+        "seno"
       ],
       "correct_index": 0
     },
@@ -1738,7 +1738,7 @@
       "options": [
         "Labe",
         "Morava",
-        "Lžíce 😄"
+        "Lžíce"
       ],
       "correct_index": 0
     },
@@ -1750,7 +1750,7 @@
       "options": [
         "Vltava",
         "Odra",
-        "Vafle 😄"
+        "Vafle"
       ],
       "correct_index": 0
     },
@@ -1762,7 +1762,7 @@
       "options": [
         "Morava",
         "Labe",
-        "Marmeláda 😄"
+        "Marmeláda"
       ],
       "correct_index": 0
     },
@@ -1774,7 +1774,7 @@
       "options": [
         "Petřínská rozhledna",
         "Ještěd",
-        "Lampa 😄"
+        "Půda"
       ],
       "correct_index": 0
     },
@@ -1786,7 +1786,7 @@
       "options": [
         "Loket",
         "Brno",
-        "Lokomotiva 😄"
+        "Zápěstí"
       ],
       "correct_index": 0
     },
@@ -1798,7 +1798,7 @@
       "options": [
         "Kutná Hora",
         "Most",
-        "Miska 😄"
+        "Miska"
       ],
       "correct_index": 0
     },
@@ -1810,7 +1810,7 @@
       "options": [
         "Smetana",
         "Janáček",
-        "Pudink 😄"
+        "Pudink"
       ],
       "correct_index": 0
     },
@@ -1822,7 +1822,7 @@
       "options": [
         "Dvořák",
         "Smetana",
-        "Kobliha 😄"
+        "Kobliha"
       ],
       "correct_index": 0
     },
@@ -1834,7 +1834,7 @@
       "options": [
         "Čapek",
         "Werich",
-        "Koloběžka 😄"
+        "Koloběžka"
       ],
       "correct_index": 0
     },
@@ -1846,7 +1846,7 @@
       "options": [
         "Tomáš Garrigue Masaryk",
         "Václav Havel",
-        "Ferda 😄"
+        "Ferda mravenec"
       ],
       "correct_index": 0
     },
@@ -1857,8 +1857,8 @@
       "question": "Jak se jmenuje první prezident České republiky",
       "options": [
         "Václav Havel",
-        "Masaryk",
-        "Králík 😄"
+        "Tomáš Garrigue Masaryk",
+        "Brouk Pytlík"
       ],
       "correct_index": 0
     },
@@ -1870,7 +1870,7 @@
       "options": [
         "Mikuláš",
         "Velikonoce",
-        "Pátek 😄"
+        "Prázdniny"
       ],
       "correct_index": 0
     },
@@ -1882,7 +1882,7 @@
       "options": [
         "Velikonoce",
         "Silvestr",
-        "Prázdniny 😄"
+        "Prázdniny"
       ],
       "correct_index": 0
     },
@@ -1894,7 +1894,7 @@
       "options": [
         "Vánoce",
         "Velikonoce",
-        "Úterý 😄"
+        "Úterý"
       ],
       "correct_index": 0
     },
@@ -1906,7 +1906,7 @@
       "options": [
         "Silvestr",
         "Štědrý den",
-        "Banán 😄"
+        "Banán"
       ],
       "correct_index": 0
     },
@@ -1918,7 +1918,7 @@
       "options": [
         "Šumava",
         "Krkonoše",
-        "Skříňava 😄"
+        "Skříňava"
       ],
       "correct_index": 0
     },
@@ -1930,7 +1930,7 @@
       "options": [
         "Beskydy",
         "Šumava",
-        "Bábovky 😄"
+        "Bábovky"
       ],
       "correct_index": 0
     },
@@ -1942,7 +1942,7 @@
       "options": [
         "Ještěd",
         "Sněžka",
-        "Budík 😄"
+        "Budík"
       ],
       "correct_index": 0
     },
@@ -1954,7 +1954,7 @@
       "options": [
         "Zlín",
         "Brno",
-        "Botník 😄"
+        "Botník"
       ],
       "correct_index": 0
     },
@@ -1966,7 +1966,7 @@
       "options": [
         "Tatra",
         "Škoda",
-        "Přezka 😄"
+        "Koloběžka"
       ],
       "correct_index": 0
     },
@@ -1978,7 +1978,7 @@
       "options": [
         "Škoda",
         "Tatra",
-        "Košík 😄"
+        "Kolo"
       ],
       "correct_index": 0
     },
@@ -1990,7 +1990,7 @@
       "options": [
         "České Švýcarsko",
         "Pálava",
-        "Koupelna 😄"
+        "Koupelna"
       ],
       "correct_index": 0
     },
@@ -2002,7 +2002,7 @@
       "options": [
         "Šumava",
         "Podyjí",
-        "Kapsa 😄"
+        "Kapsa"
       ],
       "correct_index": 0
     },
@@ -2014,7 +2014,7 @@
       "options": [
         "Pálava",
         "Beskydy",
-        "Plyšava 😄"
+        "Plyšava"
       ],
       "correct_index": 0
     },
@@ -2025,8 +2025,8 @@
       "question": "Jak se jmenuje české město s letištěm Leoše Janáčka",
       "options": [
         "Ostrava",
-        "Praha",
-        "Koberec 😄"
+        "Moravský Krumlov",
+        "Rybníky"
       ],
       "correct_index": 0
     },
@@ -2037,8 +2037,8 @@
       "question": "Jak se jmenuje české město s velkým náměstím a sloupem Nejsvětější Trojice",
       "options": [
         "Olomouc",
-        "Plzeň",
-        "Moučník 😄"
+        "Dobelice",
+        "Moučník"
       ],
       "correct_index": 0
     },
@@ -2049,8 +2049,8 @@
       "question": "Jak se jmenuje české jezero na jihu",
       "options": [
         "Lipno",
-        "Máchovo jezero",
-        "Limonáda 😄"
+        "Rybníček",
+        "Louže"
       ],
       "correct_index": 0
     },
@@ -2062,7 +2062,7 @@
       "options": [
         "Praha",
         "Brno",
-        "Krabice 😄"
+        "Krabice"
       ],
       "correct_index": 0
     },
@@ -2074,7 +2074,7 @@
       "options": [
         "Hus",
         "Žižka",
-        "Karbanátek 😄"
+        "Karbanátek"
       ],
       "correct_index": 0
     },
@@ -2086,7 +2086,7 @@
       "options": [
         "Žižka",
         "Hus",
-        "Vysavač 😄"
+        "Vysavač"
       ],
       "correct_index": 0
     },
@@ -2098,7 +2098,7 @@
       "options": [
         "Česko",
         "Morava",
-        "Pohádka 😄"
+        "Pohádka"
       ],
       "correct_index": 0
     },
@@ -2110,7 +2110,7 @@
       "options": [
         "Haléř",
         "Eurocent",
-        "Kolečko 😄"
+        "Knoflík"
       ],
       "correct_index": 0
     },
@@ -2122,7 +2122,7 @@
       "options": [
         "Den vzniku samostatného československého státu",
         "Den dětí",
-        "Den ponožek 😄"
+        "Den ponožek"
       ],
       "correct_index": 0
     },
@@ -2134,7 +2134,7 @@
       "options": [
         "Praha",
         "Olomouc",
-        "Batohov 😄"
+        "Batohov"
       ],
       "correct_index": 0
     },
@@ -2146,7 +2146,7 @@
       "options": [
         "Labe",
         "Morava",
-        "Sirka 😄"
+        "Sirka"
       ],
       "correct_index": 0
     },
@@ -2158,7 +2158,7 @@
       "options": [
         "Karlštejn",
         "Loket",
-        "Stromek 😄"
+        "Stromek"
       ],
       "correct_index": 0
     },
@@ -2170,7 +2170,7 @@
       "options": [
         "4",
         "3",
-        "12 😄"
+        "12"
       ],
       "correct_index": 0
     },
@@ -2182,7 +2182,7 @@
       "options": [
         "Podzim",
         "Jaro",
-        "Prázdniny 😄"
+        "Prázdniny"
       ],
       "correct_index": 0
     },
@@ -2194,7 +2194,7 @@
       "options": [
         "Jaro",
         "Léto",
-        "Mikina 😄"
+        "Pondělí"
       ],
       "correct_index": 0
     },
@@ -2206,7 +2206,7 @@
       "options": [
         "Jaro",
         "Podzim",
-        "Rohlík 😄"
+        "Poléto"
       ],
       "correct_index": 0
     },
@@ -2218,7 +2218,7 @@
       "options": [
         "Zima",
         "Léto",
-        "Pondělí 😄"
+        "Noc"
       ],
       "correct_index": 0
     },
@@ -2230,7 +2230,7 @@
       "options": [
         "Déšť",
         "Tráva",
-        "Špagety 😄"
+        "Špagety"
       ],
       "correct_index": 0
     },
@@ -2242,7 +2242,7 @@
       "options": [
         "Sníh",
         "Písek",
-        "Bonbóny 😄"
+        "Bonbóny"
       ],
       "correct_index": 0
     },
@@ -2254,7 +2254,7 @@
       "options": [
         "Duha",
         "Mlýnek",
-        "Polévka 😄"
+        "Polévka"
       ],
       "correct_index": 0
     },
@@ -2266,7 +2266,7 @@
       "options": [
         "Slunce",
         "Měsíc",
-        "Lednička 😄"
+        "Žárovka"
       ],
       "correct_index": 0
     },
@@ -2278,7 +2278,7 @@
       "options": [
         "Měsíc",
         "Slunce",
-        "Semafor 😄"
+        "Semafor"
       ],
       "correct_index": 0
     },
@@ -2286,11 +2286,11 @@
       "id": 191,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jaká barva je tráva",
+      "question": "Jakou barvu má tráva",
       "options": [
-        "Zelená",
-        "Modrá",
-        "Kostičkovaná 😄"
+        "Zelenou",
+        "Modrou",
+        "Kostičkovanou"
       ],
       "correct_index": 0
     },
@@ -2298,11 +2298,11 @@
       "id": 192,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jaká barva je obloha za pěkného dne",
+      "question": "Jakou barvu má obloha za pěkného dne",
       "options": [
-        "Modrá",
-        "Červená",
-        "Tečkovaná 😄"
+        "Modrou",
+        "Červenou",
+        "Tečkovanou"
       ],
       "correct_index": 0
     },
@@ -2310,11 +2310,11 @@
       "id": 193,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jaká barva bývá sníh",
+      "question": "Jakou barvu má sníh",
       "options": [
-        "Bílá",
-        "Černá",
-        "Pruhovaná 😄"
+        "Bílou",
+        "Černou",
+        "Pruhovanou"
       ],
       "correct_index": 0
     },
@@ -2325,8 +2325,8 @@
       "question": "Co potřebují rostliny k růstu",
       "options": [
         "Vodu",
-        "Plast",
-        "Čokoládu 😄"
+        "Jídlo",
+        "Čokoládu"
       ],
       "correct_index": 0
     },
@@ -2338,7 +2338,7 @@
       "options": [
         "Světlo",
         "Klobouk",
-        "Koloběžku 😄"
+        "Koloběžku"
       ],
       "correct_index": 0
     },
@@ -2350,7 +2350,7 @@
       "options": [
         "Jablka",
         "Hrušky",
-        "Míčky 😄"
+        "Míčky"
       ],
       "correct_index": 0
     },
@@ -2362,7 +2362,7 @@
       "options": [
         "Hrušky",
         "Jablka",
-        "Ponožky 😄"
+        "Ponožky"
       ],
       "correct_index": 0
     },
@@ -2374,7 +2374,7 @@
       "options": [
         "Žaludy",
         "Jablka",
-        "Koblížky 😄"
+        "Koblížky"
       ],
       "correct_index": 0
     },
@@ -2386,7 +2386,7 @@
       "options": [
         "Šišky",
         "Citrony",
-        "Baterky 😄"
+        "Baterky"
       ],
       "correct_index": 0
     },
@@ -2398,7 +2398,7 @@
       "options": [
         "Kořen",
         "Květ",
-        "Batoh 😄"
+        "Batoh"
       ],
       "correct_index": 0
     },
@@ -2410,7 +2410,7 @@
       "options": [
         "Květ",
         "Kořen",
-        "Klávesnice 😄"
+        "Klávesnice"
       ],
       "correct_index": 0
     },
@@ -2422,7 +2422,7 @@
       "options": [
         "Kmen",
         "Kořen",
-        "Ponožka 😄"
+        "Noha"
       ],
       "correct_index": 0
     },
@@ -2434,7 +2434,7 @@
       "options": [
         "V korytě",
         "Na stromě",
-        "V hrnci 😄"
+        "V hrnci"
       ],
       "correct_index": 0
     },
@@ -2446,7 +2446,7 @@
       "options": [
         "Ve vodě",
         "Na louce",
-        "V tašce 😄"
+        "V tašce"
       ],
       "correct_index": 0
     },
@@ -2458,7 +2458,7 @@
       "options": [
         "Na louce",
         "Na stropě",
-        "V lednici 😄"
+        "V lednici"
       ],
       "correct_index": 0
     },
@@ -2470,7 +2470,7 @@
       "options": [
         "V úlu",
         "V garáži",
-        "V batohu 😄"
+        "V batohu"
       ],
       "correct_index": 0
     },
@@ -2482,7 +2482,7 @@
       "options": [
         "V mraveništi",
         "V akváriu",
-        "V kapse 😄"
+        "V kapse"
       ],
       "correct_index": 0
     },
@@ -2494,7 +2494,7 @@
       "options": [
         "Led",
         "Pára",
-        "Džus 😄"
+        "Džus"
       ],
       "correct_index": 0
     },
@@ -2506,7 +2506,7 @@
       "options": [
         "Pára",
         "Led",
-        "Sirup 😄"
+        "Sirup"
       ],
       "correct_index": 0
     },
@@ -2518,7 +2518,7 @@
       "options": [
         "Déšť",
         "Sníh",
-        "Med 😄"
+        "Med"
       ],
       "correct_index": 0
     },
@@ -2530,7 +2530,7 @@
       "options": [
         "Smrk",
         "Jabloň",
-        "Rohlík 😄"
+        "Hříbek"
       ],
       "correct_index": 0
     },
@@ -2542,7 +2542,7 @@
       "options": [
         "Dub",
         "Smrk",
-        "Plyšák 😄"
+        "Plyšák"
       ],
       "correct_index": 0
     },
@@ -2554,7 +2554,7 @@
       "options": [
         "Na podzim",
         "V létě",
-        "O velké přestávce 😄"
+        "O velké přestávce"
       ],
       "correct_index": 0
     },
@@ -2566,7 +2566,7 @@
       "options": [
         "Na jaře",
         "V zimě",
-        "O půlnoci 😄"
+        "O půlnoci"
       ],
       "correct_index": 0
     },
@@ -2578,7 +2578,7 @@
       "options": [
         "V létě",
         "V zimě",
-        "V prosinci 😄"
+        "V prosinci"
       ],
       "correct_index": 0
     },
@@ -2590,7 +2590,7 @@
       "options": [
         "Vichřice",
         "Vánek",
-        "Šepot 😄"
+        "Šepot"
       ],
       "correct_index": 0
     },
@@ -2602,7 +2602,7 @@
       "options": [
         "Blesk",
         "Déšť",
-        "Bonbón 😄"
+        "Duha"
       ],
       "correct_index": 0
     },
@@ -2614,7 +2614,7 @@
       "options": [
         "Hrom",
         "Šepot",
-        "Pípnutí 😄"
+        "Pípnutí"
       ],
       "correct_index": 0
     },
@@ -2626,7 +2626,7 @@
       "options": [
         "Les",
         "Poušť",
-        "Garáž 😄"
+        "Garáž"
       ],
       "correct_index": 0
     },
@@ -2638,7 +2638,7 @@
       "options": [
         "Poušť",
         "Les",
-        "Obývák 😄"
+        "Obývák"
       ],
       "correct_index": 0
     },
@@ -2650,7 +2650,7 @@
       "options": [
         "Moře",
         "Řeka",
-        "Čaj 😄"
+        "Polívka"
       ],
       "correct_index": 0
     },
@@ -2662,7 +2662,7 @@
       "options": [
         "Řeka",
         "Moře",
-        "Palačinka 😄"
+        "Kakao"
       ],
       "correct_index": 0
     },
@@ -2674,7 +2674,7 @@
       "options": [
         "Potok",
         "Poušť",
-        "Kabel 😄"
+        "Slzy"
       ],
       "correct_index": 0
     },
@@ -2686,7 +2686,7 @@
       "options": [
         "Jezero",
         "Řeka",
-        "Kufr 😄"
+        "Jupiter"
       ],
       "correct_index": 0
     },
@@ -2698,7 +2698,7 @@
       "options": [
         "Pampeliška",
         "Růže",
-        "Lízátko 😄"
+        "Lízátko"
       ],
       "correct_index": 0
     },
@@ -2710,7 +2710,7 @@
       "options": [
         "Sněženka",
         "Tulipán",
-        "Svítilna 😄"
+        "Svítilna"
       ],
       "correct_index": 0
     },
@@ -2722,7 +2722,7 @@
       "options": [
         "Slunečnice",
         "Růže",
-        "Vrtule 😄"
+        "Vrtule"
       ],
       "correct_index": 0
     },
@@ -2734,7 +2734,7 @@
       "options": [
         "Třešeň",
         "Jabloň",
-        "Mikina 😄"
+        "Mikina"
       ],
       "correct_index": 0
     },
@@ -2746,7 +2746,7 @@
       "options": [
         "Les",
         "Silnice",
-        "Televize 😄"
+        "Televize"
       ],
       "correct_index": 0
     },
@@ -2758,7 +2758,7 @@
       "options": [
         "Muchomůrka",
         "Hřib",
-        "Muffin 😄"
+        "Muffin"
       ],
       "correct_index": 0
     },
@@ -2770,7 +2770,7 @@
       "options": [
         "Hřib",
         "Muchomůrka",
-        "Lampa 😄"
+        "Lampa"
       ],
       "correct_index": 0
     },
@@ -2782,7 +2782,7 @@
       "options": [
         "Jaro",
         "Zima",
-        "Pátek 😄"
+        "Pátek"
       ],
       "correct_index": 0
     },
@@ -2794,7 +2794,7 @@
       "options": [
         "Léto",
         "Zima",
-        "Pondělí 😄"
+        "Pondělí"
       ],
       "correct_index": 0
     },
@@ -2806,7 +2806,7 @@
       "options": [
         "Podzim",
         "Jaro",
-        "Mrazák 😄"
+        "Mrazák"
       ],
       "correct_index": 0
     },
@@ -2818,7 +2818,7 @@
       "options": [
         "Zima",
         "Léto",
-        "Šuplík 😄"
+        "Šuplík"
       ],
       "correct_index": 0
     },
@@ -2830,7 +2830,7 @@
       "options": [
         "Sníh",
         "Písek",
-        "Pudink 😄"
+        "Pudink"
       ],
       "correct_index": 0
     },
@@ -2842,7 +2842,7 @@
       "options": [
         "Rosa",
         "Pára",
-        "Kečup 😄"
+        "Kečup"
       ],
       "correct_index": 0
     },
@@ -2854,7 +2854,7 @@
       "options": [
         "Vánek",
         "Vichřice",
-        "Školník 😄"
+        "Školník"
       ],
       "correct_index": 0
     },
@@ -2866,7 +2866,7 @@
       "options": [
         "Mlha",
         "Duha",
-        "Peřina 😄"
+        "Peřina"
       ],
       "correct_index": 0
     },
@@ -2877,8 +2877,8 @@
       "question": "Jak se jmenují tvrdé ledové kuličky z bouřky",
       "options": [
         "Kroupy",
-        "Rohlíky",
-        "Pastelky 😄"
+        "Kapky",
+        "Pastelky"
       ],
       "correct_index": 0
     },
@@ -2890,7 +2890,7 @@
       "options": [
         "Hnízdo",
         "Akvárium",
-        "Peněženka 😄"
+        "Peněženka"
       ],
       "correct_index": 0
     },
@@ -2902,7 +2902,7 @@
       "options": [
         "Bouda",
         "Úl",
-        "Sešit 😄"
+        "Sešit"
       ],
       "correct_index": 0
     },
@@ -2914,7 +2914,7 @@
       "options": [
         "Kurník",
         "Stáj",
-        "Mikrovlnka 😄"
+        "Mikrovlnka"
       ],
       "correct_index": 0
     },
@@ -2926,7 +2926,7 @@
       "options": [
         "Stáj",
         "Bouda",
-        "Váza 😄"
+        "Váza"
       ],
       "correct_index": 0
     },
@@ -2938,7 +2938,7 @@
       "options": [
         "Chlév",
         "Klec",
-        "Pec 😄"
+        "Pec"
       ],
       "correct_index": 0
     },
@@ -2950,7 +2950,7 @@
       "options": [
         "Budka",
         "Krabice",
-        "Sklenice 😄"
+        "Sklenice"
       ],
       "correct_index": 0
     },
@@ -2962,7 +2962,7 @@
       "options": [
         "Zahrada",
         "Poušť",
-        "Garáž 😄"
+        "Garáž"
       ],
       "correct_index": 0
     },
@@ -2974,7 +2974,7 @@
       "options": [
         "Zahradník",
         "Pilot",
-        "Kouzelník 😄"
+        "Kouzelník"
       ],
       "correct_index": 0
     },
@@ -2986,7 +2986,7 @@
       "options": [
         "Farmář",
         "Pekař",
-        "Kosmonaut 😄"
+        "Kosmonaut"
       ],
       "correct_index": 0
     },
@@ -2998,7 +2998,7 @@
       "options": [
         "Traktor",
         "Vlak",
-        "Toustovač 😄"
+        "Toustovač"
       ],
       "correct_index": 0
     },
@@ -3010,7 +3010,7 @@
       "options": [
         "Pšenice",
         "Rýže",
-        "Čokoláda 😄"
+        "Čokoláda"
       ],
       "correct_index": 0
     },
@@ -3022,7 +3022,7 @@
       "options": [
         "Oves",
         "Smrk",
-        "Koleno 😄"
+        "Koleno"
       ],
       "correct_index": 0
     },
@@ -3030,11 +3030,11 @@
       "id": 253,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje zelenina zelená a dlouhá",
+      "question": "Jak se jmenuje zelená a dlouhá zelenina",
       "options": [
         "Okurka",
         "Mrkev",
-        "Ponožka 😄"
+        "Ponožka"
       ],
       "correct_index": 0
     },
@@ -3042,11 +3042,11 @@
       "id": 254,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje zelenina červená a kulatá",
+      "question": "Jak se jmenuje červená a kulatá zelenina",
       "options": [
         "Rajče",
         "Banán",
-        "Míč 😄"
+        "Míč"
       ],
       "correct_index": 0
     },
@@ -3054,11 +3054,11 @@
       "id": 255,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje ovoce žluté a zahnuté",
+      "question": "Jak se jmenuje žluté a zahnuté ovoce",
       "options": [
         "Banán",
         "Jablko",
-        "Pravítko 😄"
+        "Pravítko"
       ],
       "correct_index": 0
     },
@@ -3066,11 +3066,11 @@
       "id": 256,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje ovoce oranžové a šťavnaté",
+      "question": "Jak se jmenuje oranžové a šťavnaté ovoce",
       "options": [
         "Pomeranč",
         "Švestka",
-        "Ponožka 😄"
+        "Ponožka"
       ],
       "correct_index": 0
     },
@@ -3078,11 +3078,11 @@
       "id": 257,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje ovoce malé a modré",
+      "question": "Jak se jmenuje malé a modré ovoce",
       "options": [
         "Borůvka",
         "Jahoda",
-        "Kladivo 😄"
+        "Kladivo"
       ],
       "correct_index": 0
     },
@@ -3090,11 +3090,11 @@
       "id": 258,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje ovoce červené se semínky na povrchu",
+      "question": "Jak se jmenuje červené ovoce se semínky na povrchu",
       "options": [
         "Jahoda",
         "Třešeň",
-        "Kostka 😄"
+        "Kostka"
       ],
       "correct_index": 0
     },
@@ -3106,7 +3106,7 @@
       "options": [
         "Švestka",
         "Banán",
-        "Baterka 😄"
+        "Baterka"
       ],
       "correct_index": 0
     },
@@ -3114,11 +3114,11 @@
       "id": 260,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje ovoce tvrdé a často červené nebo zelené",
+      "question": "Jak se jmenuje tvrdé a často červené nebo zelené ovoce",
       "options": [
         "Jablko",
-        "Hrozny",
-        "Sáček 😄"
+        "Jahoda",
+        "Sáček"
       ],
       "correct_index": 0
     },
@@ -3130,7 +3130,7 @@
       "options": [
         "Brambora",
         "Citron",
-        "Harmonika 😄"
+        "Harmonika"
       ],
       "correct_index": 0
     },
@@ -3138,11 +3138,11 @@
       "id": 262,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje zelenina kulatá a slouží do salátu",
+      "question": "Jak se jmenuje kulatá zelenina, z níž se dělá salát",
       "options": [
         "Salát",
         "Květák",
-        "Měsíc 😄"
+        "Měsíc"
       ],
       "correct_index": 0
     },
@@ -3154,7 +3154,7 @@
       "options": [
         "Květák",
         "Okurka",
-        "Bota 😄"
+        "Bota"
       ],
       "correct_index": 0
     },
@@ -3162,11 +3162,11 @@
       "id": 264,
       "category": "příroda",
       "difficulty": "easy",
-      "question": "Jak se jmenuje zelenina zelená růžice podobná květáku",
+      "question": "Jak se jmenuje zelenina se zelenou růžicí podobná květáku",
       "options": [
         "Brokolice",
         "Jablko",
-        "Míč 😄"
+        "Míč"
       ],
       "correct_index": 0
     },
@@ -3178,7 +3178,7 @@
       "options": [
         "Med",
         "Sůl",
-        "Šroubek 😄"
+        "Čokoláda"
       ],
       "correct_index": 0
     },
@@ -3190,7 +3190,7 @@
       "options": [
         "Motýl",
         "Mravenec",
-        "Autobus 😄"
+        "Letadlo"
       ],
       "correct_index": 0
     },
@@ -3202,7 +3202,7 @@
       "options": [
         "Datel",
         "Sýkora",
-        "Budík 😄"
+        "Klepač"
       ],
       "correct_index": 0
     },
@@ -3214,7 +3214,7 @@
       "options": [
         "Mrholení",
         "Kroupy",
-        "Džem 😄"
+        "Džem"
       ],
       "correct_index": 0
     },
@@ -3226,7 +3226,7 @@
       "options": [
         "Koruna",
         "Kořen",
-        "Židle 😄"
+        "Židle"
       ],
       "correct_index": 0
     },
@@ -3238,7 +3238,7 @@
       "options": [
         "Kořen",
         "Kmen",
-        "Talíř 😄"
+        "Talíř"
       ],
       "correct_index": 0
     },
@@ -3250,7 +3250,7 @@
       "options": [
         "Mrkev",
         "Okurka",
-        "Míč 😄"
+        "Míč"
       ],
       "correct_index": 0
     },
@@ -3262,7 +3262,7 @@
       "options": [
         "Borůvka",
         "Banán",
-        "Šroubek 😄"
+        "Šroubek"
       ],
       "correct_index": 0
     },
@@ -3274,7 +3274,7 @@
       "options": [
         "Jahoda",
         "Jablko",
-        "Poduška 😄"
+        "Poduška"
       ],
       "correct_index": 0
     },
@@ -3286,7 +3286,7 @@
       "options": [
         "Žalud",
         "Šiška",
-        "Knedlík 😄"
+        "Knedlík"
       ],
       "correct_index": 0
     },
@@ -3298,7 +3298,7 @@
       "options": [
         "Šiška",
         "Jablko",
-        "Tužka 😄"
+        "Tužka"
       ],
       "correct_index": 0
     },
@@ -3310,7 +3310,7 @@
       "options": [
         "Bříza",
         "Smrk",
-        "Kolo 😄"
+        "Káva"
       ],
       "correct_index": 0
     },
@@ -3322,7 +3322,7 @@
       "options": [
         "Jírovec",
         "Borovice",
-        "Mrazák 😄"
+        "Tráva"
       ],
       "correct_index": 0
     },
@@ -3334,7 +3334,7 @@
       "options": [
         "Smrk",
         "Dub",
-        "Klobouk 😄"
+        "Klobouk"
       ],
       "correct_index": 0
     },
@@ -3346,7 +3346,7 @@
       "options": [
         "Sněženka",
         "Růže",
-        "Palačinka 😄"
+        "Palačinka"
       ],
       "correct_index": 0
     },
@@ -3358,7 +3358,7 @@
       "options": [
         "Mlha",
         "Sníh",
-        "Těstoviny 😄"
+        "Těstoviny"
       ],
       "correct_index": 0
     },
@@ -3370,7 +3370,7 @@
       "options": [
         "7",
         "5",
-        "20 😄"
+        "20"
       ],
       "correct_index": 0
     },
@@ -3382,7 +3382,7 @@
       "options": [
         "12",
         "10",
-        "100 😄"
+        "100"
       ],
       "correct_index": 0
     },
@@ -3394,7 +3394,7 @@
       "options": [
         "24",
         "12",
-        "60 😄"
+        "60"
       ],
       "correct_index": 0
     },
@@ -3406,7 +3406,7 @@
       "options": [
         "60",
         "30",
-        "200 😄"
+        "200"
       ],
       "correct_index": 0
     },
@@ -3418,7 +3418,7 @@
       "options": [
         "60",
         "100",
-        "5 😄"
+        "5"
       ],
       "correct_index": 0
     },
@@ -3430,7 +3430,7 @@
       "options": [
         "Úterý",
         "Neděle",
-        "Prázdniny 😄"
+        "Prázdniny"
       ],
       "correct_index": 0
     },
@@ -3442,7 +3442,7 @@
       "options": [
         "Čtvrtek",
         "Úterý",
-        "Vánoce 😄"
+        "Vánoce"
       ],
       "correct_index": 0
     },
@@ -3454,7 +3454,7 @@
       "options": [
         "Únor",
         "Březen",
-        "Červenec 😄"
+        "Červenec"
       ],
       "correct_index": 0
     },
@@ -3466,7 +3466,7 @@
       "options": [
         "Listopad",
         "Říjen",
-        "Léto 😄"
+        "Léto"
       ],
       "correct_index": 0
     },
@@ -3478,7 +3478,7 @@
       "options": [
         "2",
         "3",
-        "8 😄"
+        "8"
       ],
       "correct_index": 0
     },
@@ -3490,7 +3490,7 @@
       "options": [
         "1",
         "2",
-        "5 😄"
+        "5"
       ],
       "correct_index": 0
     },
@@ -3502,7 +3502,7 @@
       "options": [
         "2",
         "1",
-        "7 😄"
+        "7"
       ],
       "correct_index": 0
     },
@@ -3514,7 +3514,7 @@
       "options": [
         "2",
         "4",
-        "9 😄"
+        "9"
       ],
       "correct_index": 0
     },
@@ -3526,7 +3526,7 @@
       "options": [
         "2",
         "4",
-        "11 😄"
+        "11"
       ],
       "correct_index": 0
     },
@@ -3538,7 +3538,7 @@
       "options": [
         "Tužku",
         "Lžíci",
-        "Kolo 😄"
+        "Gumu"
       ],
       "correct_index": 0
     },
@@ -3550,7 +3550,7 @@
       "options": [
         "Gumu",
         "Vidličku",
-        "Pantofel 😄"
+        "Papuče"
       ],
       "correct_index": 0
     },
@@ -3562,7 +3562,7 @@
       "options": [
         "Do sešitu",
         "Do hrnce",
-        "Do ponožky 😄"
+        "Do ponožky"
       ],
       "correct_index": 0
     },
@@ -3574,7 +3574,7 @@
       "options": [
         "Učitel",
         "Pekař",
-        "Kosmonaut 😄"
+        "Kosmonaut"
       ],
       "correct_index": 0
     },
@@ -3586,7 +3586,7 @@
       "options": [
         "Lékař",
         "Zedník",
-        "Králík 😄"
+        "Králík"
       ],
       "correct_index": 0
     },
@@ -3598,7 +3598,7 @@
       "options": [
         "Hasič",
         "Kuchař",
-        "Papoušek 😄"
+        "Papoušek"
       ],
       "correct_index": 0
     },
@@ -3610,7 +3610,7 @@
       "options": [
         "Policista",
         "Pošťák",
-        "Mrak 😄"
+        "Mrak"
       ],
       "correct_index": 0
     },
@@ -3622,7 +3622,7 @@
       "options": [
         "Pošťák",
         "Pekař",
-        "Krokodýl 😄"
+        "Krokodýl"
       ],
       "correct_index": 0
     },
@@ -3634,7 +3634,7 @@
       "options": [
         "Pekař",
         "Doktor",
-        "Klavír 😄"
+        "Hudebník"
       ],
       "correct_index": 0
     },
@@ -3646,7 +3646,7 @@
       "options": [
         "Automechanik",
         "Zahradník",
-        "Palačinka 😄"
+        "Zloděj"
       ],
       "correct_index": 0
     },
@@ -3658,7 +3658,7 @@
       "options": [
         "Řidič",
         "Pilot",
-        "Ježek 😄"
+        "Ježek"
       ],
       "correct_index": 0
     },
@@ -3666,11 +3666,11 @@
       "id": 306,
       "category": "svět",
       "difficulty": "easy",
-      "question": "Čím jezdí vlak",
+      "question": "Po čem jezdí vlak",
       "options": [
         "Po kolejích",
         "Po vodě",
-        "Po stropě 😄"
+        "Po stropě"
       ],
       "correct_index": 0
     },
@@ -3678,11 +3678,11 @@
       "id": 307,
       "category": "svět",
       "difficulty": "easy",
-      "question": "Čím létá letadlo",
+      "question": "Kde létá letadlo",
       "options": [
-        "Vzduchem",
-        "Po kolejích",
-        "Po trávě 😄"
+        "Ve vzduchu",
+        "Na kolejích",
+        "Po trávě"
       ],
       "correct_index": 0
     },
@@ -3690,11 +3690,11 @@
       "id": 308,
       "category": "svět",
       "difficulty": "easy",
-      "question": "Čím pluje loď",
+      "question": "Kde pluje loď",
       "options": [
         "Po vodě",
         "Po silnici",
-        "Po střeše 😄"
+        "Po střeše"
       ],
       "correct_index": 0
     },
@@ -3706,7 +3706,7 @@
       "options": [
         "Červenou",
         "Zelenou",
-        "Puntíkovanou 😄"
+        "Puntíkovanou"
       ],
       "correct_index": 0
     },
@@ -3714,11 +3714,11 @@
       "id": 310,
       "category": "svět",
       "difficulty": "easy",
-      "question": "Na jakou barvu semaforu se jde",
+      "question": "Na jakou barvu semaforu se jede",
       "options": [
         "Zelenou",
         "Červenou",
-        "Duhovou 😄"
+        "Duhovou"
       ],
       "correct_index": 0
     },
@@ -3730,7 +3730,7 @@
       "options": [
         "Deštník",
         "Plavky",
-        "Hrábě 😄"
+        "Hrábě"
       ],
       "correct_index": 0
     },
@@ -3742,7 +3742,7 @@
       "options": [
         "Bundu",
         "Plavky",
-        "Kolečkové brusle 😄"
+        "Kolečkové brusle"
       ],
       "correct_index": 0
     },
@@ -3754,7 +3754,7 @@
       "options": [
         "Boty",
         "Čepici",
-        "Hrnek 😄"
+        "Náušice"
       ],
       "correct_index": 0
     },
@@ -3766,7 +3766,7 @@
       "options": [
         "Čepici",
         "Sandály",
-        "Talíř 😄"
+        "Hrnek"
       ],
       "correct_index": 0
     },
@@ -3778,7 +3778,7 @@
       "options": [
         "Spíme",
         "Snídáme",
-        "Lyžujeme po stropě 😄"
+        "Lyžujeme po stropě"
       ],
       "correct_index": 0
     },
@@ -3790,7 +3790,7 @@
       "options": [
         "Vstáváme",
         "Usínáme",
-        "Hibernujeme 😄"
+        "Hibernujeme"
       ],
       "correct_index": 0
     },
@@ -3802,7 +3802,7 @@
       "options": [
         "Myjeme si ruce",
         "Zavazujeme oči",
-        "Létáme 😄"
+        "Létáme"
       ],
       "correct_index": 0
     },
@@ -3814,7 +3814,7 @@
       "options": [
         "Kartáčkem",
         "Vidličkou",
-        "Pilu 😄"
+        "Pilou"
       ],
       "correct_index": 0
     },
@@ -3826,7 +3826,7 @@
       "options": [
         "Vodu",
         "Písek",
-        "Šroubky 😄"
+        "Šroubky"
       ],
       "correct_index": 0
     },
@@ -3838,7 +3838,7 @@
       "options": [
         "Snídani",
         "Večeři",
-        "Druhou půlnoc 😄"
+        "Druhou večeři"
       ],
       "correct_index": 0
     },
@@ -3850,7 +3850,7 @@
       "options": [
         "Oběd",
         "Snídani",
-        "Ponožku 😄"
+        "Ponožku"
       ],
       "correct_index": 0
     },
@@ -3862,7 +3862,7 @@
       "options": [
         "Večeři",
         "Oběd",
-        "Stůl 😄"
+        "Stůl"
       ],
       "correct_index": 0
     },
@@ -3874,7 +3874,7 @@
       "options": [
         "Hodinami",
         "Pravítkem",
-        "Banánem 😄"
+        "Banánem"
       ],
       "correct_index": 0
     },
@@ -3886,7 +3886,7 @@
       "options": [
         "Pravítkem",
         "Hodinkami",
-        "Polévkou 😄"
+        "Polévkou"
       ],
       "correct_index": 0
     },
@@ -3898,7 +3898,7 @@
       "options": [
         "Teploměrem",
         "Kladivem",
-        "Batůžkem 😄"
+        "Stopkami"
       ],
       "correct_index": 0
     },
@@ -3910,7 +3910,7 @@
       "options": [
         "Kompas",
         "Sešit",
-        "Muffin 😄"
+        "Prst na noze"
       ],
       "correct_index": 0
     },
@@ -3922,7 +3922,7 @@
       "options": [
         "Země",
         "Mars",
-        "Rohlík 😄"
+        "Kačer Donald"
       ],
       "correct_index": 0
     },
@@ -3934,7 +3934,7 @@
       "options": [
         "Merkur",
         "Jupiter",
-        "Pudink 😄"
+        "Pudink"
       ],
       "correct_index": 0
     },
@@ -3946,7 +3946,7 @@
       "options": [
         "Měsíc",
         "Slunce",
-        "Autobus 😄"
+        "Autobus"
       ],
       "correct_index": 0
     },
@@ -3958,7 +3958,7 @@
       "options": [
         "Leden",
         "Únor",
-        "Středa 😄"
+        "Středa"
       ],
       "correct_index": 0
     },
@@ -3970,7 +3970,7 @@
       "options": [
         "Únor",
         "Březen",
-        "Sobota 😄"
+        "Sobota"
       ],
       "correct_index": 0
     },
@@ -3982,7 +3982,7 @@
       "options": [
         "Prosinec",
         "Květen",
-        "Pondělí 😄"
+        "Pondělí"
       ],
       "correct_index": 0
     },
@@ -3994,7 +3994,7 @@
       "options": [
         "Srpen",
         "Září",
-        "Zmrzlina 😄"
+        "Zmrzlina"
       ],
       "correct_index": 0
     },
@@ -4006,7 +4006,7 @@
       "options": [
         "Březen",
         "Květen",
-        "Pánev 😄"
+        "Měsíc"
       ],
       "correct_index": 0
     },
@@ -4018,7 +4018,7 @@
       "options": [
         "Říjen",
         "Listopad",
-        "Paprika 😄"
+        "Paprika"
       ],
       "correct_index": 0
     },
@@ -4030,7 +4030,7 @@
       "options": [
         "Pondělí",
         "Sobota",
-        "Prázdniny 😄"
+        "Prázdniny"
       ],
       "correct_index": 0
     },
@@ -4042,7 +4042,7 @@
       "options": [
         "Pondělí",
         "Středa",
-        "Léto 😄"
+        "Léto"
       ],
       "correct_index": 0
     },
@@ -4054,7 +4054,7 @@
       "options": [
         "Pátek",
         "Úterý",
-        "Silvestr 😄"
+        "Silvestr"
       ],
       "correct_index": 0
     },
@@ -4066,7 +4066,7 @@
       "options": [
         "Neděle",
         "Úterý",
-        "Bublina 😄"
+        "Bublina"
       ],
       "correct_index": 0
     },
@@ -4078,7 +4078,7 @@
       "options": [
         "5",
         "7",
-        "22 😄"
+        "22"
       ],
       "correct_index": 0
     },
@@ -4090,7 +4090,7 @@
       "options": [
         "2",
         "1",
-        "8 😄"
+        "365"
       ],
       "correct_index": 0
     },
@@ -4102,7 +4102,7 @@
       "options": [
         "32",
         "20",
-        "60 😄"
+        "0"
       ],
       "correct_index": 0
     },
@@ -4114,7 +4114,7 @@
       "options": [
         "5",
         "4",
-        "9 😄"
+        "9"
       ],
       "correct_index": 0
     },
@@ -4126,7 +4126,7 @@
       "options": [
         "10",
         "8",
-        "16 😄"
+        "16"
       ],
       "correct_index": 0
     },
@@ -4138,7 +4138,7 @@
       "options": [
         "5",
         "4",
-        "12 😄"
+        "12"
       ],
       "correct_index": 0
     },
@@ -4150,7 +4150,7 @@
       "options": [
         "Dům nebo byt",
         "Kurník",
-        "Akvárium 😄"
+        "Akvárium"
       ],
       "correct_index": 0
     },
@@ -4162,7 +4162,7 @@
       "options": [
         "Kuchyň",
         "Koupelna",
-        "Skříň 😄"
+        "Skříň"
       ],
       "correct_index": 0
     },
@@ -4174,7 +4174,7 @@
       "options": [
         "Koupelna",
         "Garáž",
-        "Pískoviště 😄"
+        "Pískoviště"
       ],
       "correct_index": 0
     },
@@ -4186,7 +4186,7 @@
       "options": [
         "Ložnice",
         "Sklep",
-        "Autobus 😄"
+        "Autobus"
       ],
       "correct_index": 0
     },
@@ -4198,7 +4198,7 @@
       "options": [
         "Obchod",
         "Letiště",
-        "Knihovna 😄"
+        "Knihovna"
       ],
       "correct_index": 0
     },
@@ -4210,7 +4210,7 @@
       "options": [
         "Knihovna",
         "Bazén",
-        "Truhlík 😄"
+        "Truhlík"
       ],
       "correct_index": 0
     },
@@ -4222,7 +4222,7 @@
       "options": [
         "Hřiště",
         "Komín",
-        "Trezor 😄"
+        "Trezor"
       ],
       "correct_index": 0
     },
@@ -4234,7 +4234,7 @@
       "options": [
         "Parkoviště",
         "Louka",
-        "Postel 😄"
+        "Postel"
       ],
       "correct_index": 0
     },
@@ -4246,7 +4246,7 @@
       "options": [
         "Nádraží",
         "Pec",
-        "Bota 😄"
+        "Bota"
       ],
       "correct_index": 0
     },
@@ -4258,7 +4258,7 @@
       "options": [
         "Letiště",
         "Zahrada",
-        "Mísa 😄"
+        "Mísa"
       ],
       "correct_index": 0
     },
@@ -4270,7 +4270,7 @@
       "options": [
         "Pilot",
         "Pekař",
-        "Pudink 😄"
+        "Pudink"
       ],
       "correct_index": 0
     },
@@ -4282,7 +4282,7 @@
       "options": [
         "Kadeřník",
         "Policista",
-        "Tučňák 😄"
+        "Tučňák"
       ],
       "correct_index": 0
     },
@@ -4294,7 +4294,7 @@
       "options": [
         "Stavitel",
         "Lékař",
-        "Krab 😄"
+        "Krab"
       ],
       "correct_index": 0
     },
@@ -4306,7 +4306,7 @@
       "options": [
         "Malíř",
         "Hasič",
-        "Salát 😄"
+        "Salát"
       ],
       "correct_index": 0
     },
@@ -4318,7 +4318,7 @@
       "options": [
         "Zpěvák",
         "Zedník",
-        "Strom 😄"
+        "Strom"
       ],
       "correct_index": 0
     },
@@ -4330,7 +4330,7 @@
       "options": [
         "Herec",
         "Farmář",
-        "Hrnek 😄"
+        "Hrnek"
       ],
       "correct_index": 0
     },
@@ -4342,7 +4342,7 @@
       "options": [
         "Prodavač",
         "Řidič",
-        "Bagr 😄"
+        "Bagr"
       ],
       "correct_index": 0
     },
@@ -4354,7 +4354,7 @@
       "options": [
         "Švadlena",
         "Pilot",
-        "Hruška 😄"
+        "Hruška"
       ],
       "correct_index": 0
     },
@@ -4366,7 +4366,7 @@
       "options": [
         "Plavec",
         "Lyžař",
-        "Stůl 😄"
+        "Stůl"
       ],
       "correct_index": 0
     },
@@ -4374,11 +4374,11 @@
       "id": 365,
       "category": "svět",
       "difficulty": "easy",
-      "question": "Jak se jmenuje člověk, který kope góly",
+      "question": "Jak se jmenuje člověk, který hraje fotbal",
       "options": [
         "Fotbalista",
         "Hokejista",
-        "Bambulka 😄"
+        "Bambulka"
       ],
       "correct_index": 0
     },
@@ -4390,7 +4390,7 @@
       "options": [
         "Hokej",
         "Fotbal",
-        "Vysavač 😄"
+        "Vodní pólo"
       ],
       "correct_index": 0
     },
@@ -4402,7 +4402,7 @@
       "options": [
         "Fotbal",
         "Plavání",
-        "Šachy na střeše 😄"
+        "Šachy"
       ],
       "correct_index": 0
     },
@@ -4414,7 +4414,7 @@
       "options": [
         "Plavání",
         "Lyžování",
-        "Čtení 😄"
+        "Čtení"
       ],
       "correct_index": 0
     },
@@ -4426,7 +4426,7 @@
       "options": [
         "Lyžování",
         "Tenis",
-        "Pečení 😄"
+        "Pečení"
       ],
       "correct_index": 0
     },
@@ -4438,7 +4438,7 @@
       "options": [
         "Tenis",
         "Hokej",
-        "Pletení 😄"
+        "Pletení"
       ],
       "correct_index": 0
     },
@@ -4450,7 +4450,7 @@
       "options": [
         "Cyklistika",
         "Šerm",
-        "Spánek 😄"
+        "Spánek"
       ],
       "correct_index": 0
     },
@@ -4462,7 +4462,7 @@
       "options": [
         "Atletika",
         "Šachy",
-        "Kreslení 😄"
+        "Kreslení"
       ],
       "correct_index": 0
     },
@@ -4474,7 +4474,7 @@
       "options": [
         "Vánoce",
         "Velikonoce",
-        "Pátek 😄"
+        "Pátek"
       ],
       "correct_index": 0
     },
@@ -4486,7 +4486,7 @@
       "options": [
         "Velikonoce",
         "Silvestr",
-        "Léto 😄"
+        "Léto"
       ],
       "correct_index": 0
     },
@@ -4498,7 +4498,7 @@
       "options": [
         "Židle",
         "Talíř",
-        "Tužka 😄"
+        "Tužka"
       ],
       "correct_index": 0
     },
@@ -4510,7 +4510,7 @@
       "options": [
         "Postel",
         "Lopatka",
-        "Volant 😄"
+        "Strop"
       ],
       "correct_index": 0
     },
@@ -4521,8 +4521,8 @@
       "question": "Jak se jmenuje předmět, na kterém jíme",
       "options": [
         "Stůl",
-        "Kolo",
-        "Ponožka 😄"
+        "Židle",
+        "Pole"
       ],
       "correct_index": 0
     },
@@ -4534,7 +4534,7 @@
       "options": [
         "Stejně",
         "Kilo železa",
-        "Kilo peří 😄"
+        "Kilo peří"
       ],
       "correct_index": 0
     },
@@ -4546,7 +4546,7 @@
       "options": [
         "Hodiny",
         "Pes",
-        "Stůl 😄"
+        "Stůl"
       ],
       "correct_index": 0
     },
@@ -4558,7 +4558,7 @@
       "options": [
         "Hřeben",
         "Lev",
-        "Pes 😄"
+        "Pes"
       ],
       "correct_index": 0
     },
@@ -4570,7 +4570,7 @@
       "options": [
         "Nehty",
         "Kámen",
-        "Talíř 😄"
+        "Talíř"
       ],
       "correct_index": 0
     },
@@ -4578,11 +4578,11 @@
       "id": 382,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má hlavu a ocas ale není to zvíře",
+      "question": "Co musíme rozbít předtím, než to používáme",
       "options": [
-        "Mince",
-        "Pes",
-        "Mrkev 😄"
+        "Vejce",
+        "Nos",
+        "Mrkev"
       ],
       "correct_index": 0
     },
@@ -4594,7 +4594,7 @@
       "options": [
         "Ticho",
         "Sklenice",
-        "Polévka 😄"
+        "Polévka"
       ],
       "correct_index": 0
     },
@@ -4606,7 +4606,7 @@
       "options": [
         "Jehla",
         "Kočka",
-        "Okno 😄"
+        "Okno"
       ],
       "correct_index": 0
     },
@@ -4618,7 +4618,7 @@
       "options": [
         "Láhev",
         "Žirafa",
-        "Skříň 😄"
+        "Skříň"
       ],
       "correct_index": 0
     },
@@ -4626,11 +4626,11 @@
       "id": 386,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má klíč ale neotevře dveře",
+      "question": "Co je jen tvé, ale všichni to používají",
       "options": [
-        "Klavír",
+        "Tvé jméno",
         "Auto",
-        "Pec 😄"
+        "Úkoly"
       ],
       "correct_index": 0
     },
@@ -4642,7 +4642,7 @@
       "options": [
         "Voda",
         "Pes",
-        "Autobus 😄"
+        "Autobus"
       ],
       "correct_index": 0
     },
@@ -4654,7 +4654,7 @@
       "options": [
         "Nachlazení",
         "Míč",
-        "Ponožku 😄"
+        "Ponožku"
       ],
       "correct_index": 0
     },
@@ -4666,7 +4666,7 @@
       "options": [
         "Čas",
         "Vrabec",
-        "Letadlo 😄"
+        "Letadlo"
       ],
       "correct_index": 0
     },
@@ -4678,7 +4678,7 @@
       "options": [
         "Budoucnost",
         "Boty",
-        "Strom 😄"
+        "Strom"
       ],
       "correct_index": 0
     },
@@ -4686,11 +4686,11 @@
       "id": 391,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má město ale nemá domy",
+      "question": "Jaké číslo se jen zvyšuje a nikdy nesnižuje",
       "options": [
-        "Mapa",
-        "Les",
-        "Louže 😄"
+        "Věk",
+        "8",
+        "Žádné"
       ],
       "correct_index": 0
     },
@@ -4701,8 +4701,8 @@
       "question": "Co má jazyk ale nemluví",
       "options": [
         "Boty",
-        "Pes",
-        "Mravenec 😄"
+        "Člověk",
+        "Mravenec"
       ],
       "correct_index": 0
     },
@@ -4710,11 +4710,11 @@
       "id": 393,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má srdce ale nebijí",
+      "question": "Co má srdce, které nebije",
       "options": [
         "Karty",
         "Člověk",
-        "Bubínek 😄"
+        "Bubínek"
       ],
       "correct_index": 0
     },
@@ -4722,11 +4722,11 @@
       "id": 394,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má uši ale neslyší",
+      "question": "Co má ucho ale neslyší",
       "options": [
-        "Hrnec",
+        "Hrnek",
         "Kočka",
-        "Králík 😄"
+        "Králík"
       ],
       "correct_index": 0
     },
@@ -4738,7 +4738,7 @@
       "options": [
         "Pila",
         "Krokodýl",
-        "Tygr 😄"
+        "Tygr"
       ],
       "correct_index": 0
     },
@@ -4746,11 +4746,11 @@
       "id": 396,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co má díry ale drží vodu",
+      "question": "Co má díry, ale udrží vodu",
       "options": [
         "Houba",
         "Síto",
-        "Cedník 😄"
+        "Cedník"
       ],
       "correct_index": 0
     },
@@ -4758,11 +4758,11 @@
       "id": 397,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je čím víc bereš tím větší",
+      "question": "Co je: čím víc bereš tím je to větší",
       "options": [
         "Díra",
         "Buchta",
-        "Batoh 😄"
+        "Noc"
       ],
       "correct_index": 0
     },
@@ -4774,7 +4774,7 @@
       "options": [
         "8",
         "6",
-        "Židle 😄"
+        "0"
       ],
       "correct_index": 0
     },
@@ -4786,7 +4786,7 @@
       "options": [
         "3",
         "5",
-        "Klobouk 😄"
+        "Stejně"
       ],
       "correct_index": 0
     },
@@ -4798,7 +4798,7 @@
       "options": [
         "5",
         "7",
-        "10 😄"
+        "10"
       ],
       "correct_index": 0
     },
@@ -4810,7 +4810,7 @@
       "options": [
         "4",
         "3",
-        "8 😄"
+        "8"
       ],
       "correct_index": 0
     },
@@ -4822,7 +4822,7 @@
       "options": [
         "3",
         "4",
-        "9 😄"
+        "9"
       ],
       "correct_index": 0
     },
@@ -4834,7 +4834,7 @@
       "options": [
         "4",
         "3",
-        "15 😄"
+        "15"
       ],
       "correct_index": 0
     },
@@ -4846,7 +4846,7 @@
       "options": [
         "5",
         "2",
-        "20 😄"
+        "20"
       ],
       "correct_index": 0
     },
@@ -4858,7 +4858,7 @@
       "options": [
         "8",
         "6",
-        "44 😄"
+        "44"
       ],
       "correct_index": 0
     },
@@ -4870,7 +4870,7 @@
       "options": [
         "100",
         "98",
-        "Banán 😄"
+        "1"
       ],
       "correct_index": 0
     },
@@ -4882,7 +4882,7 @@
       "options": [
         "19",
         "21",
-        "Okurka 😄"
+        "Písmeno M"
       ],
       "correct_index": 0
     },
@@ -4894,7 +4894,7 @@
       "options": [
         "Dole",
         "Vedle",
-        "Pudink 😄"
+        "Uprostřed"
       ],
       "correct_index": 0
     },
@@ -4906,7 +4906,7 @@
       "options": [
         "Vpravo",
         "Dole",
-        "Za skříní 😄"
+        "Za skříní"
       ],
       "correct_index": 0
     },
@@ -4918,7 +4918,7 @@
       "options": [
         "Pomalu",
         "Nahlas",
-        "Kulatě 😄"
+        "Kulatě"
       ],
       "correct_index": 0
     },
@@ -4930,7 +4930,7 @@
       "options": [
         "Krátký",
         "Tenký",
-        "Zelený 😄"
+        "Zelený"
       ],
       "correct_index": 0
     },
@@ -4942,7 +4942,7 @@
       "options": [
         "Prázdný",
         "Těžký",
-        "Křivý 😄"
+        "Křivý"
       ],
       "correct_index": 0
     },
@@ -4954,7 +4954,7 @@
       "options": [
         "Studený",
         "Mokrý",
-        "Bublinový 😄"
+        "Bublinový"
       ],
       "correct_index": 0
     },
@@ -4966,7 +4966,7 @@
       "options": [
         "Kruh",
         "Čtverec",
-        "Koberec 😄"
+        "Koberec"
       ],
       "correct_index": 0
     },
@@ -4978,7 +4978,7 @@
       "options": [
         "Trojúhelník",
         "Kruh",
-        "Polštář 😄"
+        "Polštář"
       ],
       "correct_index": 0
     },
@@ -4990,7 +4990,7 @@
       "options": [
         "Čtverec",
         "Trojúhelník",
-        "Perník 😄"
+        "Perník"
       ],
       "correct_index": 0
     },
@@ -4998,11 +4998,11 @@
       "id": 417,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co do řady nepatří jablko hruška pes",
+      "question": "Co do řady nepatří: jablko - hruška - pes",
       "options": [
         "Pes",
         "Jablko",
-        "Hruška 😄"
+        "Hruška"
       ],
       "correct_index": 0
     },
@@ -5010,11 +5010,11 @@
       "id": 418,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co do řady nepatří mrkev okurka židle",
+      "question": "Co do řady nepatří: mrkev - okurka - židle",
       "options": [
         "Židle",
         "Mrkev",
-        "Okurka 😄"
+        "Okurka"
       ],
       "correct_index": 0
     },
@@ -5022,11 +5022,11 @@
       "id": 419,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co do řady nepatří auto vlak banán",
+      "question": "Co do řady nepatří: auto - vlak - banán",
       "options": [
         "Banán",
         "Auto",
-        "Vlak 😄"
+        "Vlak"
       ],
       "correct_index": 0
     },
@@ -5034,11 +5034,11 @@
       "id": 420,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co do řady nepatří pondělí úterý jablko",
+      "question": "Co do řady nepatří: pondělí - úterý - jablko",
       "options": [
         "Jablko",
         "Pondělí",
-        "Úterý 😄"
+        "Úterý"
       ],
       "correct_index": 0
     },
@@ -5046,11 +5046,11 @@
       "id": 421,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co do řady nepatří pes kočka stůl",
+      "question": "Co do řady nepatří: pes - kočka - stůl",
       "options": [
         "Stůl",
         "Pes",
-        "Kočka 😄"
+        "Kočka"
       ],
       "correct_index": 0
     },
@@ -5058,11 +5058,11 @@
       "id": 422,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které slovo je nejdelší had pes kůň",
+      "question": "Které slovo je nejdelší: had - pes - kůň",
       "options": [
-        "Had",
+        "Všechny jsou stejně dlouhé",
         "Pes",
-        "Kůň 😄"
+        "Had"
       ],
       "correct_index": 0
     },
@@ -5070,11 +5070,11 @@
       "id": 423,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které slovo je nejkratší slon pes velryba",
+      "question": "Které slovo je nejkratší: slon - pes - velryba",
       "options": [
         "Pes",
         "Slon",
-        "Velryba 😄"
+        "Velryba"
       ],
       "correct_index": 0
     },
@@ -5082,11 +5082,11 @@
       "id": 424,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Kolik je sudých čísel mezi 1 a 4",
+      "question": "Kolik je sudých čísel mezi 1 a 5",
       "options": [
         "2",
         "3",
-        "9 😄"
+        "9"
       ],
       "correct_index": 0
     },
@@ -5094,11 +5094,11 @@
       "id": 425,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Kolik je lichých čísel mezi 1 a 5",
+      "question": "Kolik je lichých čísel mezi 2 a 8",
       "options": [
         "3",
         "2",
-        "11 😄"
+        "11"
       ],
       "correct_index": 0
     },
@@ -5110,7 +5110,7 @@
       "options": [
         "14",
         "12",
-        "77 😄"
+        "77"
       ],
       "correct_index": 0
     },
@@ -5122,7 +5122,7 @@
       "options": [
         "24",
         "20",
-        "200 😄"
+        "200"
       ],
       "correct_index": 0
     },
@@ -5130,11 +5130,11 @@
       "id": 428,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Když máš 3 jablka a jedno sníš kolik zbudou",
+      "question": "Když máš 3 jablka a jedno sníš kolik zbude",
       "options": [
         "2",
         "3",
-        "7 😄"
+        "7"
       ],
       "correct_index": 0
     },
@@ -5142,11 +5142,11 @@
       "id": 429,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Když máš 5 bonbonů a dva dáš kolik zbudou",
+      "question": "Když máš 5 bonbonů a dva rozdáš kolik zbude",
       "options": [
         "3",
         "2",
-        "9 😄"
+        "9"
       ],
       "correct_index": 0
     },
@@ -5154,11 +5154,11 @@
       "id": 430,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Když dvě kočky chytí dvě myši za dvě minuty kolik koček chytí jednu myš za dvě minuty",
+      "question": "Když dvě kočky chytí dvě myši za dvě minuty kolik myší chytí jedna kočka za dvě minuty",
       "options": [
         "1",
         "2",
-        "10 😄"
+        "10"
       ],
       "correct_index": 0
     },
@@ -5166,11 +5166,11 @@
       "id": 431,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně ráno je před polednem",
+      "question": "Je správně: ráno je před polednem",
       "options": [
         "Ano",
         "Ne",
-        "Jen v neděli 😄"
+        "Jen v neděli"
       ],
       "correct_index": 0
     },
@@ -5178,11 +5178,11 @@
       "id": 432,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně noc je po večeru",
+      "question": "Je správně: noc je po večeru",
       "options": [
         "Ano",
         "Ne",
-        "Jen o Vánocích 😄"
+        "Jen o Vánocích"
       ],
       "correct_index": 0
     },
@@ -5190,11 +5190,11 @@
       "id": 433,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně středa je po úterý",
+      "question": "Je správně: středa je po úterý",
       "options": [
         "Ano",
         "Ne",
-        "Jen v létě 😄"
+        "Jen v létě"
       ],
       "correct_index": 0
     },
@@ -5202,11 +5202,11 @@
       "id": 434,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně červenec je před červnem",
+      "question": "Je správně: červenec je před červnem",
       "options": [
         "Ne",
         "Ano",
-        "Jen ve snu 😄"
+        "Jen ve snu"
       ],
       "correct_index": 0
     },
@@ -5214,11 +5214,11 @@
       "id": 435,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně trojúhelník má tři strany",
+      "question": "Je správně: trojúhelník má tři strany",
       "options": [
         "Ano",
         "Ne",
-        "Jen když chce 😄"
+        "Jen když chce"
       ],
       "correct_index": 0
     },
@@ -5226,11 +5226,11 @@
       "id": 436,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně kruh má rohy",
+      "question": "Je správně: kruh má rohy",
       "options": [
         "Ne",
         "Ano",
-        "Jen dva 😄"
+        "Jen dva"
       ],
       "correct_index": 0
     },
@@ -5238,11 +5238,11 @@
       "id": 437,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně ryba umí létat",
+      "question": "Je správně: ryba umí létat",
       "options": [
         "Ne",
         "Ano",
-        "Jen v raketě 😄"
+        "Jen v raketě"
       ],
       "correct_index": 0
     },
@@ -5250,11 +5250,11 @@
       "id": 438,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně pták má křídla",
+      "question": "Je správně: pták má křídla",
       "options": [
         "Ano",
         "Ne",
-        "Jen ve škole 😄"
+        "Jen ve škole"
       ],
       "correct_index": 0
     },
@@ -5262,11 +5262,11 @@
       "id": 439,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně voda je mokrá",
+      "question": "Je správně: voda je mokrá",
       "options": [
         "Ano",
         "Ne",
-        "Jen v pondělí 😄"
+        "Jen v pondělí"
       ],
       "correct_index": 0
     },
@@ -5274,11 +5274,11 @@
       "id": 440,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je správně led je teplý",
+      "question": "Je správně: led je teplý",
       "options": [
         "Ne",
         "Ano",
-        "Jen v troubě 😄"
+        "Jen v troubě"
       ],
       "correct_index": 0
     },
@@ -5290,7 +5290,7 @@
       "options": [
         "Snídaně",
         "Večeře",
-        "Obě najednou 😄"
+        "Obě najednou"
       ],
       "correct_index": 0
     },
@@ -5302,7 +5302,7 @@
       "options": [
         "Jaro",
         "Léto",
-        "Víkend 😄"
+        "Zima"
       ],
       "correct_index": 0
     },
@@ -5314,7 +5314,7 @@
       "options": [
         "Pondělí",
         "Pátek",
-        "Silvestr 😄"
+        "Svátek"
       ],
       "correct_index": 0
     },
@@ -5326,7 +5326,7 @@
       "options": [
         "12",
         "10",
-        "Ponožka 😄"
+        "Jsou stejné"
       ],
       "correct_index": 0
     },
@@ -5338,7 +5338,7 @@
       "options": [
         "7",
         "9",
-        "Mrak 😄"
+        "Jsou stejné"
       ],
       "correct_index": 0
     },
@@ -5350,7 +5350,7 @@
       "options": [
         "Pondělí i středa stejně",
         "Pondělí",
-        "Kolo 😄"
+        "Středa"
       ],
       "correct_index": 0
     },
@@ -5358,11 +5358,11 @@
       "id": 447,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Kolik noh má člověk a pes dohromady",
+      "question": "Kolik nohou má člověk a pes dohromady",
       "options": [
         "6",
         "4",
-        "12 😄"
+        "12"
       ],
       "correct_index": 0
     },
@@ -5374,7 +5374,7 @@
       "options": [
         "4",
         "2",
-        "10 😄"
+        "10"
       ],
       "correct_index": 0
     },
@@ -5386,7 +5386,7 @@
       "options": [
         "4",
         "2",
-        "17 😄"
+        "17"
       ],
       "correct_index": 0
     },
@@ -5398,7 +5398,7 @@
       "options": [
         "4",
         "2",
-        "8 😄"
+        "8"
       ],
       "correct_index": 0
     },
@@ -5410,7 +5410,7 @@
       "options": [
         "Čtvrtek",
         "Úterý",
-        "Neděle 😄"
+        "Neděle"
       ],
       "correct_index": 0
     },
@@ -5422,7 +5422,7 @@
       "options": [
         "Pátek",
         "Neděle",
-        "Čtvrtek 😄"
+        "Čtvrtek"
       ],
       "correct_index": 0
     },
@@ -5434,7 +5434,7 @@
       "options": [
         "Únor",
         "Prosinec",
-        "Červenec 😄"
+        "Červenec"
       ],
       "correct_index": 0
     },
@@ -5446,7 +5446,7 @@
       "options": [
         "1",
         "2",
-        "5 😄"
+        "5"
       ],
       "correct_index": 0
     },
@@ -5454,11 +5454,11 @@
       "id": 455,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Když máš jedno kolo kolik kol chybí do auta",
+      "question": "Když máš jedno kolo kolik kol chybí, aby mohlo auto jet",
       "options": [
         "3",
         "4",
-        "10 😄"
+        "10"
       ],
       "correct_index": 0
     },
@@ -5470,7 +5470,7 @@
       "options": [
         "3",
         "4",
-        "1 😄"
+        "Žádná, pes má ruce"
       ],
       "correct_index": 0
     },
@@ -5482,7 +5482,7 @@
       "options": [
         "10",
         "8",
-        "20 😄"
+        "20"
       ],
       "correct_index": 0
     },
@@ -5494,7 +5494,7 @@
       "options": [
         "Hodiny",
         "Pravítko",
-        "Boty 😄"
+        "Boty"
       ],
       "correct_index": 0
     },
@@ -5506,7 +5506,7 @@
       "options": [
         "Tužka",
         "Talíř",
-        "Kolo 😄"
+        "Kolo"
       ],
       "correct_index": 0
     },
@@ -5518,7 +5518,7 @@
       "options": [
         "Kartáček",
         "Volant",
-        "Plot 😄"
+        "Plot"
       ],
       "correct_index": 0
     },
@@ -5530,7 +5530,7 @@
       "options": [
         "Hrnec",
         "Lyže",
-        "Přilba 😄"
+        "Přilba"
       ],
       "correct_index": 0
     },
@@ -5542,7 +5542,7 @@
       "options": [
         "Míč",
         "Polévka",
-        "Žehlička 😄"
+        "Žehlička"
       ],
       "correct_index": 0
     },
@@ -5554,7 +5554,7 @@
       "options": [
         "Jídlo",
         "Sešit",
-        "Bagr 😄"
+        "Bagr"
       ],
       "correct_index": 0
     },
@@ -5566,7 +5566,7 @@
       "options": [
         "Boty",
         "Rukavice",
-        "Čepice 😄"
+        "Čepice"
       ],
       "correct_index": 0
     },
@@ -5578,7 +5578,7 @@
       "options": [
         "Rukavice",
         "Sandály",
-        "Lžíce 😄"
+        "Lžíce"
       ],
       "correct_index": 0
     },
@@ -5590,7 +5590,7 @@
       "options": [
         "Kapuce",
         "Ponožka",
-        "Vidlička 😄"
+        "Vidlička"
       ],
       "correct_index": 0
     },
@@ -5602,7 +5602,7 @@
       "options": [
         "4",
         "5",
-        "Perník 😄"
+        "Obě"
       ],
       "correct_index": 0
     },
@@ -5614,7 +5614,7 @@
       "options": [
         "7",
         "6",
-        "Strom 😄"
+        "Obě"
       ],
       "correct_index": 0
     },
@@ -5622,11 +5622,11 @@
       "id": 469,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je méně 0 nebo 1",
+      "question": "Co je méně 0 nebo 1",
       "options": [
         "0",
         "1",
-        "Kolo 😄"
+        "Obě jsou stejné"
       ],
       "correct_index": 0
     },
@@ -5634,11 +5634,11 @@
       "id": 470,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Které je víc 99 nebo 100",
+      "question": "Co je víc 99 nebo 100",
       "options": [
         "100",
         "99",
-        "Peřina 😄"
+        "Obě jsou stejné"
       ],
       "correct_index": 0
     },
@@ -5650,7 +5650,7 @@
       "options": [
         "3",
         "2",
-        "10 😄"
+        "10"
       ],
       "correct_index": 0
     },
@@ -5660,9 +5660,9 @@
       "difficulty": "easy",
       "question": "Kolik písmen má slovo kočka",
       "options": [
-        "6",
         "5",
-        "20 😄"
+        "6",
+        "20"
       ],
       "correct_index": 0
     },
@@ -5670,11 +5670,11 @@
       "id": 473,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je správně půlka z osmi je čtyři",
+      "question": "Je správně: půlka z osmi je čtyři",
       "options": [
         "Ano",
         "Ne",
-        "Jen ve středu 😄"
+        "Jen ve středu"
       ],
       "correct_index": 0
     },
@@ -5682,11 +5682,11 @@
       "id": 474,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je správně čtverec má čtyři rohy",
+      "question": "Je správně: čtverec má čtyři rohy",
       "options": [
         "Ano",
         "Ne",
-        "Jen někdy 😄"
+        "Jen někdy"
       ],
       "correct_index": 0
     },
@@ -5694,11 +5694,11 @@
       "id": 475,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je správně obdélník je kulatý",
+      "question": "Je správně: obdélník je kulatý",
       "options": [
         "Ne",
         "Ano",
-        "Po nafouknutí 😄"
+        "Po nafouknutí"
       ],
       "correct_index": 0
     },
@@ -5706,11 +5706,11 @@
       "id": 476,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je správně tři je méně než pět",
+      "question": "Je správně: tři je méně než pět",
       "options": [
         "Ano",
         "Ne",
-        "Jen o víkendu 😄"
+        "Jen o víkendu"
       ],
       "correct_index": 0
     },
@@ -5718,11 +5718,11 @@
       "id": 477,
       "category": "logika",
       "difficulty": "easy",
-      "question": "Co je správně deset je více než devět",
+      "question": "Je správně deset je více než devět",
       "options": [
         "Ano",
         "Ne",
-        "Jen v zimě 😄"
+        "Jen v zimě"
       ],
       "correct_index": 0
     },
@@ -5734,7 +5734,7 @@
       "options": [
         "Slon",
         "Kůň",
-        "Kufr 😄"
+        "Kufr"
       ],
       "correct_index": 0
     },
@@ -5746,7 +5746,7 @@
       "options": [
         "Zebra",
         "Koza",
-        "Ponožka 😄"
+        "Ponožka"
       ],
       "correct_index": 0
     },
@@ -5758,7 +5758,7 @@
       "options": [
         "Žirafa",
         "Kočka",
-        "Banán 😄"
+        "Banán"
       ],
       "correct_index": 0
     },
@@ -5770,7 +5770,7 @@
       "options": [
         "Kotě",
         "Tele",
-        "Bublina 😄"
+        "Bublina"
       ],
       "correct_index": 0
     },
@@ -5782,223 +5782,7 @@
       "options": [
         "Štěně",
         "Kotě",
-        "Pastelka 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 483,
-      "category": "ČR",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje české město slavné perníkem",
-      "options": [
-        "Pardubice",
-        "Brno",
-        "Kobercov 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 484,
-      "category": "ČR",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje české město pod hradem Špilberk",
-      "options": [
-        "Brno",
-        "Olomouc",
-        "Hrncov 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 485,
-      "category": "ČR",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje české město s Karlovým mostem",
-      "options": [
-        "Praha",
-        "Plzeň",
-        "Peřinov 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 486,
-      "category": "ČR",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje česká řeka v hlavním městě",
-      "options": [
-        "Vltava",
-        "Labe",
-        "Vanilka 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 487,
-      "category": "ČR",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje české město s pražským hradem",
-      "options": [
-        "Praha",
-        "Brno",
-        "Sklenicov 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 488,
-      "category": "příroda",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje květina, která se otáčí za sluncem",
-      "options": [
-        "Slunečnice",
-        "Růže",
-        "Vrtule 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 489,
-      "category": "příroda",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje bílý jarní květ",
-      "options": [
-        "Sněženka",
-        "Růže",
-        "Košile 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 490,
-      "category": "příroda",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje oranžové ovoce s kůrou",
-      "options": [
-        "Pomeranč",
-        "Švestka",
-        "Ponožka 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 491,
-      "category": "příroda",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje malé modré ovoce v lese",
-      "options": [
-        "Borůvka",
-        "Banán",
-        "Baterka 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 492,
-      "category": "příroda",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje strom s žaludy",
-      "options": [
-        "Dub",
-        "Smrk",
-        "Mikina 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 493,
-      "category": "svět",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje věc na nohou v zimě",
-      "options": [
-        "Boty",
-        "Čepice",
-        "Talíř 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 494,
-      "category": "svět",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje věc na hlavě v zimě",
-      "options": [
-        "Čepice",
-        "Boty",
-        "Hodiny 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 495,
-      "category": "svět",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje člověk, který hasí požáry",
-      "options": [
-        "Hasič",
-        "Pekař",
-        "Drak 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 496,
-      "category": "svět",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje člověk, který učí děti",
-      "options": [
-        "Učitel",
-        "Pilot",
-        "Ježek 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 497,
-      "category": "svět",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje člověk, který vozí dopisy",
-      "options": [
-        "Pošťák",
-        "Kadeřník",
-        "Robot 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 498,
-      "category": "logika",
-      "difficulty": "easy",
-      "question": "Co je opak slova studený",
-      "options": [
-        "Teplý",
-        "Dlouhý",
-        "Modrý 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 499,
-      "category": "logika",
-      "difficulty": "easy",
-      "question": "Co je opak slova krátký",
-      "options": [
-        "Dlouhý",
-        "Malý",
-        "Kulatý 😄"
-      ],
-      "correct_index": 0
-    },
-    {
-      "id": 500,
-      "category": "zvířata",
-      "difficulty": "easy",
-      "question": "Jak se jmenuje zvíře, které dává mléko",
-      "options": [
-        "Kráva",
-        "Žába",
-        "Autobus 😄"
+        "Pastelka"
       ],
       "correct_index": 0
     }

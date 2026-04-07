@@ -1,4 +1,4 @@
-const CACHE_NAME = "kralicek-v2";
+const CACHE_NAME = "kralicek-v3";
 const ASSETS = [
   "./",
   "./index.html",
