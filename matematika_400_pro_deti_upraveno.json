@@ -1,0 +1,4406 @@
+{
+  "title": "Matematika 400",
+  "description": "400 matematických otázek pro děti, vhodné zhruba pro 2.-3. třídu.",
+  "questions": [
+    {
+      "id": 1,
+      "category": "násobení",
+      "question": "Kolik je 1 x 1",
+      "options": [
+        "0",
+        "1",
+        "2"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 2,
+      "category": "násobení",
+      "question": "Kolik je 1 x 2",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 3,
+      "category": "násobení",
+      "question": "Kolik je 1 x 3",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 4,
+      "category": "násobení",
+      "question": "Kolik je 1 x 4",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 5,
+      "category": "násobení",
+      "question": "Kolik je 1 x 5",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 6,
+      "category": "násobení",
+      "question": "Kolik je 1 x 6",
+      "options": [
+        "6",
+        "4",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 7,
+      "category": "násobení",
+      "question": "Kolik je 1 x 7",
+      "options": [
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 8,
+      "category": "násobení",
+      "question": "Kolik je 1 x 8",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 9,
+      "category": "násobení",
+      "question": "Kolik je 1 x 9",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 10,
+      "category": "násobení",
+      "question": "Kolik je 1 x 10",
+      "options": [
+        "8",
+        "10",
+        "9"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 11,
+      "category": "násobení",
+      "question": "Kolik je 2 x 1",
+      "options": [
+        "2",
+        "0",
+        "1"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 12,
+      "category": "násobení",
+      "question": "Kolik je 2 x 2",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 13,
+      "category": "násobení",
+      "question": "Kolik je 2 x 3",
+      "options": [
+        "6",
+        "4",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 14,
+      "category": "násobení",
+      "question": "Kolik je 2 x 4",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 15,
+      "category": "násobení",
+      "question": "Kolik je 2 x 5",
+      "options": [
+        "10",
+        "8",
+        "9"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 16,
+      "category": "násobení",
+      "question": "Kolik je 2 x 6",
+      "options": [
+        "12",
+        "11",
+        "10"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 17,
+      "category": "násobení",
+      "question": "Kolik je 2 x 7",
+      "options": [
+        "12",
+        "13",
+        "14"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 18,
+      "category": "násobení",
+      "question": "Kolik je 2 x 8",
+      "options": [
+        "15",
+        "16",
+        "14"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 19,
+      "category": "násobení",
+      "question": "Kolik je 2 x 9",
+      "options": [
+        "17",
+        "16",
+        "18"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 20,
+      "category": "násobení",
+      "question": "Kolik je 2 x 10",
+      "options": [
+        "19",
+        "18",
+        "20"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 21,
+      "category": "násobení",
+      "question": "Kolik je 3 x 1",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 22,
+      "category": "násobení",
+      "question": "Kolik je 3 x 2",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 23,
+      "category": "násobení",
+      "question": "Kolik je 3 x 3",
+      "options": [
+        "7",
+        "9",
+        "8"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 24,
+      "category": "násobení",
+      "question": "Kolik je 3 x 4",
+      "options": [
+        "11",
+        "12",
+        "10"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 25,
+      "category": "násobení",
+      "question": "Kolik je 3 x 5",
+      "options": [
+        "15",
+        "13",
+        "14"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 26,
+      "category": "násobení",
+      "question": "Kolik je 3 x 6",
+      "options": [
+        "18",
+        "16",
+        "17"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 27,
+      "category": "násobení",
+      "question": "Kolik je 3 x 7",
+      "options": [
+        "19",
+        "21",
+        "20"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 28,
+      "category": "násobení",
+      "question": "Kolik je 3 x 8",
+      "options": [
+        "22",
+        "24",
+        "23"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 29,
+      "category": "násobení",
+      "question": "Kolik je 3 x 9",
+      "options": [
+        "25",
+        "26",
+        "27"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 30,
+      "category": "násobení",
+      "question": "Kolik je 3 x 10",
+      "options": [
+        "29",
+        "30",
+        "28"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 31,
+      "category": "násobení",
+      "question": "Kolik je 4 x 1",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 32,
+      "category": "násobení",
+      "question": "Kolik je 4 x 2",
+      "options": [
+        "8",
+        "7",
+        "6"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 33,
+      "category": "násobení",
+      "question": "Kolik je 4 x 3",
+      "options": [
+        "12",
+        "11",
+        "10"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 34,
+      "category": "násobení",
+      "question": "Kolik je 4 x 4",
+      "options": [
+        "15",
+        "14",
+        "16"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 35,
+      "category": "násobení",
+      "question": "Kolik je 4 x 5",
+      "options": [
+        "19",
+        "20",
+        "18"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 36,
+      "category": "násobení",
+      "question": "Kolik je 4 x 6",
+      "options": [
+        "24",
+        "22",
+        "23"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 37,
+      "category": "násobení",
+      "question": "Kolik je 4 x 7",
+      "options": [
+        "26",
+        "28",
+        "27"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 38,
+      "category": "násobení",
+      "question": "Kolik je 4 x 8",
+      "options": [
+        "30",
+        "32",
+        "31"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 39,
+      "category": "násobení",
+      "question": "Kolik je 4 x 9",
+      "options": [
+        "34",
+        "36",
+        "35"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 40,
+      "category": "násobení",
+      "question": "Kolik je 4 x 10",
+      "options": [
+        "39",
+        "38",
+        "40"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 41,
+      "category": "násobení",
+      "question": "Kolik je 5 x 1",
+      "options": [
+        "5",
+        "4",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 42,
+      "category": "násobení",
+      "question": "Kolik je 5 x 2",
+      "options": [
+        "8",
+        "10",
+        "9"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 43,
+      "category": "násobení",
+      "question": "Kolik je 5 x 3",
+      "options": [
+        "15",
+        "13",
+        "14"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 44,
+      "category": "násobení",
+      "question": "Kolik je 5 x 4",
+      "options": [
+        "18",
+        "19",
+        "20"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 45,
+      "category": "násobení",
+      "question": "Kolik je 5 x 5",
+      "options": [
+        "24",
+        "23",
+        "25"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 46,
+      "category": "násobení",
+      "question": "Kolik je 5 x 6",
+      "options": [
+        "30",
+        "29",
+        "28"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 47,
+      "category": "násobení",
+      "question": "Kolik je 5 x 7",
+      "options": [
+        "33",
+        "34",
+        "35"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 48,
+      "category": "násobení",
+      "question": "Kolik je 5 x 8",
+      "options": [
+        "40",
+        "38",
+        "39"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 49,
+      "category": "násobení",
+      "question": "Kolik je 5 x 9",
+      "options": [
+        "44",
+        "43",
+        "45"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 50,
+      "category": "násobení",
+      "question": "Kolik je 5 x 10",
+      "options": [
+        "50",
+        "49",
+        "48"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 51,
+      "category": "násobení",
+      "question": "Kolik je 6 x 1",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 52,
+      "category": "násobení",
+      "question": "Kolik je 6 x 2",
+      "options": [
+        "10",
+        "11",
+        "12"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 53,
+      "category": "násobení",
+      "question": "Kolik je 6 x 3",
+      "options": [
+        "18",
+        "16",
+        "17"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 54,
+      "category": "násobení",
+      "question": "Kolik je 6 x 4",
+      "options": [
+        "24",
+        "22",
+        "23"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 55,
+      "category": "násobení",
+      "question": "Kolik je 6 x 5",
+      "options": [
+        "30",
+        "28",
+        "29"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 56,
+      "category": "násobení",
+      "question": "Kolik je 6 x 6",
+      "options": [
+        "35",
+        "36",
+        "34"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 57,
+      "category": "násobení",
+      "question": "Kolik je 6 x 7",
+      "options": [
+        "41",
+        "40",
+        "42"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 58,
+      "category": "násobení",
+      "question": "Kolik je 6 x 8",
+      "options": [
+        "46",
+        "47",
+        "48"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 59,
+      "category": "násobení",
+      "question": "Kolik je 6 x 9",
+      "options": [
+        "52",
+        "53",
+        "54"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 60,
+      "category": "násobení",
+      "question": "Kolik je 6 x 10",
+      "options": [
+        "58",
+        "60",
+        "59"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 61,
+      "category": "násobení",
+      "question": "Kolik je 7 x 1",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 62,
+      "category": "násobení",
+      "question": "Kolik je 7 x 2",
+      "options": [
+        "12",
+        "14",
+        "13"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 63,
+      "category": "násobení",
+      "question": "Kolik je 7 x 3",
+      "options": [
+        "21",
+        "20",
+        "19"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 64,
+      "category": "násobení",
+      "question": "Kolik je 7 x 4",
+      "options": [
+        "28",
+        "26",
+        "27"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 65,
+      "category": "násobení",
+      "question": "Kolik je 7 x 5",
+      "options": [
+        "35",
+        "33",
+        "34"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 66,
+      "category": "násobení",
+      "question": "Kolik je 7 x 6",
+      "options": [
+        "40",
+        "42",
+        "41"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 67,
+      "category": "násobení",
+      "question": "Kolik je 7 x 7",
+      "options": [
+        "47",
+        "49",
+        "48"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 68,
+      "category": "násobení",
+      "question": "Kolik je 7 x 8",
+      "options": [
+        "56",
+        "54",
+        "55"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 69,
+      "category": "násobení",
+      "question": "Kolik je 7 x 9",
+      "options": [
+        "63",
+        "61",
+        "62"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 70,
+      "category": "násobení",
+      "question": "Kolik je 7 x 10",
+      "options": [
+        "69",
+        "68",
+        "70"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 71,
+      "category": "násobení",
+      "question": "Kolik je 8 x 1",
+      "options": [
+        "7",
+        "8",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 72,
+      "category": "násobení",
+      "question": "Kolik je 8 x 2",
+      "options": [
+        "15",
+        "16",
+        "14"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 73,
+      "category": "násobení",
+      "question": "Kolik je 8 x 3",
+      "options": [
+        "24",
+        "22",
+        "23"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 74,
+      "category": "násobení",
+      "question": "Kolik je 8 x 4",
+      "options": [
+        "30",
+        "32",
+        "31"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 75,
+      "category": "násobení",
+      "question": "Kolik je 8 x 5",
+      "options": [
+        "38",
+        "40",
+        "39"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 76,
+      "category": "násobení",
+      "question": "Kolik je 8 x 6",
+      "options": [
+        "48",
+        "46",
+        "47"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 77,
+      "category": "násobení",
+      "question": "Kolik je 8 x 7",
+      "options": [
+        "54",
+        "56",
+        "55"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 78,
+      "category": "násobení",
+      "question": "Kolik je 8 x 8",
+      "options": [
+        "63",
+        "62",
+        "64"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 79,
+      "category": "násobení",
+      "question": "Kolik je 8 x 9",
+      "options": [
+        "70",
+        "71",
+        "72"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 80,
+      "category": "násobení",
+      "question": "Kolik je 8 x 10",
+      "options": [
+        "80",
+        "78",
+        "79"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 81,
+      "category": "násobení",
+      "question": "Kolik je 9 x 1",
+      "options": [
+        "8",
+        "9",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 82,
+      "category": "násobení",
+      "question": "Kolik je 9 x 2",
+      "options": [
+        "17",
+        "16",
+        "18"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 83,
+      "category": "násobení",
+      "question": "Kolik je 9 x 3",
+      "options": [
+        "26",
+        "27",
+        "25"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 84,
+      "category": "násobení",
+      "question": "Kolik je 9 x 4",
+      "options": [
+        "34",
+        "35",
+        "36"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 85,
+      "category": "násobení",
+      "question": "Kolik je 9 x 5",
+      "options": [
+        "43",
+        "45",
+        "44"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 86,
+      "category": "násobení",
+      "question": "Kolik je 9 x 6",
+      "options": [
+        "53",
+        "52",
+        "54"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 87,
+      "category": "násobení",
+      "question": "Kolik je 9 x 7",
+      "options": [
+        "61",
+        "62",
+        "63"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 88,
+      "category": "násobení",
+      "question": "Kolik je 9 x 8",
+      "options": [
+        "71",
+        "70",
+        "72"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 89,
+      "category": "násobení",
+      "question": "Kolik je 9 x 9",
+      "options": [
+        "79",
+        "81",
+        "80"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 90,
+      "category": "násobení",
+      "question": "Kolik je 9 x 10",
+      "options": [
+        "90",
+        "89",
+        "88"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 91,
+      "category": "násobení",
+      "question": "Kolik je 10 x 1",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 92,
+      "category": "násobení",
+      "question": "Kolik je 10 x 2",
+      "options": [
+        "20",
+        "18",
+        "19"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 93,
+      "category": "násobení",
+      "question": "Kolik je 10 x 3",
+      "options": [
+        "30",
+        "29",
+        "28"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 94,
+      "category": "násobení",
+      "question": "Kolik je 10 x 4",
+      "options": [
+        "40",
+        "39",
+        "38"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 95,
+      "category": "násobení",
+      "question": "Kolik je 10 x 5",
+      "options": [
+        "48",
+        "49",
+        "50"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 96,
+      "category": "násobení",
+      "question": "Kolik je 10 x 6",
+      "options": [
+        "58",
+        "59",
+        "60"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 97,
+      "category": "násobení",
+      "question": "Kolik je 10 x 7",
+      "options": [
+        "69",
+        "70",
+        "68"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 98,
+      "category": "násobení",
+      "question": "Kolik je 10 x 8",
+      "options": [
+        "78",
+        "80",
+        "79"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 99,
+      "category": "násobení",
+      "question": "Kolik je 10 x 9",
+      "options": [
+        "88",
+        "90",
+        "89"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 100,
+      "category": "násobení",
+      "question": "Kolik je 10 x 10",
+      "options": [
+        "98",
+        "99",
+        "100"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 101,
+      "category": "dělení",
+      "question": "Kolik je 1 ÷ 1",
+      "options": [
+        "0",
+        "1",
+        "2"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 102,
+      "category": "dělení",
+      "question": "Kolik je 2 ÷ 1",
+      "options": [
+        "0",
+        "1",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 103,
+      "category": "dělení",
+      "question": "Kolik je 3 ÷ 1",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 104,
+      "category": "dělení",
+      "question": "Kolik je 4 ÷ 1",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 105,
+      "category": "dělení",
+      "question": "Kolik je 5 ÷ 1",
+      "options": [
+        "5",
+        "4",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 106,
+      "category": "dělení",
+      "question": "Kolik je 6 ÷ 1",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 107,
+      "category": "dělení",
+      "question": "Kolik je 7 ÷ 1",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 108,
+      "category": "dělení",
+      "question": "Kolik je 8 ÷ 1",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 109,
+      "category": "dělení",
+      "question": "Kolik je 9 ÷ 1",
+      "options": [
+        "8",
+        "9",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 110,
+      "category": "dělení",
+      "question": "Kolik je 10 ÷ 1",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 111,
+      "category": "dělení",
+      "question": "Kolik je 2 ÷ 2",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 112,
+      "category": "dělení",
+      "question": "Kolik je 4 ÷ 2",
+      "options": [
+        "2",
+        "1",
+        "0"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 113,
+      "category": "dělení",
+      "question": "Kolik je 6 ÷ 2",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 114,
+      "category": "dělení",
+      "question": "Kolik je 8 ÷ 2",
+      "options": [
+        "2",
+        "4",
+        "3"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 115,
+      "category": "dělení",
+      "question": "Kolik je 10 ÷ 2",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 116,
+      "category": "dělení",
+      "question": "Kolik je 12 ÷ 2",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 117,
+      "category": "dělení",
+      "question": "Kolik je 14 ÷ 2",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 118,
+      "category": "dělení",
+      "question": "Kolik je 16 ÷ 2",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 119,
+      "category": "dělení",
+      "question": "Kolik je 18 ÷ 2",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 120,
+      "category": "dělení",
+      "question": "Kolik je 20 ÷ 2",
+      "options": [
+        "10",
+        "8",
+        "9"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 121,
+      "category": "dělení",
+      "question": "Kolik je 3 ÷ 3",
+      "options": [
+        "2",
+        "0",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 122,
+      "category": "dělení",
+      "question": "Kolik je 6 ÷ 3",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 123,
+      "category": "dělení",
+      "question": "Kolik je 9 ÷ 3",
+      "options": [
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 124,
+      "category": "dělení",
+      "question": "Kolik je 12 ÷ 3",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 125,
+      "category": "dělení",
+      "question": "Kolik je 15 ÷ 3",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 126,
+      "category": "dělení",
+      "question": "Kolik je 18 ÷ 3",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 127,
+      "category": "dělení",
+      "question": "Kolik je 21 ÷ 3",
+      "options": [
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 128,
+      "category": "dělení",
+      "question": "Kolik je 24 ÷ 3",
+      "options": [
+        "7",
+        "6",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 129,
+      "category": "dělení",
+      "question": "Kolik je 27 ÷ 3",
+      "options": [
+        "9",
+        "8",
+        "7"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 130,
+      "category": "dělení",
+      "question": "Kolik je 30 ÷ 3",
+      "options": [
+        "9",
+        "8",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 131,
+      "category": "dělení",
+      "question": "Kolik je 4 ÷ 4",
+      "options": [
+        "0",
+        "2",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 132,
+      "category": "dělení",
+      "question": "Kolik je 8 ÷ 4",
+      "options": [
+        "1",
+        "2",
+        "0"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 133,
+      "category": "dělení",
+      "question": "Kolik je 12 ÷ 4",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 134,
+      "category": "dělení",
+      "question": "Kolik je 16 ÷ 4",
+      "options": [
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 135,
+      "category": "dělení",
+      "question": "Kolik je 20 ÷ 4",
+      "options": [
+        "5",
+        "4",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 136,
+      "category": "dělení",
+      "question": "Kolik je 24 ÷ 4",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 137,
+      "category": "dělení",
+      "question": "Kolik je 28 ÷ 4",
+      "options": [
+        "6",
+        "7",
+        "5"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 138,
+      "category": "dělení",
+      "question": "Kolik je 32 ÷ 4",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 139,
+      "category": "dělení",
+      "question": "Kolik je 36 ÷ 4",
+      "options": [
+        "9",
+        "7",
+        "8"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 140,
+      "category": "dělení",
+      "question": "Kolik je 40 ÷ 4",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 141,
+      "category": "dělení",
+      "question": "Kolik je 5 ÷ 5",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 142,
+      "category": "dělení",
+      "question": "Kolik je 10 ÷ 5",
+      "options": [
+        "0",
+        "2",
+        "1"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 143,
+      "category": "dělení",
+      "question": "Kolik je 15 ÷ 5",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 144,
+      "category": "dělení",
+      "question": "Kolik je 20 ÷ 5",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 145,
+      "category": "dělení",
+      "question": "Kolik je 25 ÷ 5",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 146,
+      "category": "dělení",
+      "question": "Kolik je 30 ÷ 5",
+      "options": [
+        "4",
+        "6",
+        "5"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 147,
+      "category": "dělení",
+      "question": "Kolik je 35 ÷ 5",
+      "options": [
+        "6",
+        "7",
+        "5"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 148,
+      "category": "dělení",
+      "question": "Kolik je 40 ÷ 5",
+      "options": [
+        "6",
+        "8",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 149,
+      "category": "dělení",
+      "question": "Kolik je 45 ÷ 5",
+      "options": [
+        "7",
+        "9",
+        "8"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 150,
+      "category": "dělení",
+      "question": "Kolik je 50 ÷ 5",
+      "options": [
+        "8",
+        "10",
+        "9"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 151,
+      "category": "dělení",
+      "question": "Kolik je 6 ÷ 6",
+      "options": [
+        "1",
+        "2",
+        "0"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 152,
+      "category": "dělení",
+      "question": "Kolik je 12 ÷ 6",
+      "options": [
+        "1",
+        "2",
+        "0"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 153,
+      "category": "dělení",
+      "question": "Kolik je 18 ÷ 6",
+      "options": [
+        "3",
+        "1",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 154,
+      "category": "dělení",
+      "question": "Kolik je 24 ÷ 6",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 155,
+      "category": "dělení",
+      "question": "Kolik je 30 ÷ 6",
+      "options": [
+        "4",
+        "5",
+        "3"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 156,
+      "category": "dělení",
+      "question": "Kolik je 36 ÷ 6",
+      "options": [
+        "6",
+        "4",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 157,
+      "category": "dělení",
+      "question": "Kolik je 42 ÷ 6",
+      "options": [
+        "7",
+        "6",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 158,
+      "category": "dělení",
+      "question": "Kolik je 48 ÷ 6",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 159,
+      "category": "dělení",
+      "question": "Kolik je 54 ÷ 6",
+      "options": [
+        "8",
+        "9",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 160,
+      "category": "dělení",
+      "question": "Kolik je 60 ÷ 6",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 161,
+      "category": "dělení",
+      "question": "Kolik je 7 ÷ 7",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 162,
+      "category": "dělení",
+      "question": "Kolik je 14 ÷ 7",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 163,
+      "category": "dělení",
+      "question": "Kolik je 21 ÷ 7",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 164,
+      "category": "dělení",
+      "question": "Kolik je 28 ÷ 7",
+      "options": [
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 165,
+      "category": "dělení",
+      "question": "Kolik je 35 ÷ 7",
+      "options": [
+        "4",
+        "3",
+        "5"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 166,
+      "category": "dělení",
+      "question": "Kolik je 42 ÷ 7",
+      "options": [
+        "6",
+        "4",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 167,
+      "category": "dělení",
+      "question": "Kolik je 49 ÷ 7",
+      "options": [
+        "5",
+        "7",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 168,
+      "category": "dělení",
+      "question": "Kolik je 56 ÷ 7",
+      "options": [
+        "8",
+        "6",
+        "7"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 169,
+      "category": "dělení",
+      "question": "Kolik je 63 ÷ 7",
+      "options": [
+        "7",
+        "9",
+        "8"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 170,
+      "category": "dělení",
+      "question": "Kolik je 70 ÷ 7",
+      "options": [
+        "9",
+        "8",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 171,
+      "category": "dělení",
+      "question": "Kolik je 8 ÷ 8",
+      "options": [
+        "0",
+        "2",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 172,
+      "category": "dělení",
+      "question": "Kolik je 16 ÷ 8",
+      "options": [
+        "0",
+        "2",
+        "1"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 173,
+      "category": "dělení",
+      "question": "Kolik je 24 ÷ 8",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 174,
+      "category": "dělení",
+      "question": "Kolik je 32 ÷ 8",
+      "options": [
+        "2",
+        "4",
+        "3"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 175,
+      "category": "dělení",
+      "question": "Kolik je 40 ÷ 8",
+      "options": [
+        "5",
+        "3",
+        "4"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 176,
+      "category": "dělení",
+      "question": "Kolik je 48 ÷ 8",
+      "options": [
+        "5",
+        "4",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 177,
+      "category": "dělení",
+      "question": "Kolik je 56 ÷ 8",
+      "options": [
+        "7",
+        "5",
+        "6"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 178,
+      "category": "dělení",
+      "question": "Kolik je 64 ÷ 8",
+      "options": [
+        "7",
+        "8",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 179,
+      "category": "dělení",
+      "question": "Kolik je 72 ÷ 8",
+      "options": [
+        "8",
+        "7",
+        "9"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 180,
+      "category": "dělení",
+      "question": "Kolik je 80 ÷ 8",
+      "options": [
+        "9",
+        "10",
+        "8"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 181,
+      "category": "dělení",
+      "question": "Kolik je 9 ÷ 9",
+      "options": [
+        "2",
+        "0",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 182,
+      "category": "dělení",
+      "question": "Kolik je 18 ÷ 9",
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 183,
+      "category": "dělení",
+      "question": "Kolik je 27 ÷ 9",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 184,
+      "category": "dělení",
+      "question": "Kolik je 36 ÷ 9",
+      "options": [
+        "4",
+        "2",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 185,
+      "category": "dělení",
+      "question": "Kolik je 45 ÷ 9",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 186,
+      "category": "dělení",
+      "question": "Kolik je 54 ÷ 9",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 187,
+      "category": "dělení",
+      "question": "Kolik je 63 ÷ 9",
+      "options": [
+        "5",
+        "7",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 188,
+      "category": "dělení",
+      "question": "Kolik je 72 ÷ 9",
+      "options": [
+        "6",
+        "8",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 189,
+      "category": "dělení",
+      "question": "Kolik je 81 ÷ 9",
+      "options": [
+        "8",
+        "9",
+        "7"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 190,
+      "category": "dělení",
+      "question": "Kolik je 90 ÷ 9",
+      "options": [
+        "9",
+        "10",
+        "8"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 191,
+      "category": "dělení",
+      "question": "Kolik je 10 ÷ 10",
+      "options": [
+        "2",
+        "0",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 192,
+      "category": "dělení",
+      "question": "Kolik je 20 ÷ 10",
+      "options": [
+        "1",
+        "2",
+        "0"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 193,
+      "category": "dělení",
+      "question": "Kolik je 30 ÷ 10",
+      "options": [
+        "2",
+        "3",
+        "1"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 194,
+      "category": "dělení",
+      "question": "Kolik je 40 ÷ 10",
+      "options": [
+        "2",
+        "4",
+        "3"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 195,
+      "category": "dělení",
+      "question": "Kolik je 50 ÷ 10",
+      "options": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 196,
+      "category": "dělení",
+      "question": "Kolik je 60 ÷ 10",
+      "options": [
+        "6",
+        "5",
+        "4"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 197,
+      "category": "dělení",
+      "question": "Kolik je 70 ÷ 10",
+      "options": [
+        "5",
+        "7",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 198,
+      "category": "dělení",
+      "question": "Kolik je 80 ÷ 10",
+      "options": [
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 199,
+      "category": "dělení",
+      "question": "Kolik je 90 ÷ 10",
+      "options": [
+        "8",
+        "7",
+        "9"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 200,
+      "category": "dělení",
+      "question": "Kolik je 100 ÷ 10",
+      "options": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 201,
+      "category": "sčítání",
+      "question": "Kolik je 67 + 25",
+      "options": [
+        "90",
+        "95",
+        "92"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 202,
+      "category": "sčítání",
+      "question": "Kolik je 12 + 85",
+      "options": [
+        "100",
+        "107",
+        "97"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 203,
+      "category": "sčítání",
+      "question": "Kolik je 19 + 1",
+      "options": [
+        "15",
+        "23",
+        "20"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 204,
+      "category": "sčítání",
+      "question": "Kolik je 19 + 75",
+      "options": [
+        "94",
+        "97",
+        "93"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 205,
+      "category": "sčítání",
+      "question": "Kolik je 37 + 79",
+      "options": [
+        "116",
+        "115",
+        "105"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 206,
+      "category": "sčítání",
+      "question": "Kolik je 41 + 70",
+      "options": [
+        "99",
+        "109",
+        "111"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 207,
+      "category": "sčítání",
+      "question": "Kolik je 55 + 64",
+      "options": [
+        "107",
+        "119",
+        "122"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 208,
+      "category": "sčítání",
+      "question": "Kolik je 96 + 2",
+      "options": [
+        "98",
+        "93",
+        "100"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 209,
+      "category": "sčítání",
+      "question": "Kolik je 23 + 41",
+      "options": [
+        "64",
+        "66",
+        "62"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 210,
+      "category": "sčítání",
+      "question": "Kolik je 27 + 7",
+      "options": [
+        "33",
+        "34",
+        "35"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 211,
+      "category": "sčítání",
+      "question": "Kolik je 19 + 8",
+      "options": [
+        "25",
+        "27",
+        "17"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 212,
+      "category": "sčítání",
+      "question": "Kolik je 21 + 40",
+      "options": [
+        "61",
+        "63",
+        "62"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 213,
+      "category": "sčítání",
+      "question": "Kolik je 37 + 61",
+      "options": [
+        "95",
+        "98",
+        "93"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 214,
+      "category": "sčítání",
+      "question": "Kolik je 59 + 43",
+      "options": [
+        "102",
+        "101",
+        "117"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 215,
+      "category": "sčítání",
+      "question": "Kolik je 29 + 4",
+      "options": [
+        "43",
+        "31",
+        "33"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 216,
+      "category": "sčítání",
+      "question": "Kolik je 50 + 17",
+      "options": [
+        "77",
+        "67",
+        "62"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 217,
+      "category": "sčítání",
+      "question": "Kolik je 17 + 75",
+      "options": [
+        "89",
+        "80",
+        "92"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 218,
+      "category": "sčítání",
+      "question": "Kolik je 86 + 2",
+      "options": [
+        "91",
+        "90",
+        "88"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 219,
+      "category": "sčítání",
+      "question": "Kolik je 84 + 1",
+      "options": [
+        "85",
+        "82",
+        "87"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 220,
+      "category": "sčítání",
+      "question": "Kolik je 43 + 36",
+      "options": [
+        "79",
+        "77",
+        "90"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 221,
+      "category": "sčítání",
+      "question": "Kolik je 68 + 50",
+      "options": [
+        "108",
+        "118",
+        "115"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 222,
+      "category": "sčítání",
+      "question": "Kolik je 19 + 78",
+      "options": [
+        "102",
+        "97",
+        "99"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 223,
+      "category": "sčítání",
+      "question": "Kolik je 54 + 18",
+      "options": [
+        "73",
+        "72",
+        "75"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 224,
+      "category": "sčítání",
+      "question": "Kolik je 66 + 9",
+      "options": [
+        "85",
+        "75",
+        "60"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 225,
+      "category": "sčítání",
+      "question": "Kolik je 95 + 9",
+      "options": [
+        "114",
+        "104",
+        "119"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 226,
+      "category": "sčítání",
+      "question": "Kolik je 27 + 43",
+      "options": [
+        "68",
+        "85",
+        "70"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 227,
+      "category": "sčítání",
+      "question": "Kolik je 44 + 5",
+      "options": [
+        "38",
+        "49",
+        "51"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 228,
+      "category": "sčítání",
+      "question": "Kolik je 43 + 74",
+      "options": [
+        "102",
+        "116",
+        "117"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 229,
+      "category": "sčítání",
+      "question": "Kolik je 91 + 7",
+      "options": [
+        "88",
+        "103",
+        "98"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 230,
+      "category": "sčítání",
+      "question": "Kolik je 26 + 91",
+      "options": [
+        "117",
+        "122",
+        "114"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 231,
+      "category": "sčítání",
+      "question": "Kolik je 81 + 11",
+      "options": [
+        "90",
+        "92",
+        "87"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 232,
+      "category": "sčítání",
+      "question": "Kolik je 79 + 14",
+      "options": [
+        "82",
+        "93",
+        "103"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 233,
+      "category": "sčítání",
+      "question": "Kolik je 65 + 26",
+      "options": [
+        "90",
+        "91",
+        "86"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 234,
+      "category": "sčítání",
+      "question": "Kolik je 55 + 36",
+      "options": [
+        "102",
+        "94",
+        "91"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 235,
+      "category": "sčítání",
+      "question": "Kolik je 81 + 7",
+      "options": [
+        "87",
+        "103",
+        "88"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 236,
+      "category": "sčítání",
+      "question": "Kolik je 32 + 62",
+      "options": [
+        "94",
+        "84",
+        "91"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 237,
+      "category": "sčítání",
+      "question": "Kolik je 62 + 4",
+      "options": [
+        "71",
+        "66",
+        "63"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 238,
+      "category": "sčítání",
+      "question": "Kolik je 58 + 14",
+      "options": [
+        "70",
+        "57",
+        "72"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 239,
+      "category": "sčítání",
+      "question": "Kolik je 54 + 5",
+      "options": [
+        "62",
+        "57",
+        "59"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 240,
+      "category": "sčítání",
+      "question": "Kolik je 61 + 52",
+      "options": [
+        "101",
+        "118",
+        "113"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 241,
+      "category": "sčítání",
+      "question": "Kolik je 52 + 13",
+      "options": [
+        "80",
+        "65",
+        "63"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 242,
+      "category": "sčítání",
+      "question": "Kolik je 14 + 23",
+      "options": [
+        "37",
+        "25",
+        "38"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 243,
+      "category": "sčítání",
+      "question": "Kolik je 75 + 24",
+      "options": [
+        "111",
+        "99",
+        "114"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 244,
+      "category": "sčítání",
+      "question": "Kolik je 42 + 15",
+      "options": [
+        "45",
+        "57",
+        "47"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 245,
+      "category": "sčítání",
+      "question": "Kolik je 18 + 95",
+      "options": [
+        "123",
+        "113",
+        "124"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 246,
+      "category": "sčítání",
+      "question": "Kolik je 62 + 51",
+      "options": [
+        "102",
+        "113",
+        "125"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 247,
+      "category": "sčítání",
+      "question": "Kolik je 34 + 63",
+      "options": [
+        "109",
+        "97",
+        "108"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 248,
+      "category": "sčítání",
+      "question": "Kolik je 48 + 61",
+      "options": [
+        "108",
+        "109",
+        "99"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 249,
+      "category": "sčítání",
+      "question": "Kolik je 51 + 69",
+      "options": [
+        "135",
+        "120",
+        "123"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 250,
+      "category": "sčítání",
+      "question": "Kolik je 20 + 46",
+      "options": [
+        "61",
+        "77",
+        "66"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 251,
+      "category": "odčítání",
+      "question": "Kolik je 95 - 94",
+      "options": [
+        "4",
+        "12",
+        "1"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 252,
+      "category": "odčítání",
+      "question": "Kolik je 39 - 39",
+      "options": [
+        "10",
+        "12",
+        "0"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 253,
+      "category": "odčítání",
+      "question": "Kolik je 27 - 15",
+      "options": [
+        "12",
+        "24",
+        "11"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 254,
+      "category": "odčítání",
+      "question": "Kolik je 76 - 25",
+      "options": [
+        "51",
+        "40",
+        "66"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 255,
+      "category": "odčítání",
+      "question": "Kolik je 54 - 42",
+      "options": [
+        "15",
+        "12",
+        "17"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 256,
+      "category": "odčítání",
+      "question": "Kolik je 96 - 15",
+      "options": [
+        "81",
+        "70",
+        "69"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 257,
+      "category": "odčítání",
+      "question": "Kolik je 23 - 11",
+      "options": [
+        "10",
+        "12",
+        "23"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 258,
+      "category": "odčítání",
+      "question": "Kolik je 54 - 46",
+      "options": [
+        "8",
+        "6",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 259,
+      "category": "odčítání",
+      "question": "Kolik je 55 - 21",
+      "options": [
+        "45",
+        "34",
+        "22"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 260,
+      "category": "odčítání",
+      "question": "Kolik je 80 - 54",
+      "options": [
+        "27",
+        "26",
+        "14"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 261,
+      "category": "odčítání",
+      "question": "Kolik je 30 - 6",
+      "options": [
+        "24",
+        "13",
+        "12"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 262,
+      "category": "odčítání",
+      "question": "Kolik je 94 - 7",
+      "options": [
+        "90",
+        "82",
+        "87"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 263,
+      "category": "odčítání",
+      "question": "Kolik je 42 - 6",
+      "options": [
+        "48",
+        "36",
+        "34"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 264,
+      "category": "odčítání",
+      "question": "Kolik je 89 - 69",
+      "options": [
+        "10",
+        "8",
+        "20"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 265,
+      "category": "odčítání",
+      "question": "Kolik je 99 - 73",
+      "options": [
+        "41",
+        "38",
+        "26"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 266,
+      "category": "odčítání",
+      "question": "Kolik je 54 - 45",
+      "options": [
+        "9",
+        "10",
+        "7"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 267,
+      "category": "odčítání",
+      "question": "Kolik je 25 - 1",
+      "options": [
+        "13",
+        "27",
+        "24"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 268,
+      "category": "odčítání",
+      "question": "Kolik je 80 - 1",
+      "options": [
+        "67",
+        "74",
+        "79"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 269,
+      "category": "odčítání",
+      "question": "Kolik je 79 - 25",
+      "options": [
+        "54",
+        "53",
+        "57"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 270,
+      "category": "odčítání",
+      "question": "Kolik je 85 - 44",
+      "options": [
+        "41",
+        "26",
+        "29"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 271,
+      "category": "odčítání",
+      "question": "Kolik je 51 - 39",
+      "options": [
+        "9",
+        "12",
+        "17"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 272,
+      "category": "odčítání",
+      "question": "Kolik je 86 - 9",
+      "options": [
+        "65",
+        "76",
+        "77"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 273,
+      "category": "odčítání",
+      "question": "Kolik je 73 - 53",
+      "options": [
+        "8",
+        "25",
+        "20"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 274,
+      "category": "odčítání",
+      "question": "Kolik je 58 - 47",
+      "options": [
+        "22",
+        "11",
+        "21"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 275,
+      "category": "odčítání",
+      "question": "Kolik je 67 - 9",
+      "options": [
+        "58",
+        "59",
+        "43"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 276,
+      "category": "odčítání",
+      "question": "Kolik je 68 - 6",
+      "options": [
+        "51",
+        "64",
+        "62"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 277,
+      "category": "odčítání",
+      "question": "Kolik je 49 - 36",
+      "options": [
+        "13",
+        "3",
+        "14"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 278,
+      "category": "odčítání",
+      "question": "Kolik je 58 - 7",
+      "options": [
+        "50",
+        "54",
+        "51"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 279,
+      "category": "odčítání",
+      "question": "Kolik je 84 - 52",
+      "options": [
+        "20",
+        "32",
+        "30"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 280,
+      "category": "odčítání",
+      "question": "Kolik je 87 - 68",
+      "options": [
+        "8",
+        "9",
+        "19"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 281,
+      "category": "odčítání",
+      "question": "Kolik je 39 - 12",
+      "options": [
+        "27",
+        "39",
+        "12"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 282,
+      "category": "odčítání",
+      "question": "Kolik je 99 - 98",
+      "options": [
+        "1",
+        "2",
+        "12"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 283,
+      "category": "odčítání",
+      "question": "Kolik je 60 - 50",
+      "options": [
+        "22",
+        "10",
+        "13"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 284,
+      "category": "odčítání",
+      "question": "Kolik je 99 - 18",
+      "options": [
+        "81",
+        "84",
+        "92"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 285,
+      "category": "odčítání",
+      "question": "Kolik je 49 - 15",
+      "options": [
+        "22",
+        "34",
+        "29"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 286,
+      "category": "odčítání",
+      "question": "Kolik je 76 - 31",
+      "options": [
+        "55",
+        "60",
+        "45"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 287,
+      "category": "odčítání",
+      "question": "Kolik je 61 - 60",
+      "options": [
+        "1",
+        "6",
+        "0"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 288,
+      "category": "odčítání",
+      "question": "Kolik je 65 - 3",
+      "options": [
+        "67",
+        "62",
+        "65"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 289,
+      "category": "odčítání",
+      "question": "Kolik je 31 - 3",
+      "options": [
+        "38",
+        "28",
+        "25"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 290,
+      "category": "odčítání",
+      "question": "Kolik je 73 - 3",
+      "options": [
+        "70",
+        "73",
+        "55"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 291,
+      "category": "odčítání",
+      "question": "Kolik je 68 - 5",
+      "options": [
+        "63",
+        "78",
+        "53"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 292,
+      "category": "odčítání",
+      "question": "Kolik je 96 - 9",
+      "options": [
+        "87",
+        "82",
+        "88"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 293,
+      "category": "odčítání",
+      "question": "Kolik je 95 - 48",
+      "options": [
+        "47",
+        "36",
+        "35"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 294,
+      "category": "odčítání",
+      "question": "Kolik je 58 - 22",
+      "options": [
+        "24",
+        "36",
+        "48"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 295,
+      "category": "odčítání",
+      "question": "Kolik je 50 - 34",
+      "options": [
+        "16",
+        "26",
+        "5"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 296,
+      "category": "odčítání",
+      "question": "Kolik je 22 - 20",
+      "options": [
+        "12",
+        "5",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 297,
+      "category": "odčítání",
+      "question": "Kolik je 87 - 8",
+      "options": [
+        "91",
+        "89",
+        "79"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 298,
+      "category": "odčítání",
+      "question": "Kolik je 38 - 4",
+      "options": [
+        "39",
+        "34",
+        "45"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 299,
+      "category": "odčítání",
+      "question": "Kolik je 32 - 30",
+      "options": [
+        "5",
+        "2",
+        "0"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 300,
+      "category": "odčítání",
+      "question": "Kolik je 94 - 56",
+      "options": [
+        "38",
+        "33",
+        "37"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 301,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 38 + 4",
+      "options": [
+        "41",
+        "32",
+        "42"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 302,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 19 + 68",
+      "options": [
+        "75",
+        "87",
+        "102"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 303,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 41 + 28",
+      "options": [
+        "84",
+        "59",
+        "69"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 304,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 38 + 32",
+      "options": [
+        "85",
+        "70",
+        "60"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 305,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 25 + 68",
+      "options": [
+        "93",
+        "105",
+        "92"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 306,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 30 + 70",
+      "options": [
+        "99",
+        "115",
+        "100"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 307,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 45 + 66",
+      "options": [
+        "100",
+        "111",
+        "108"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 308,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 44 + 6",
+      "options": [
+        "61",
+        "50",
+        "65"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 309,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 27 + 29",
+      "options": [
+        "59",
+        "56",
+        "58"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 310,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 37 + 18",
+      "options": [
+        "55",
+        "57",
+        "43"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 311,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 63 + 17",
+      "options": [
+        "80",
+        "68",
+        "82"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 312,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 12 + 83",
+      "options": [
+        "98",
+        "107",
+        "95"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 313,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 48 + 59",
+      "options": [
+        "95",
+        "107",
+        "112"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 314,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 72 + 4",
+      "options": [
+        "78",
+        "76",
+        "81"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 315,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 59 + 6",
+      "options": [
+        "54",
+        "77",
+        "65"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 316,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 26 + 89",
+      "options": [
+        "130",
+        "115",
+        "105"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 317,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 20 + 7",
+      "options": [
+        "15",
+        "27",
+        "26"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 318,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 16 + 43",
+      "options": [
+        "60",
+        "71",
+        "59"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 319,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 51 + 6",
+      "options": [
+        "57",
+        "56",
+        "69"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 320,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 20 + 70",
+      "options": [
+        "80",
+        "90",
+        "79"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 321,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 54 + 38",
+      "options": [
+        "89",
+        "92",
+        "104"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 322,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 13 + 4",
+      "options": [
+        "19",
+        "5",
+        "17"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 323,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 40 + 26",
+      "options": [
+        "51",
+        "77",
+        "66"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 324,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 69 + 5",
+      "options": [
+        "63",
+        "74",
+        "71"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 325,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 30 + 49",
+      "options": [
+        "89",
+        "77",
+        "79"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 326,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 83 + 7",
+      "options": [
+        "102",
+        "79",
+        "90"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 327,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 86 + 25",
+      "options": [
+        "111",
+        "106",
+        "112"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 328,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 94 + 6",
+      "options": [
+        "100",
+        "97",
+        "105"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 329,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 11 + 7",
+      "options": [
+        "18",
+        "13",
+        "3"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 330,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 91 + 8",
+      "options": [
+        "101",
+        "98",
+        "99"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 331,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 44 + 51",
+      "options": [
+        "83",
+        "98",
+        "95"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 332,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 67 + 41",
+      "options": [
+        "108",
+        "123",
+        "118"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 333,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 53 + 13",
+      "options": [
+        "54",
+        "66",
+        "51"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 334,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 55 + 5",
+      "options": [
+        "60",
+        "71",
+        "59"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 335,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 81 + 1",
+      "options": [
+        "77",
+        "84",
+        "82"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 336,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 12 + 21",
+      "options": [
+        "31",
+        "33",
+        "43"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 337,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 52 + 55",
+      "options": [
+        "107",
+        "106",
+        "122"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 338,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 39 + 2",
+      "options": [
+        "43",
+        "42",
+        "41"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 339,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 34 + 37",
+      "options": [
+        "71",
+        "56",
+        "70"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 340,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 22 + 4",
+      "options": [
+        "24",
+        "26",
+        "36"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 341,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 48 + 1",
+      "options": [
+        "48",
+        "34",
+        "49"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 342,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 23 + 11",
+      "options": [
+        "34",
+        "37",
+        "44"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 343,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 53 + 33",
+      "options": [
+        "85",
+        "86",
+        "81"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 344,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 18 + 61",
+      "options": [
+        "64",
+        "79",
+        "74"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 345,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 29 + 29",
+      "options": [
+        "68",
+        "53",
+        "58"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 346,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 64 + 49",
+      "options": [
+        "108",
+        "113",
+        "123"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 347,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 36 + 4",
+      "options": [
+        "45",
+        "51",
+        "40"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 348,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 40 + 32",
+      "options": [
+        "57",
+        "69",
+        "72"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 349,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 47 + 14",
+      "options": [
+        "61",
+        "64",
+        "60"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 350,
+      "category": "sčítání přes 10",
+      "question": "Kolik je 99 + 8",
+      "options": [
+        "118",
+        "104",
+        "107"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 351,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 73 - 32",
+      "options": [
+        "41",
+        "43",
+        "38"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 352,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 87 - 74",
+      "options": [
+        "12",
+        "28",
+        "13"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 353,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 71 - 5",
+      "options": [
+        "78",
+        "77",
+        "66"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 354,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 19 - 3",
+      "options": [
+        "16",
+        "19",
+        "4"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 355,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 91 - 56",
+      "options": [
+        "47",
+        "35",
+        "32"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 356,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 43 - 9",
+      "options": [
+        "34",
+        "37",
+        "32"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 357,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 94 - 58",
+      "options": [
+        "25",
+        "36",
+        "31"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 358,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 70 - 1",
+      "options": [
+        "80",
+        "69",
+        "84"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 359,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 28 - 24",
+      "options": [
+        "6",
+        "9",
+        "4"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 360,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 25 - 11",
+      "options": [
+        "13",
+        "17",
+        "14"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 361,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 50 - 44",
+      "options": [
+        "6",
+        "9",
+        "4"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 362,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 89 - 63",
+      "options": [
+        "41",
+        "26",
+        "25"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 363,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 82 - 62",
+      "options": [
+        "20",
+        "25",
+        "10"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 364,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 47 - 38",
+      "options": [
+        "8",
+        "9",
+        "14"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 365,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 67 - 44",
+      "options": [
+        "23",
+        "13",
+        "12"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 366,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 44 - 17",
+      "options": [
+        "42",
+        "27",
+        "22"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 367,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 96 - 12",
+      "options": [
+        "96",
+        "84",
+        "79"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 368,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 36 - 35",
+      "options": [
+        "4",
+        "1",
+        "2"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 369,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 85 - 4",
+      "options": [
+        "84",
+        "82",
+        "81"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 370,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 55 - 19",
+      "options": [
+        "41",
+        "36",
+        "35"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 371,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 34 - 31",
+      "options": [
+        "2",
+        "0",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 372,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 50 - 47",
+      "options": [
+        "0",
+        "6",
+        "3"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 373,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 26 - 14",
+      "options": [
+        "1",
+        "12",
+        "14"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 374,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 28 - 25",
+      "options": [
+        "13",
+        "3",
+        "6"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 375,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 38 - 1",
+      "options": [
+        "47",
+        "37",
+        "40"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 376,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 27 - 25",
+      "options": [
+        "12",
+        "2",
+        "17"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 377,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 72 - 8",
+      "options": [
+        "79",
+        "61",
+        "64"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 378,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 97 - 28",
+      "options": [
+        "69",
+        "54",
+        "66"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 379,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 68 - 48",
+      "options": [
+        "20",
+        "30",
+        "23"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 380,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 32 - 32",
+      "options": [
+        "2",
+        "0",
+        "12"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 381,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 65 - 8",
+      "options": [
+        "57",
+        "59",
+        "60"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 382,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 71 - 36",
+      "options": [
+        "35",
+        "36",
+        "33"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 383,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 95 - 5",
+      "options": [
+        "90",
+        "79",
+        "87"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 384,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 18 - 2",
+      "options": [
+        "11",
+        "16",
+        "13"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 385,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 57 - 3",
+      "options": [
+        "54",
+        "49",
+        "64"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 386,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 95 - 2",
+      "options": [
+        "93",
+        "81",
+        "94"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 387,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 26 - 19",
+      "options": [
+        "8",
+        "7",
+        "18"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 388,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 93 - 74",
+      "options": [
+        "19",
+        "21",
+        "16"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 389,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 48 - 16",
+      "options": [
+        "32",
+        "21",
+        "20"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 390,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 34 - 34",
+      "options": [
+        "15",
+        "10",
+        "0"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 391,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 91 - 89",
+      "options": [
+        "14",
+        "17",
+        "2"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 392,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 13 - 3",
+      "options": [
+        "10",
+        "22",
+        "9"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 393,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 64 - 10",
+      "options": [
+        "42",
+        "55",
+        "54"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 394,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 28 - 14",
+      "options": [
+        "3",
+        "25",
+        "14"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 395,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 77 - 4",
+      "options": [
+        "73",
+        "75",
+        "85"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 396,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 49 - 6",
+      "options": [
+        "40",
+        "58",
+        "43"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 397,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 40 - 34",
+      "options": [
+        "17",
+        "6",
+        "1"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 398,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 44 - 8",
+      "options": [
+        "36",
+        "24",
+        "39"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 399,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 63 - 5",
+      "options": [
+        "60",
+        "58",
+        "70"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": 400,
+      "category": "odčítání přes 10",
+      "question": "Kolik je 64 - 37",
+      "options": [
+        "27",
+        "25",
+        "26"
+      ],
+      "correct_index": 0
+    }
+  ]
+}

@@ -1,0 +1,6006 @@
+{
+  "title": "TOP 500 dataset opravený",
+  "description": "500 unikátních otázek pro děti bez duplicit v textu otázky. Duplicity byly nahrazeny novými otázkami.",
+  "questions": [
+    {
+      "id": 1,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má kočka",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 2,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí kočka",
+      "options": [
+        "doma",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 3,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí kočka",
+      "options": [
+        "granule",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 4,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře kočka",
+      "options": [
+        "vousky",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 5,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří kočka",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 6,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má pes",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 7,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí pes",
+      "options": [
+        "doma",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 8,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí pes",
+      "options": [
+        "granule",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 9,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře pes",
+      "options": [
+        "čich",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 10,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří pes",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 11,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má kráva",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 12,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí kráva",
+      "options": [
+        "na farmě",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 13,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí kráva",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 14,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře kráva",
+      "options": [
+        "rohy",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 15,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří kráva",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 16,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má kůň",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 17,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí kůň",
+      "options": [
+        "ve stáji",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 18,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí kůň",
+      "options": [
+        "seno",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 19,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře kůň",
+      "options": [
+        "hřívu",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 20,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří kůň",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 21,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má ovce",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 22,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí ovce",
+      "options": [
+        "na farmě",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 23,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí ovce",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 24,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře ovce",
+      "options": [
+        "vlnu",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 25,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří ovce",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 26,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má koza",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 27,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí koza",
+      "options": [
+        "na farmě",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 28,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí koza",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 29,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře koza",
+      "options": [
+        "rohy",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 30,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří koza",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 31,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má slepice",
+      "options": [
+        "2",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 32,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí slepice",
+      "options": [
+        "v kurníku",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 33,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí slepice",
+      "options": [
+        "zrní",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 34,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře slepice",
+      "options": [
+        "vejce",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 35,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří slepice",
+      "options": [
+        "pták",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 36,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má kachna",
+      "options": [
+        "2",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 37,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí kachna",
+      "options": [
+        "u vody",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 38,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí kachna",
+      "options": [
+        "zrní",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 39,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře kachna",
+      "options": [
+        "plovací blány",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 40,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří kachna",
+      "options": [
+        "pták",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 41,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má husa",
+      "options": [
+        "2",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 42,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí husa",
+      "options": [
+        "u vody",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 43,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí husa",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 44,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře husa",
+      "options": [
+        "dlouhý krk",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 45,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří husa",
+      "options": [
+        "pták",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 46,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má žába",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 47,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí žába",
+      "options": [
+        "u vody",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 48,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí žába",
+      "options": [
+        "hmyz",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 49,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře žába",
+      "options": [
+        "skoky",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 50,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří žába",
+      "options": [
+        "obojživelník",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 51,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má včela",
+      "options": [
+        "6",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 52,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí včela",
+      "options": [
+        "v úlu",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 53,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí včela",
+      "options": [
+        "nektar",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 54,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře včela",
+      "options": [
+        "žihadlo",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 55,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří včela",
+      "options": [
+        "hmyz",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 56,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má mravenec",
+      "options": [
+        "6",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 57,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí mravenec",
+      "options": [
+        "v mraveništi",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 58,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí mravenec",
+      "options": [
+        "drobky",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 59,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře mravenec",
+      "options": [
+        "kusadla",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 60,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří mravenec",
+      "options": [
+        "hmyz",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 61,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má slon",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 62,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí slon",
+      "options": [
+        "v savaně",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 63,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí slon",
+      "options": [
+        "listy",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 64,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře slon",
+      "options": [
+        "chobot",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 65,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří slon",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 66,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má žirafa",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 67,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí žirafa",
+      "options": [
+        "v savaně",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 68,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí žirafa",
+      "options": [
+        "listy",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 69,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře žirafa",
+      "options": [
+        "dlouhý krk",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 70,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří žirafa",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 71,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má zebra",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 72,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí zebra",
+      "options": [
+        "v savaně",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 73,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí zebra",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 74,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře zebra",
+      "options": [
+        "pruhy",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 75,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří zebra",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 76,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má lev",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 77,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí lev",
+      "options": [
+        "v savaně",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 78,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí lev",
+      "options": [
+        "maso",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 79,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře lev",
+      "options": [
+        "hřívu",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 80,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří lev",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 81,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má jelen",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 82,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí jelen",
+      "options": [
+        "v lese",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 83,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí jelen",
+      "options": [
+        "trávu",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 84,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře jelen",
+      "options": [
+        "parohy",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 85,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří jelen",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 86,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má ježek",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 87,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí ježek",
+      "options": [
+        "v lese",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 88,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí ježek",
+      "options": [
+        "hmyz",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 89,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře ježek",
+      "options": [
+        "bodliny",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 90,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří ježek",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 91,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má králík",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 92,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí králík",
+      "options": [
+        "v noře",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 93,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí králík",
+      "options": [
+        "mrkev",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 94,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře králík",
+      "options": [
+        "dlouhé uši",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 95,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří králík",
+      "options": [
+        "savec",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 96,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kolik nohou má ryba",
+      "options": [
+        "0",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 97,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Kde bydlí ryba",
+      "options": [
+        "ve vodě",
+        "na střeše",
+        "v lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 98,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co nejčastěji jí ryba",
+      "options": [
+        "řasy",
+        "kameny",
+        "palačinky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 99,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Co je typické pro zvíře ryba",
+      "options": [
+        "ploutve",
+        "kola",
+        "zip 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 100,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Do jaké skupiny patří ryba",
+      "options": [
+        "ryba",
+        "rostlina",
+        "nábytek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 101,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je hlavní město České republiky",
+      "options": [
+        "Praha",
+        "Brno",
+        "Obývák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 102,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaká měna se používá v Česku",
+      "options": [
+        "Koruna česká",
+        "Euro",
+        "Knoflíky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 103,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje nejvyšší hora ČR",
+      "options": [
+        "Sněžka",
+        "Praděd",
+        "Polštář 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 104,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaká řeka protéká Prahou",
+      "options": [
+        "Vltava",
+        "Morava",
+        "Sirup 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 105,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké barvy má česká vlajka",
+      "options": [
+        "Bílá červená modrá",
+        "Zelená žlutá černá",
+        "Duhová 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 106,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká hymna",
+      "options": [
+        "Kde domov můj",
+        "Hej pane zajíci",
+        "Prší prší 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 107,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje známý most v Praze",
+      "options": [
+        "Karlův most",
+        "Mostek u školy",
+        "Londýnský most 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 108,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje hrad v centru Prahy",
+      "options": [
+        "Pražský hrad",
+        "Karlštejn",
+        "Dům na stromě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 109,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město slavné perníkem",
+      "options": [
+        "Pardubice",
+        "Praha",
+        "Perníkov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 110,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město slavné pivem Prazdroj",
+      "options": [
+        "Plzeň",
+        "Brno",
+        "Limonádov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 111,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město pod Ještědem",
+      "options": [
+        "Liberec",
+        "Zlín",
+        "Kobercov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 112,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje moravské město s hradem Špilberk",
+      "options": [
+        "Brno",
+        "Olomouc",
+        "Sklep 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 113,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město s Velkou pardubickou",
+      "options": [
+        "Pardubice",
+        "Most",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 114,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje pohoří, kde leží Sněžka",
+      "options": [
+        "Krkonoše",
+        "Beskydy",
+        "Kopečky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 115,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje pohoří s horou Praděd",
+      "options": [
+        "Jeseníky",
+        "Šumava",
+        "Perník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 116,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český státní strom",
+      "options": [
+        "Lípa",
+        "Palma",
+        "Okurka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 117,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české lázeňské město",
+      "options": [
+        "Karlovy Vary",
+        "Ostrava",
+        "Vaflov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 118,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje historické město na Vltavě se zámkem",
+      "options": [
+        "Český Krumlov",
+        "Třebíč",
+        "Kostkov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 119,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město známé automobilkou Škoda",
+      "options": [
+        "Mladá Boleslav",
+        "Plzeň",
+        "Volantov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 120,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje stát na východ od Česka",
+      "options": [
+        "Slovensko",
+        "Německo",
+        "Afrika 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 121,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje stát na západ od Česka",
+      "options": [
+        "Německo",
+        "Polsko",
+        "Lednice 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 122,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje stát na jih od Česka",
+      "options": [
+        "Rakousko",
+        "Dánsko",
+        "Mars 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 123,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje stát na sever od Česka",
+      "options": [
+        "Polsko",
+        "Itálie",
+        "Kobliha 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 124,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český jazyk",
+      "options": [
+        "Čeština",
+        "Španělština",
+        "Žirafština 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 125,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Kolik barev má česká vlajka",
+      "options": [
+        "3",
+        "4",
+        "12 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 126,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké zvíře je ve státním znaku",
+      "options": [
+        "Lev",
+        "Medvěd",
+        "Dinosaurus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 127,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Jihomoravský",
+      "options": [
+        "Brno",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 128,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Jihočeský",
+      "options": [
+        "České Budějovice",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 129,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Moravskoslezský",
+      "options": [
+        "Ostrava",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 130,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Plzeňský",
+      "options": [
+        "Plzeň",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 131,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Liberecký",
+      "options": [
+        "Liberec",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 132,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Olomoucký",
+      "options": [
+        "Olomouc",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 133,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Pardubický",
+      "options": [
+        "Pardubice",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 134,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Královéhradecký",
+      "options": [
+        "Hradec Králové",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 135,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Zlínský",
+      "options": [
+        "Zlín",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 136,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Kraj Vysočina",
+      "options": [
+        "Jihlava",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 137,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Karlovarský",
+      "options": [
+        "Karlovy Vary",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 138,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jaké je krajské město pro Ústecký",
+      "options": [
+        "Ústí nad Labem",
+        "Praha",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 139,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom dub",
+      "options": [
+        "žalud",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 140,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom smrk",
+      "options": [
+        "šiška",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 141,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom jabloň",
+      "options": [
+        "jablko",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 142,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom hrušeň",
+      "options": [
+        "hruška",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 143,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom třešeň",
+      "options": [
+        "třešeň",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 144,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Co je typické pro strom bříza",
+      "options": [
+        "bílou kůru",
+        "žebra",
+        "křídla 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 145,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká řeka začínající na L",
+      "options": [
+        "Labe",
+        "Morava",
+        "Lžíce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 146,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká řeka začínající na V",
+      "options": [
+        "Vltava",
+        "Odra",
+        "Vafle 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 147,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká řeka začínající na M",
+      "options": [
+        "Morava",
+        "Labe",
+        "Marmeláda 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 148,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje pražská rozhledna podobná Eiffelovce",
+      "options": [
+        "Petřínská rozhledna",
+        "Ještěd",
+        "Lampa 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 149,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město s hradem Loket",
+      "options": [
+        "Loket",
+        "Brno",
+        "Lokomotiva 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 150,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město se slavnou kostnicí",
+      "options": [
+        "Kutná Hora",
+        "Most",
+        "Miska 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 151,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český hudební skladatel Bedřich",
+      "options": [
+        "Smetana",
+        "Janáček",
+        "Pudink 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 152,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český hudební skladatel Antonín",
+      "options": [
+        "Dvořák",
+        "Smetana",
+        "Kobliha 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 153,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český spisovatel Karel",
+      "options": [
+        "Čapek",
+        "Werich",
+        "Koloběžka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 154,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje první prezident Československa",
+      "options": [
+        "Tomáš Garrigue Masaryk",
+        "Václav Havel",
+        "Ferda 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 155,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje první prezident České republiky",
+      "options": [
+        "Václav Havel",
+        "Masaryk",
+        "Králík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 156,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český svátek s čerty a Mikulášem",
+      "options": [
+        "Mikuláš",
+        "Velikonoce",
+        "Pátek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 157,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje jarní svátek s pomlázkou",
+      "options": [
+        "Velikonoce",
+        "Silvestr",
+        "Prázdniny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 158,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zimní svátek se stromečkem",
+      "options": [
+        "Vánoce",
+        "Velikonoce",
+        "Úterý 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 159,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje poslední den v roce",
+      "options": [
+        "Silvestr",
+        "Štědrý den",
+        "Banán 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 160,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české pohoří na jihu",
+      "options": [
+        "Šumava",
+        "Krkonoše",
+        "Skříňava 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 161,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české pohoří na východě",
+      "options": [
+        "Beskydy",
+        "Šumava",
+        "Bábovky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 162,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje hora u Liberce s vysílačem",
+      "options": [
+        "Ještěd",
+        "Sněžka",
+        "Budík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 163,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje město slavné Baťou",
+      "options": [
+        "Zlín",
+        "Brno",
+        "Botník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 164,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká automobilka z Kopřivnice",
+      "options": [
+        "Tatra",
+        "Škoda",
+        "Přezka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 165,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká automobilka z Mladé Boleslavi",
+      "options": [
+        "Škoda",
+        "Tatra",
+        "Košík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 166,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český národní park na severu Čech",
+      "options": [
+        "České Švýcarsko",
+        "Pálava",
+        "Koupelna 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 167,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český národní park na jihu Čech",
+      "options": [
+        "Šumava",
+        "Podyjí",
+        "Kapsa 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 168,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje chráněná oblast s vinicemi na jihu Moravy",
+      "options": [
+        "Pálava",
+        "Beskydy",
+        "Plyšava 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 169,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město s letištěm Leoše Janáčka",
+      "options": [
+        "Ostrava",
+        "Praha",
+        "Koberec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 170,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město s velkým náměstím a sloupem Nejsvětější Trojice",
+      "options": [
+        "Olomouc",
+        "Plzeň",
+        "Moučník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 171,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české jezero na jihu",
+      "options": [
+        "Lipno",
+        "Máchovo jezero",
+        "Limonáda 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 172,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české korunovační město",
+      "options": [
+        "Praha",
+        "Brno",
+        "Krabice 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 173,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český reformátor Jan",
+      "options": [
+        "Hus",
+        "Žižka",
+        "Karbanátek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 174,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český vojevůdce Jan",
+      "options": [
+        "Žižka",
+        "Hus",
+        "Vysavač 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 175,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje český stát jedním slovem",
+      "options": [
+        "Česko",
+        "Morava",
+        "Pohádka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 176,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká mince menší než koruna",
+      "options": [
+        "Haléř",
+        "Eurocent",
+        "Kolečko 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 177,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje státní svátek 28. října",
+      "options": [
+        "Den vzniku samostatného československého státu",
+        "Den dětí",
+        "Den ponožek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 178,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město s orlojem na Staroměstském náměstí",
+      "options": [
+        "Praha",
+        "Olomouc",
+        "Batohov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 179,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje řeka, do které se vlévá Vltava",
+      "options": [
+        "Labe",
+        "Morava",
+        "Sirka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 180,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje známý hrad u Prahy",
+      "options": [
+        "Karlštejn",
+        "Loket",
+        "Stromek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 181,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kolik je ročních období",
+      "options": [
+        "4",
+        "3",
+        "12 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 182,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaké roční období je po létě",
+      "options": [
+        "Podzim",
+        "Jaro",
+        "Prázdniny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 183,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaké roční období je po zimě",
+      "options": [
+        "Jaro",
+        "Léto",
+        "Mikina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 184,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaké roční období je před létem",
+      "options": [
+        "Jaro",
+        "Podzim",
+        "Rohlík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 185,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaké roční období je nejchladnější",
+      "options": [
+        "Zima",
+        "Léto",
+        "Pondělí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 186,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co padá z mraků při dešti",
+      "options": [
+        "Déšť",
+        "Tráva",
+        "Špagety 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 187,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co padá z mraků v zimě",
+      "options": [
+        "Sníh",
+        "Písek",
+        "Bonbóny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 188,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co vzniká na obloze po dešti a slunci",
+      "options": [
+        "Duha",
+        "Mlýnek",
+        "Polévka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 189,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co svítí na obloze ve dne",
+      "options": [
+        "Slunce",
+        "Měsíc",
+        "Lednička 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 190,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co svítí na obloze v noci",
+      "options": [
+        "Měsíc",
+        "Slunce",
+        "Semafor 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 191,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaká barva je tráva",
+      "options": [
+        "Zelená",
+        "Modrá",
+        "Kostičkovaná 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 192,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaká barva je obloha za pěkného dne",
+      "options": [
+        "Modrá",
+        "Červená",
+        "Tečkovaná 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 193,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jaká barva bývá sníh",
+      "options": [
+        "Bílá",
+        "Černá",
+        "Pruhovaná 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 194,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co potřebují rostliny k růstu",
+      "options": [
+        "Vodu",
+        "Plast",
+        "Čokoládu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 195,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co potřebují rostliny ze slunce",
+      "options": [
+        "Světlo",
+        "Klobouk",
+        "Koloběžku 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 196,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co roste na jabloni",
+      "options": [
+        "Jablka",
+        "Hrušky",
+        "Míčky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 197,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co roste na hrušni",
+      "options": [
+        "Hrušky",
+        "Jablka",
+        "Ponožky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 198,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co roste na dubu",
+      "options": [
+        "Žaludy",
+        "Jablka",
+        "Koblížky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 199,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Co roste na smrku",
+      "options": [
+        "Šišky",
+        "Citrony",
+        "Baterky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 200,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Která část rostliny je pod zemí",
+      "options": [
+        "Kořen",
+        "Květ",
+        "Batoh 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 201,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Která část rostliny bývá barevná a voní",
+      "options": [
+        "Květ",
+        "Kořen",
+        "Klávesnice 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 202,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Která část stromu drží větve",
+      "options": [
+        "Kmen",
+        "Kořen",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 203,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kde teče řeka",
+      "options": [
+        "V korytě",
+        "Na stromě",
+        "V hrnci 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 204,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kde plave ryba",
+      "options": [
+        "Ve vodě",
+        "Na louce",
+        "V tašce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 205,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kde roste tráva",
+      "options": [
+        "Na louce",
+        "Na stropě",
+        "V lednici 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 206,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kde bydlí včely",
+      "options": [
+        "V úlu",
+        "V garáži",
+        "V batohu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 207,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kde bydlí mravenci",
+      "options": [
+        "V mraveništi",
+        "V akváriu",
+        "V kapse 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 208,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zmrzlá voda",
+      "options": [
+        "Led",
+        "Pára",
+        "Džus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 209,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje voda, která stoupá při vaření",
+      "options": [
+        "Pára",
+        "Led",
+        "Sirup 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 210,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje voda tekoucí z mraků",
+      "options": [
+        "Déšť",
+        "Sníh",
+        "Med 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 211,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Který strom je jehličnatý",
+      "options": [
+        "Smrk",
+        "Jabloň",
+        "Rohlík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 212,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Který strom je listnatý",
+      "options": [
+        "Dub",
+        "Smrk",
+        "Plyšák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 213,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kdy opadává listí nejvíc",
+      "options": [
+        "Na podzim",
+        "V létě",
+        "O velké přestávce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 214,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kdy kvetou první jarní květiny",
+      "options": [
+        "Na jaře",
+        "V zimě",
+        "O půlnoci 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 215,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Kdy bývá nejvíc horka",
+      "options": [
+        "V létě",
+        "V zimě",
+        "V prosinci 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 216,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje velmi silný vítr",
+      "options": [
+        "Vichřice",
+        "Vánek",
+        "Šepot 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 217,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje krátký záblesk při bouřce",
+      "options": [
+        "Blesk",
+        "Déšť",
+        "Bonbón 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 218,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje hlasitý zvuk po blesku",
+      "options": [
+        "Hrom",
+        "Šepot",
+        "Pípnutí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 219,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde je hodně stromů",
+      "options": [
+        "Les",
+        "Poušť",
+        "Garáž 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 220,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde je hodně písku a málo vody",
+      "options": [
+        "Poušť",
+        "Les",
+        "Obývák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 221,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje velká slaná voda",
+      "options": [
+        "Moře",
+        "Řeka",
+        "Čaj 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 222,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje velká tekoucí voda",
+      "options": [
+        "Řeka",
+        "Moře",
+        "Palačinka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 223,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje malá tekoucí voda",
+      "options": [
+        "Potok",
+        "Poušť",
+        "Kabel 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 224,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje voda obklopená pevninou",
+      "options": [
+        "Jezero",
+        "Řeka",
+        "Kufr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 225,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje žlutý květ na jaře",
+      "options": [
+        "Pampeliška",
+        "Růže",
+        "Lízátko 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 226,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje jarní květ často bílý",
+      "options": [
+        "Sněženka",
+        "Tulipán",
+        "Svítilna 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 227,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje květ, který se otáčí za sluncem",
+      "options": [
+        "Slunečnice",
+        "Růže",
+        "Vrtule 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 228,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje strom s červenými plody peckami",
+      "options": [
+        "Třešeň",
+        "Jabloň",
+        "Mikina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 229,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde rostou houby",
+      "options": [
+        "Les",
+        "Silnice",
+        "Televize 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 230,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje houba s červeným kloboukem a bílými tečkami",
+      "options": [
+        "Muchomůrka",
+        "Hřib",
+        "Muffin 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 231,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje jedlá houba s hnědým kloboukem",
+      "options": [
+        "Hřib",
+        "Muchomůrka",
+        "Lampa 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 232,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje období, kdy se příroda probouzí",
+      "options": [
+        "Jaro",
+        "Zima",
+        "Pátek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 233,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje období, kdy dozrává ovoce",
+      "options": [
+        "Léto",
+        "Zima",
+        "Pondělí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 234,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje období sklizně a barevného listí",
+      "options": [
+        "Podzim",
+        "Jaro",
+        "Mrazák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 235,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje období mrazu a sněhu",
+      "options": [
+        "Zima",
+        "Léto",
+        "Šuplík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 236,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje bílá studená hmota na cestě v zimě",
+      "options": [
+        "Sníh",
+        "Písek",
+        "Pudink 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 237,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje průhledná kapka na listech ráno",
+      "options": [
+        "Rosa",
+        "Pára",
+        "Kečup 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 238,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje lehký vítr",
+      "options": [
+        "Vánek",
+        "Vichřice",
+        "Školník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 239,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje mokrý oblak u země",
+      "options": [
+        "Mlha",
+        "Duha",
+        "Peřina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 240,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenují tvrdé ledové kuličky z bouřky",
+      "options": [
+        "Kroupy",
+        "Rohlíky",
+        "Pastelky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 241,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde hnízdí ptáci",
+      "options": [
+        "Hnízdo",
+        "Akvárium",
+        "Peněženka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 242,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje dům pro psa",
+      "options": [
+        "Bouda",
+        "Úl",
+        "Sešit 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 243,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje dům pro slepice",
+      "options": [
+        "Kurník",
+        "Stáj",
+        "Mikrovlnka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 244,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje dům pro koně",
+      "options": [
+        "Stáj",
+        "Bouda",
+        "Váza 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 245,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje dům pro krávy",
+      "options": [
+        "Chlév",
+        "Klec",
+        "Pec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 246,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje dům pro ptáky na zahradě",
+      "options": [
+        "Budka",
+        "Krabice",
+        "Sklenice 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 247,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde pěstujeme zeleninu",
+      "options": [
+        "Zahrada",
+        "Poušť",
+        "Garáž 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 248,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který pěstuje rostliny",
+      "options": [
+        "Zahradník",
+        "Pilot",
+        "Kouzelník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 249,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který se stará o pole",
+      "options": [
+        "Farmář",
+        "Pekař",
+        "Kosmonaut 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 250,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje stroj, který pomáhá na poli",
+      "options": [
+        "Traktor",
+        "Vlak",
+        "Toustovač 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 251,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje obilí na chléb",
+      "options": [
+        "Pšenice",
+        "Rýže",
+        "Čokoláda 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 252,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje obilí na ovesnou kaši",
+      "options": [
+        "Oves",
+        "Smrk",
+        "Koleno 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 253,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina zelená a dlouhá",
+      "options": [
+        "Okurka",
+        "Mrkev",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 254,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina červená a kulatá",
+      "options": [
+        "Rajče",
+        "Banán",
+        "Míč 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 255,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce žluté a zahnuté",
+      "options": [
+        "Banán",
+        "Jablko",
+        "Pravítko 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 256,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce oranžové a šťavnaté",
+      "options": [
+        "Pomeranč",
+        "Švestka",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 257,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce malé a modré",
+      "options": [
+        "Borůvka",
+        "Jahoda",
+        "Kladivo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 258,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce červené se semínky na povrchu",
+      "options": [
+        "Jahoda",
+        "Třešeň",
+        "Kostka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 259,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce, ze kterého se dělá švestkový koláč",
+      "options": [
+        "Švestka",
+        "Banán",
+        "Baterka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 260,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje ovoce tvrdé a často červené nebo zelené",
+      "options": [
+        "Jablko",
+        "Hrozny",
+        "Sáček 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 261,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina z níž bývá kaše",
+      "options": [
+        "Brambora",
+        "Citron",
+        "Harmonika 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 262,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina kulatá a slouží do salátu",
+      "options": [
+        "Salát",
+        "Květák",
+        "Měsíc 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 263,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina s bílou růžicí",
+      "options": [
+        "Květák",
+        "Okurka",
+        "Bota 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 264,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelenina zelená růžice podobná květáku",
+      "options": [
+        "Brokolice",
+        "Jablko",
+        "Míč 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 265,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sladká věc od včel",
+      "options": [
+        "Med",
+        "Sůl",
+        "Šroubek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 266,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje hmyz s barevnými křídly",
+      "options": [
+        "Motýl",
+        "Mravenec",
+        "Autobus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 267,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje pták, který klepe do stromu",
+      "options": [
+        "Datel",
+        "Sýkora",
+        "Budík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 268,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje voda, která padá jako drobné kapky",
+      "options": [
+        "Mrholení",
+        "Kroupy",
+        "Džem 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 269,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zelená část stromu nahoře",
+      "options": [
+        "Koruna",
+        "Kořen",
+        "Židle 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 270,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje část stromu pod zemí",
+      "options": [
+        "Kořen",
+        "Kmen",
+        "Talíř 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 271,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje oranžová zelenina rostoucí pod zemí",
+      "options": [
+        "Mrkev",
+        "Okurka",
+        "Míč 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 272,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje modré malé lesní ovoce",
+      "options": [
+        "Borůvka",
+        "Banán",
+        "Šroubek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 273,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje červené ovoce se zelenou stopkou",
+      "options": [
+        "Jahoda",
+        "Jablko",
+        "Poduška 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 274,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje plod dubu",
+      "options": [
+        "Žalud",
+        "Šiška",
+        "Knedlík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 275,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje plod smrku",
+      "options": [
+        "Šiška",
+        "Jablko",
+        "Tužka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 276,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje strom s bílou kůrou",
+      "options": [
+        "Bříza",
+        "Smrk",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 277,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje strom, ze kterého bývají kaštany",
+      "options": [
+        "Jírovec",
+        "Borovice",
+        "Mrazák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 278,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje jehličnatý strom používaný jako vánoční stromek",
+      "options": [
+        "Smrk",
+        "Dub",
+        "Klobouk 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 279,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje bílý květ, který vykukuje ze sněhu",
+      "options": [
+        "Sněženka",
+        "Růže",
+        "Palačinka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 280,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje mokrý oblak nad loukou ráno",
+      "options": [
+        "Mlha",
+        "Sníh",
+        "Těstoviny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 281,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik je dní v týdnu",
+      "options": [
+        "7",
+        "5",
+        "20 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 282,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik je měsíců v roce",
+      "options": [
+        "12",
+        "10",
+        "100 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 283,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik hodin má den",
+      "options": [
+        "24",
+        "12",
+        "60 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 284,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik minut má hodina",
+      "options": [
+        "60",
+        "30",
+        "200 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 285,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik sekund má minuta",
+      "options": [
+        "60",
+        "100",
+        "5 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 286,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jaký den je po pondělí",
+      "options": [
+        "Úterý",
+        "Neděle",
+        "Prázdniny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 287,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jaký den je před pátkem",
+      "options": [
+        "Čtvrtek",
+        "Úterý",
+        "Vánoce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 288,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jaký měsíc je po lednu",
+      "options": [
+        "Únor",
+        "Březen",
+        "Červenec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 289,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jaký měsíc je před prosincem",
+      "options": [
+        "Listopad",
+        "Říjen",
+        "Léto 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 290,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik má člověk očí",
+      "options": [
+        "2",
+        "3",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 291,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik má člověk nosů",
+      "options": [
+        "1",
+        "2",
+        "5 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 292,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik má člověk uší",
+      "options": [
+        "2",
+        "1",
+        "7 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 293,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik má člověk rukou",
+      "options": [
+        "2",
+        "4",
+        "9 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 294,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik má člověk nohou",
+      "options": [
+        "2",
+        "4",
+        "11 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 295,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co používáme na psaní",
+      "options": [
+        "Tužku",
+        "Lžíci",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 296,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co používáme na mazání tužky",
+      "options": [
+        "Gumu",
+        "Vidličku",
+        "Pantofel 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 297,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Do čeho píšeme ve škole",
+      "options": [
+        "Do sešitu",
+        "Do hrnce",
+        "Do ponožky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 298,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo učí ve škole",
+      "options": [
+        "Učitel",
+        "Pekař",
+        "Kosmonaut 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 299,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo léčí nemocné",
+      "options": [
+        "Lékař",
+        "Zedník",
+        "Králík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 300,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo hasí požár",
+      "options": [
+        "Hasič",
+        "Kuchař",
+        "Papoušek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 301,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo chytá zloděje",
+      "options": [
+        "Policista",
+        "Pošťák",
+        "Mrak 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 302,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo vozí dopisy",
+      "options": [
+        "Pošťák",
+        "Pekař",
+        "Krokodýl 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 303,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo peče chleba",
+      "options": [
+        "Pekař",
+        "Doktor",
+        "Klavír 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 304,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo opravuje auta",
+      "options": [
+        "Automechanik",
+        "Zahradník",
+        "Palačinka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 305,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kdo řídí autobus",
+      "options": [
+        "Řidič",
+        "Pilot",
+        "Ježek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 306,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím jezdí vlak",
+      "options": [
+        "Po kolejích",
+        "Po vodě",
+        "Po stropě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 307,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím létá letadlo",
+      "options": [
+        "Vzduchem",
+        "Po kolejích",
+        "Po trávě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 308,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím pluje loď",
+      "options": [
+        "Po vodě",
+        "Po silnici",
+        "Po střeše 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 309,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Na jakou barvu semaforu se stojí",
+      "options": [
+        "Červenou",
+        "Zelenou",
+        "Puntíkovanou 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 310,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Na jakou barvu semaforu se jde",
+      "options": [
+        "Zelenou",
+        "Červenou",
+        "Duhovou 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 311,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co si bereme do deště",
+      "options": [
+        "Deštník",
+        "Plavky",
+        "Hrábě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 312,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co si bereme v zimě",
+      "options": [
+        "Bundu",
+        "Plavky",
+        "Kolečkové brusle 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 313,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co nosíme na nohou",
+      "options": [
+        "Boty",
+        "Čepici",
+        "Hrnek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 314,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co nosíme na hlavě v zimě",
+      "options": [
+        "Čepici",
+        "Sandály",
+        "Talíř 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 315,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co děláme v noci",
+      "options": [
+        "Spíme",
+        "Snídáme",
+        "Lyžujeme po stropě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 316,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co děláme ráno po probuzení",
+      "options": [
+        "Vstáváme",
+        "Usínáme",
+        "Hibernujeme 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 317,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co děláme před jídlem",
+      "options": [
+        "Myjeme si ruce",
+        "Zavazujeme oči",
+        "Létáme 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 318,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím si čistíme zuby",
+      "options": [
+        "Kartáčkem",
+        "Vidličkou",
+        "Pilu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 319,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co pijeme, když máme žízeň",
+      "options": [
+        "Vodu",
+        "Písek",
+        "Šroubky 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 320,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co jíme ráno",
+      "options": [
+        "Snídani",
+        "Večeři",
+        "Druhou půlnoc 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 321,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co jíme v poledne",
+      "options": [
+        "Oběd",
+        "Snídani",
+        "Ponožku 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 322,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co jíme večer",
+      "options": [
+        "Večeři",
+        "Oběd",
+        "Stůl 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 323,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím měříme čas",
+      "options": [
+        "Hodinami",
+        "Pravítkem",
+        "Banánem 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 324,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím měříme délku",
+      "options": [
+        "Pravítkem",
+        "Hodinkami",
+        "Polévkou 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 325,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Čím měříme teplotu",
+      "options": [
+        "Teploměrem",
+        "Kladivem",
+        "Batůžkem 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 326,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Který předmět ukazuje směr",
+      "options": [
+        "Kompas",
+        "Sešit",
+        "Muffin 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 327,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje naše planeta",
+      "options": [
+        "Země",
+        "Mars",
+        "Rohlík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 328,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Která planeta je nejblíže Slunci",
+      "options": [
+        "Merkur",
+        "Jupiter",
+        "Pudink 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 329,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Co obíhá kolem Země",
+      "options": [
+        "Měsíc",
+        "Slunce",
+        "Autobus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 330,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje první měsíc v roce",
+      "options": [
+        "Leden",
+        "Únor",
+        "Středa 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 331,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje druhý měsíc v roce",
+      "options": [
+        "Únor",
+        "Březen",
+        "Sobota 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 332,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje měsíc s Vánocemi",
+      "options": [
+        "Prosinec",
+        "Květen",
+        "Pondělí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 333,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje měsíc po červenci",
+      "options": [
+        "Srpen",
+        "Září",
+        "Zmrzlina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 334,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje měsíc před dubnem",
+      "options": [
+        "Březen",
+        "Květen",
+        "Pánev 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 335,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje měsíc po září",
+      "options": [
+        "Říjen",
+        "Listopad",
+        "Paprika 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 336,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje den po neděli",
+      "options": [
+        "Pondělí",
+        "Sobota",
+        "Prázdniny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 337,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje den před úterým",
+      "options": [
+        "Pondělí",
+        "Středa",
+        "Léto 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 338,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje den po čtvrtku",
+      "options": [
+        "Pátek",
+        "Úterý",
+        "Silvestr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 339,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje poslední den v týdnu",
+      "options": [
+        "Neděle",
+        "Úterý",
+        "Bublina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 340,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik je pracovních dnů v běžném týdnu",
+      "options": [
+        "5",
+        "7",
+        "22 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 341,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik je víkendových dnů",
+      "options": [
+        "2",
+        "1",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 342,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik zubů má dospělý člověk obvykle",
+      "options": [
+        "32",
+        "20",
+        "60 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 343,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik prstů má člověk na jedné ruce",
+      "options": [
+        "5",
+        "4",
+        "9 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 344,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik prstů má člověk na obou rukou",
+      "options": [
+        "10",
+        "8",
+        "16 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 345,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Kolik prstů má člověk na jedné noze",
+      "options": [
+        "5",
+        "4",
+        "12 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 346,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde bydlíme",
+      "options": [
+        "Dům nebo byt",
+        "Kurník",
+        "Akvárium 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 347,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místnost, kde vaříme",
+      "options": [
+        "Kuchyň",
+        "Koupelna",
+        "Skříň 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 348,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místnost, kde se myjeme",
+      "options": [
+        "Koupelna",
+        "Garáž",
+        "Pískoviště 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 349,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místnost, kde spíme",
+      "options": [
+        "Ložnice",
+        "Sklep",
+        "Autobus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 350,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde kupujeme jídlo",
+      "options": [
+        "Obchod",
+        "Letiště",
+        "Knihovna 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 351,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde si půjčujeme knihy",
+      "options": [
+        "Knihovna",
+        "Bazén",
+        "Truhlík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 352,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde si děti hrají venku",
+      "options": [
+        "Hřiště",
+        "Komín",
+        "Trezor 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 353,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo, kde parkují auta",
+      "options": [
+        "Parkoviště",
+        "Louka",
+        "Postel 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 354,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo pro cestující ve vlaku",
+      "options": [
+        "Nádraží",
+        "Pec",
+        "Bota 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 355,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje místo pro letadla",
+      "options": [
+        "Letiště",
+        "Zahrada",
+        "Mísa 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 356,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který létá letadlem",
+      "options": [
+        "Pilot",
+        "Pekař",
+        "Pudink 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 357,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který stříhá vlasy",
+      "options": [
+        "Kadeřník",
+        "Policista",
+        "Tučňák 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 358,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který staví domy",
+      "options": [
+        "Stavitel",
+        "Lékař",
+        "Krab 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 359,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který maluje obrazy",
+      "options": [
+        "Malíř",
+        "Hasič",
+        "Salát 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 360,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který zpívá",
+      "options": [
+        "Zpěvák",
+        "Zedník",
+        "Strom 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 361,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který hraje divadlo",
+      "options": [
+        "Herec",
+        "Farmář",
+        "Hrnek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 362,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který prodává v obchodě",
+      "options": [
+        "Prodavač",
+        "Řidič",
+        "Bagr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 363,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který šije oblečení",
+      "options": [
+        "Švadlena",
+        "Pilot",
+        "Hruška 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 364,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který plave v závodech",
+      "options": [
+        "Plavec",
+        "Lyžař",
+        "Stůl 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 365,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který kope góly",
+      "options": [
+        "Fotbalista",
+        "Hokejista",
+        "Bambulka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 366,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport na ledě s pukem",
+      "options": [
+        "Hokej",
+        "Fotbal",
+        "Vysavač 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 367,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport s míčem a brankou na trávě",
+      "options": [
+        "Fotbal",
+        "Plavání",
+        "Šachy na střeše 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 368,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport ve vodě",
+      "options": [
+        "Plavání",
+        "Lyžování",
+        "Čtení 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 369,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport na sněhu s lyžemi",
+      "options": [
+        "Lyžování",
+        "Tenis",
+        "Pečení 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 370,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport s raketou a míčkem",
+      "options": [
+        "Tenis",
+        "Hokej",
+        "Pletení 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 371,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport, kde jezdíme na kole",
+      "options": [
+        "Cyklistika",
+        "Šerm",
+        "Spánek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 372,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje sport, kde běháme rychle",
+      "options": [
+        "Atletika",
+        "Šachy",
+        "Kreslení 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 373,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje svátek s dárky a stromečkem",
+      "options": [
+        "Vánoce",
+        "Velikonoce",
+        "Pátek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 374,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje svátek s vajíčky a pomlázkou",
+      "options": [
+        "Velikonoce",
+        "Silvestr",
+        "Léto 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 375,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje předmět, na kterém sedíme",
+      "options": [
+        "Židle",
+        "Talíř",
+        "Tužka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 376,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje předmět, na kterém spíme",
+      "options": [
+        "Postel",
+        "Lopatka",
+        "Volant 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 377,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje předmět, na kterém jíme",
+      "options": [
+        "Stůl",
+        "Kolo",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 378,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je těžší kilo peří nebo kilo železa",
+      "options": [
+        "Stejně",
+        "Kilo železa",
+        "Kilo peří 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 379,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má ručičky ale není to člověk",
+      "options": [
+        "Hodiny",
+        "Pes",
+        "Stůl 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 380,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má zuby ale nekouše",
+      "options": [
+        "Hřeben",
+        "Lev",
+        "Pes 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 381,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co roste ale není živé",
+      "options": [
+        "Nehty",
+        "Kámen",
+        "Talíř 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 382,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má hlavu a ocas ale není to zvíře",
+      "options": [
+        "Mince",
+        "Pes",
+        "Mrkev 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 383,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co se rozbije když to vyslovíš",
+      "options": [
+        "Ticho",
+        "Sklenice",
+        "Polévka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 384,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má oko ale nevidí",
+      "options": [
+        "Jehla",
+        "Kočka",
+        "Okno 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 385,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má krk ale nemá hlavu",
+      "options": [
+        "Láhev",
+        "Žirafa",
+        "Skříň 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 386,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má klíč ale neotevře dveře",
+      "options": [
+        "Klavír",
+        "Auto",
+        "Pec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 387,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co může běžet ale nemá nohy",
+      "options": [
+        "Voda",
+        "Pes",
+        "Autobus 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 388,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co můžeš chytit ale nemůžeš hodit",
+      "options": [
+        "Nachlazení",
+        "Míč",
+        "Ponožku 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 389,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co letí ale nemá křídla",
+      "options": [
+        "Čas",
+        "Vrabec",
+        "Letadlo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 390,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je vždy před tebou ale nevidíš to",
+      "options": [
+        "Budoucnost",
+        "Boty",
+        "Strom 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 391,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má město ale nemá domy",
+      "options": [
+        "Mapa",
+        "Les",
+        "Louže 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 392,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má jazyk ale nemluví",
+      "options": [
+        "Boty",
+        "Pes",
+        "Mravenec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 393,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má srdce ale nebijí",
+      "options": [
+        "Karty",
+        "Člověk",
+        "Bubínek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 394,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má uši ale neslyší",
+      "options": [
+        "Hrnec",
+        "Kočka",
+        "Králík 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 395,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má hodně zubů ale nejí",
+      "options": [
+        "Pila",
+        "Krokodýl",
+        "Tygr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 396,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co má díry ale drží vodu",
+      "options": [
+        "Houba",
+        "Síto",
+        "Cedník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 397,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je čím víc bereš tím větší",
+      "options": [
+        "Díra",
+        "Buchta",
+        "Batoh 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 398,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které číslo je větší 8 nebo 6",
+      "options": [
+        "8",
+        "6",
+        "Židle 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 399,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které číslo je menší 3 nebo 5",
+      "options": [
+        "3",
+        "5",
+        "Klobouk 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 400,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které číslo je mezi 4 a 6",
+      "options": [
+        "5",
+        "7",
+        "10 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 401,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik rohů má čtverec",
+      "options": [
+        "4",
+        "3",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 402,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik stran má trojúhelník",
+      "options": [
+        "3",
+        "4",
+        "9 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 403,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik stran má obdélník",
+      "options": [
+        "4",
+        "3",
+        "15 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 404,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik je polovina z 10",
+      "options": [
+        "5",
+        "2",
+        "20 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 405,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik je dvojnásobek 4",
+      "options": [
+        "8",
+        "6",
+        "44 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 406,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co přijde po čísle 99",
+      "options": [
+        "100",
+        "98",
+        "Banán 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 407,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co přijde před číslem 20",
+      "options": [
+        "19",
+        "21",
+        "Okurka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 408,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova nahoře",
+      "options": [
+        "Dole",
+        "Vedle",
+        "Pudink 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 409,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova vlevo",
+      "options": [
+        "Vpravo",
+        "Dole",
+        "Za skříní 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 410,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova rychle",
+      "options": [
+        "Pomalu",
+        "Nahlas",
+        "Kulatě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 411,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova dlouhý",
+      "options": [
+        "Krátký",
+        "Tenký",
+        "Zelený 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 412,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova plný",
+      "options": [
+        "Prázdný",
+        "Těžký",
+        "Křivý 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 413,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova teplý",
+      "options": [
+        "Studený",
+        "Mokrý",
+        "Bublinový 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 414,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Který tvar je kulatý",
+      "options": [
+        "Kruh",
+        "Čtverec",
+        "Koberec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 415,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Který tvar má tři rohy",
+      "options": [
+        "Trojúhelník",
+        "Kruh",
+        "Polštář 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 416,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Který tvar má čtyři stejné strany",
+      "options": [
+        "Čtverec",
+        "Trojúhelník",
+        "Perník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 417,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co do řady nepatří jablko hruška pes",
+      "options": [
+        "Pes",
+        "Jablko",
+        "Hruška 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 418,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co do řady nepatří mrkev okurka židle",
+      "options": [
+        "Židle",
+        "Mrkev",
+        "Okurka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 419,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co do řady nepatří auto vlak banán",
+      "options": [
+        "Banán",
+        "Auto",
+        "Vlak 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 420,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co do řady nepatří pondělí úterý jablko",
+      "options": [
+        "Jablko",
+        "Pondělí",
+        "Úterý 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 421,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co do řady nepatří pes kočka stůl",
+      "options": [
+        "Stůl",
+        "Pes",
+        "Kočka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 422,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které slovo je nejdelší had pes kůň",
+      "options": [
+        "Had",
+        "Pes",
+        "Kůň 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 423,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které slovo je nejkratší slon pes velryba",
+      "options": [
+        "Pes",
+        "Slon",
+        "Velryba 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 424,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik je sudých čísel mezi 1 a 4",
+      "options": [
+        "2",
+        "3",
+        "9 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 425,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik je lichých čísel mezi 1 a 5",
+      "options": [
+        "3",
+        "2",
+        "11 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 426,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik dní jsou dva týdny",
+      "options": [
+        "14",
+        "12",
+        "77 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 427,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik měsíců jsou dva roky",
+      "options": [
+        "24",
+        "20",
+        "200 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 428,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když máš 3 jablka a jedno sníš kolik zbudou",
+      "options": [
+        "2",
+        "3",
+        "7 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 429,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když máš 5 bonbonů a dva dáš kolik zbudou",
+      "options": [
+        "3",
+        "2",
+        "9 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 430,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když dvě kočky chytí dvě myši za dvě minuty kolik koček chytí jednu myš za dvě minuty",
+      "options": [
+        "1",
+        "2",
+        "10 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 431,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně ráno je před polednem",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen v neděli 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 432,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně noc je po večeru",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen o Vánocích 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 433,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně středa je po úterý",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen v létě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 434,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně červenec je před červnem",
+      "options": [
+        "Ne",
+        "Ano",
+        "Jen ve snu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 435,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně trojúhelník má tři strany",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen když chce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 436,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně kruh má rohy",
+      "options": [
+        "Ne",
+        "Ano",
+        "Jen dva 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 437,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně ryba umí létat",
+      "options": [
+        "Ne",
+        "Ano",
+        "Jen v raketě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 438,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně pták má křídla",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen ve škole 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 439,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně voda je mokrá",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen v pondělí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 440,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je správně led je teplý",
+      "options": [
+        "Ne",
+        "Ano",
+        "Jen v troubě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 441,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je dřív snídaně nebo večeře",
+      "options": [
+        "Snídaně",
+        "Večeře",
+        "Obě najednou 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 442,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je dřív jaro nebo léto",
+      "options": [
+        "Jaro",
+        "Léto",
+        "Víkend 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 443,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je dřív pondělí nebo pátek",
+      "options": [
+        "Pondělí",
+        "Pátek",
+        "Silvestr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 444,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je větší 10 nebo 12",
+      "options": [
+        "12",
+        "10",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 445,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je menší 7 nebo 9",
+      "options": [
+        "7",
+        "9",
+        "Mrak 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 446,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je blíž k úterý pondělí nebo středa",
+      "options": [
+        "Pondělí i středa stejně",
+        "Pondělí",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 447,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik noh má člověk a pes dohromady",
+      "options": [
+        "6",
+        "4",
+        "12 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 448,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik očí mají dva lidé dohromady",
+      "options": [
+        "4",
+        "2",
+        "10 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 449,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik kol má auto",
+      "options": [
+        "4",
+        "2",
+        "17 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 450,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik kol mají dvě kola dohromady",
+      "options": [
+        "4",
+        "2",
+        "8 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 451,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když je dnes středa jaký den bude zítra",
+      "options": [
+        "Čtvrtek",
+        "Úterý",
+        "Neděle 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 452,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když je dnes sobota jaký den byl včera",
+      "options": [
+        "Pátek",
+        "Neděle",
+        "Čtvrtek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 453,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když je dnes leden jaký měsíc bude potom",
+      "options": [
+        "Únor",
+        "Prosinec",
+        "Červenec 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 454,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když máš jednu botu kolik ti chybí do páru",
+      "options": [
+        "1",
+        "2",
+        "5 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 455,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když máš jedno kolo kolik kol chybí do auta",
+      "options": [
+        "3",
+        "4",
+        "10 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 456,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Když má pes čtyři nohy a jedna je ve vzduchu kolik stojí na zemi",
+      "options": [
+        "3",
+        "4",
+        "1 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 457,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik prstů mají dvě ruce dohromady",
+      "options": [
+        "10",
+        "8",
+        "20 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 458,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je kulaté a ukazuje čas",
+      "options": [
+        "Hodiny",
+        "Pravítko",
+        "Boty 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 459,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří do penálu",
+      "options": [
+        "Tužka",
+        "Talíř",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 460,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří do koupelny",
+      "options": [
+        "Kartáček",
+        "Volant",
+        "Plot 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 461,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří do kuchyně",
+      "options": [
+        "Hrnec",
+        "Lyže",
+        "Přilba 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 462,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří na hřiště",
+      "options": [
+        "Míč",
+        "Polévka",
+        "Žehlička 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 463,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří do lednice",
+      "options": [
+        "Jídlo",
+        "Sešit",
+        "Bagr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 464,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří na nohy",
+      "options": [
+        "Boty",
+        "Rukavice",
+        "Čepice 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 465,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří na ruce v zimě",
+      "options": [
+        "Rukavice",
+        "Sandály",
+        "Lžíce 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 466,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co patří na hlavu v dešti",
+      "options": [
+        "Kapuce",
+        "Ponožka",
+        "Vidlička 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 467,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které číslo je sudé 4 nebo 5",
+      "options": [
+        "4",
+        "5",
+        "Perník 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 468,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které číslo je liché 6 nebo 7",
+      "options": [
+        "7",
+        "6",
+        "Strom 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 469,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je méně 0 nebo 1",
+      "options": [
+        "0",
+        "1",
+        "Kolo 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 470,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Které je víc 99 nebo 100",
+      "options": [
+        "100",
+        "99",
+        "Peřina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 471,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik písmen má slovo pes",
+      "options": [
+        "3",
+        "2",
+        "10 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 472,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Kolik písmen má slovo kočka",
+      "options": [
+        "6",
+        "5",
+        "20 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 473,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je správně půlka z osmi je čtyři",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen ve středu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 474,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je správně čtverec má čtyři rohy",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen někdy 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 475,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je správně obdélník je kulatý",
+      "options": [
+        "Ne",
+        "Ano",
+        "Po nafouknutí 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 476,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je správně tři je méně než pět",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen o víkendu 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 477,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je správně deset je více než devět",
+      "options": [
+        "Ano",
+        "Ne",
+        "Jen v zimě 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 478,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zvíře s chobotem",
+      "options": [
+        "Slon",
+        "Kůň",
+        "Kufr 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 479,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zvíře s pruhy",
+      "options": [
+        "Zebra",
+        "Koza",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 480,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zvíře s dlouhým krkem",
+      "options": [
+        "Žirafa",
+        "Kočka",
+        "Banán 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 481,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje mládě kočky",
+      "options": [
+        "Kotě",
+        "Tele",
+        "Bublina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 482,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje mládě psa",
+      "options": [
+        "Štěně",
+        "Kotě",
+        "Pastelka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 483,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město slavné perníkem",
+      "options": [
+        "Pardubice",
+        "Brno",
+        "Kobercov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 484,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město pod hradem Špilberk",
+      "options": [
+        "Brno",
+        "Olomouc",
+        "Hrncov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 485,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město s Karlovým mostem",
+      "options": [
+        "Praha",
+        "Plzeň",
+        "Peřinov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 486,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje česká řeka v hlavním městě",
+      "options": [
+        "Vltava",
+        "Labe",
+        "Vanilka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 487,
+      "category": "ČR",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje české město s pražským hradem",
+      "options": [
+        "Praha",
+        "Brno",
+        "Sklenicov 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 488,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje květina, která se otáčí za sluncem",
+      "options": [
+        "Slunečnice",
+        "Růže",
+        "Vrtule 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 489,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje bílý jarní květ",
+      "options": [
+        "Sněženka",
+        "Růže",
+        "Košile 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 490,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje oranžové ovoce s kůrou",
+      "options": [
+        "Pomeranč",
+        "Švestka",
+        "Ponožka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 491,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje malé modré ovoce v lese",
+      "options": [
+        "Borůvka",
+        "Banán",
+        "Baterka 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 492,
+      "category": "příroda",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje strom s žaludy",
+      "options": [
+        "Dub",
+        "Smrk",
+        "Mikina 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 493,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje věc na nohou v zimě",
+      "options": [
+        "Boty",
+        "Čepice",
+        "Talíř 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 494,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje věc na hlavě v zimě",
+      "options": [
+        "Čepice",
+        "Boty",
+        "Hodiny 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 495,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který hasí požáry",
+      "options": [
+        "Hasič",
+        "Pekař",
+        "Drak 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 496,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který učí děti",
+      "options": [
+        "Učitel",
+        "Pilot",
+        "Ježek 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 497,
+      "category": "svět",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje člověk, který vozí dopisy",
+      "options": [
+        "Pošťák",
+        "Kadeřník",
+        "Robot 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 498,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova studený",
+      "options": [
+        "Teplý",
+        "Dlouhý",
+        "Modrý 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 499,
+      "category": "logika",
+      "difficulty": "easy",
+      "question": "Co je opak slova krátký",
+      "options": [
+        "Dlouhý",
+        "Malý",
+        "Kulatý 😄"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 500,
+      "category": "zvířata",
+      "difficulty": "easy",
+      "question": "Jak se jmenuje zvíře, které dává mléko",
+      "options": [
+        "Kráva",
+        "Žába",
+        "Autobus 😄"
+      ],
+      "correct_index": 0
+    }
+  ]
+}

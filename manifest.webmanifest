@@ -1,7 +1,7 @@
 {
-  "name": "Dětský kvíz",
-  "short_name": "Kvíz",
-  "description": "PWA kvíz s lehčí a těžší sadou otázek.",
+  "name": "Učící dobrodružství",
+  "short_name": "Králíček",
+  "description": "PWA hra, ve které dítě otázkami pomáhá uzdravit králíčka.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#fff4cf",

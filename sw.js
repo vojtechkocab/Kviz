@@ -1,13 +1,18 @@
-const CACHE_NAME = "detsky-kviz-v1";
+const CACHE_NAME = "kralicek-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
-  "./kviz_otazky_pro_aplikaci.json",
+  "./matematika_400_pro_deti_upraveno.json",
+  "./TOP_500_dataset_OPRAVENY.json",
   "./assets/rabbit-sick.png",
   "./assets/rabbit-win.mp4",
+  "./assets/rabbit-01.mp4",
+  "./assets/rabbit-02.mp4",
+  "./assets/rabbit-03.mp4",
+  "./assets/rabbit-04.mp4",
   "./icons/icon.svg",
   "./icons/apple-touch-icon.svg",
   "./icons/maskable-icon.svg",

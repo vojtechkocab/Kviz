@@ -3,187 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ff8d6a" />
+    <meta name="theme-color" content="#ffe7cf" />
     <meta
       name="description"
-      content="Kvíz, ve kterém dítě pomáhá uzdravit králíčka pomocí správných odpovědí."
+      content="Výuková PWA hra pro děti: otázkami pomáháš uzdravit králíčka."
     />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Králíčkův kvíz</title>
+    <title>Učící dobrodružství</title>
   </head>
   <body>
-    <div class="app-shell">
-      <main class="card" id="app" aria-live="polite">
-        <section class="screen screen-active" data-screen="welcome">
-          <p class="eyebrow">Péče o králíčka</p>
-          <div class="hero">
-            <div>
-              <h1>Zachraň králíčka</h1>
-              <p class="lead">
-                Na začátku je králíček nemocný. Za každou správnou odpověď dostane
-                sílu a bude zdravější. Cílem je získat 100 bodů dřív, než přijdou
-                tři chyby.
-              </p>
-              <ul class="intro-list">
-                <li>Správná odpověď: +5 bodů</li>
-                <li>3 správně po sobě: bonus +15 bodů</li>
-                <li>3 správně do 10 sekund: další bonus +15 bodů</li>
-              </ul>
-            </div>
-            <div class="rabbit-hero" aria-hidden="true">
-              <img
-                class="rabbit-photo"
-                src="./assets/rabbit-sick.png"
-                alt="Nemocný králíček s chladivým obkladem"
-              />
-              <p class="rabbit-note">Nemocný, ale statečný</p>
-            </div>
-          </div>
-
-          <div class="choice-grid" id="packChoices"></div>
-
-          <button class="primary-button" id="goToQuestionCount" disabled>
-            Pokračovat
+    <main class="phone-app" id="app" aria-live="polite">
+      <section class="screen is-active" data-screen="grade">
+        <p class="eyebrow">Učící dobrodružství</p>
+        <h1>Vyber ročník</h1>
+        <p class="lead">Zatím je připravený 3. ročník. Další ročníky půjdou později snadno přidat.</p>
+        <div class="choice-list">
+          <button class="choice-card" data-grade="3">
+            <span>3. ročník</span>
+            <small>Matika, přírodověda a ostatní otázky</small>
           </button>
-        </section>
+        </div>
+      </section>
 
-        <section class="screen" data-screen="count">
-          <p class="eyebrow">Krok 2</p>
-          <h2>Kolik otázek chceš?</h2>
-          <p class="lead" id="selectedPackLabel"></p>
+      <section class="screen" data-screen="subject">
+        <p class="eyebrow">3. ročník</p>
+        <h1>Vyber předmět</h1>
+        <div class="choice-list" id="subjectChoices"></div>
+        <button class="ghost-button" data-action="home">Zpět na ročníky</button>
+      </section>
 
-          <div class="choice-grid compact" id="questionCountChoices"></div>
+      <section class="screen" data-screen="mode">
+        <p class="eyebrow" id="selectedSubjectLabel">Vybraný předmět</p>
+        <h1>Vyber hru</h1>
+        <div class="choice-list">
+          <button class="choice-card" data-mode="heal-rabbit">
+            <span>Uzdrav králíčka</span>
+            <small>Pomáhej králíčkovi správnými odpověďmi.</small>
+          </button>
+        </div>
+        <button class="ghost-button" data-screen-target="subject">Zpět na předměty</button>
+      </section>
 
-          <div class="button-row">
-            <button class="primary-button" id="goToCategory" disabled>
-              Pokračovat
-            </button>
-            <button class="secondary-button" data-action="back-to-welcome">
-              Zpět
-            </button>
+      <section class="screen" data-screen="description">
+        <p class="eyebrow">Uzdrav králíčka</p>
+        <h1>Jak se hraje?</h1>
+        <p class="lead">
+          Na začátku hry je králíček nemocný. Za každou správnou odpověď dostane sílu.
+          Podaří se Ti ho uzdravit, než přijdeš o tři životy?
+        </p>
+        <div class="rabbit-photo-card">
+          <img src="./assets/rabbit-sick.png" alt="Nemocný králíček" />
+        </div>
+        <div class="decision-panel">
+          <h2>Jdeme na to?</h2>
+          <button class="primary-button" data-action="start-intro">ANO</button>
+          <button class="secondary-button" data-action="home">NE</button>
+        </div>
+      </section>
+
+      <section class="screen video-screen" data-screen="video">
+        <video id="storyVideo" class="story-video" playsinline preload="metadata"></video>
+        <button class="ghost-button video-skip" data-action="skip-video">Přeskočit video</button>
+      </section>
+
+      <section class="screen" data-screen="rabbit-prompt">
+        <p class="eyebrow" id="promptStageLabel">Králíček prosí o pomoc</p>
+        <div class="rabbit-bubble" id="rabbitBubble">🐰</div>
+        <h1 id="rabbitPromptTitle">Pomůžeš mi?</h1>
+        <p class="lead" id="rabbitPromptText"></p>
+        <div class="decision-panel">
+          <button class="primary-button" data-action="confirm-rabbit-help">ANO</button>
+          <button class="secondary-button" data-action="home">NE</button>
+        </div>
+      </section>
+
+      <section class="screen game-screen" data-screen="quiz">
+        <header class="game-hud">
+          <div class="hud-box">
+            <span>Životy</span>
+            <strong id="livesLabel">❤️❤️❤️</strong>
           </div>
-        </section>
-
-        <section class="screen" data-screen="category">
-          <p class="eyebrow">Krok 3</p>
-          <h2>Jaké otázky chceš?</h2>
-          <p class="lead" id="selectedQuizSetupLabel"></p>
-
-          <div class="choice-grid" id="categoryChoices"></div>
-
-          <div class="button-row">
-            <button class="primary-button" id="startQuiz" disabled>
-              Spustit hru
-            </button>
-            <button class="secondary-button" data-action="back-to-count">
-              Zpět
-            </button>
+          <div class="hud-box right">
+            <span>Body</span>
+            <strong id="scoreLabel">0/100</strong>
           </div>
-        </section>
+        </header>
 
-        <section class="screen" data-screen="quiz">
-          <div class="care-status">
-            <div class="rabbit-panel">
-              <div class="rabbit-avatar" id="rabbitAvatar" aria-hidden="true">🤒🐰</div>
-              <div>
-                <p class="eyebrow">Stav králíčka</p>
-                <h2 id="rabbitStateLabel">Nemocný králíček</h2>
-                <p class="lead compact" id="rabbitStateText">
-                  Odpovídej správně, ať se mu vrátí síla.
-                </p>
-              </div>
-            </div>
+        <div class="phase-progress">
+          <span id="phaseLabel">Léčení 1/3</span>
+          <div class="progress-track"><div id="scoreFill" class="progress-fill"></div></div>
+        </div>
 
-            <div class="status-grid">
-              <div class="status-pill">
-                <span>Body</span>
-                <strong id="scoreLabel">0 / 100</strong>
-              </div>
-              <div class="status-pill">
-                <span>Životy</span>
-                <strong id="livesLabel">❤️❤️❤️</strong>
-              </div>
-              <div class="status-pill">
-                <span>Série</span>
-                <strong id="streakLabel">0</strong>
-              </div>
-            </div>
-          </div>
+        <article class="question-card">
+          <p class="question-count" id="questionCounter">Otázka 1</p>
+          <h1 id="questionText">Otázka</h1>
+        </article>
 
-          <div class="progress-track" aria-hidden="true">
-            <div class="progress-fill" id="progressFill"></div>
-          </div>
+        <div class="answers" id="answers"></div>
+        <p class="feedback" id="feedback" hidden></p>
+      </section>
 
-          <div class="quiz-topbar">
-            <div>
-              <p class="eyebrow">Otázka <span id="questionIndex">1</span></p>
-              <p class="pack-chip" id="quizPackName"></p>
-            </div>
-            <div class="score-pill" id="timerLabel">Čas na bonus: 10.0 s</div>
-          </div>
+      <section class="screen" data-screen="fail">
+        <p class="eyebrow">Králíček potřebuje další pokus</p>
+        <div class="rabbit-bubble">🤒🐰</div>
+        <h1>Teď se to nepovedlo</h1>
+        <p class="lead">Došly tři životy. Králíček se ještě neuzdravil, ale můžeš to zkusit znovu.</p>
+        <button class="primary-button" data-action="restart-game">Zkusit znovu</button>
+        <button class="ghost-button" data-action="home">Zpět na začátek</button>
+      </section>
 
-          <h2 id="questionText"></h2>
-          <div class="answers" id="answers"></div>
-          <p class="feedback" id="feedback" hidden></p>
+      <section class="screen" data-screen="complete">
+        <p class="eyebrow">Králíček je zdravý</p>
+        <div class="rabbit-bubble celebration">🐰✨</div>
+        <h1>Děkuji za uzdravení!</h1>
+        <p class="lead">Pomohl/a jsi králíčkovi projít celým léčením. Teď už je veselý a zdravý.</p>
+        <button class="primary-button" data-action="home">Zpět na začátek</button>
+      </section>
 
-          <div class="button-row">
-            <button class="primary-button" id="nextQuestion" disabled>
-              Další otázka
-            </button>
-            <button class="secondary-button" data-action="restart">
-              Nová hra
-            </button>
-          </div>
-        </section>
-
-        <section class="screen" data-screen="result">
-          <p class="eyebrow">Výsledek</p>
-          <div class="result-hero">
-            <div class="result-rabbit" id="resultRabbit" aria-hidden="true">🐰</div>
-            <div>
-              <h2 id="resultHeading"></h2>
-              <p class="lead" id="resultSummary"></p>
-            </div>
-          </div>
-
-          <div class="result-card">
-            <p>Body: <strong id="finalScore"></strong></p>
-            <p>Zbývající životy: <strong id="finalLives"></strong></p>
-            <p>Nejdelší série: <strong id="finalStreak"></strong></p>
-            <p>Stav králíčka: <strong id="finalRating"></strong></p>
-          </div>
-
-          <div class="result-media" id="resultMedia" hidden>
-            <video
-              id="winVideo"
-              class="win-video"
-              controls
-              playsinline
-              preload="metadata"
-            >
-              <source src="./assets/rabbit-win.mp4" type="video/mp4" />
-              Váš prohlížeč neumí přehrát toto video.
-            </video>
-          </div>
-
-          <div class="button-row">
-            <button class="secondary-button" data-action="restart">
-              Hrát znovu
-            </button>
-            <button class="primary-button" data-action="back-to-welcome">
-              Změnit výběr
-            </button>
-          </div>
-        </section>
-      </main>
-    </div>
-
-    <template id="choiceButtonTemplate">
-      <button class="choice-button" type="button"></button>
-    </template>
+      <div class="bonus-pop" id="bonusPop" hidden></div>
+    </main>
 
     <script type="module" src="./app.js"></script>
   </body>
