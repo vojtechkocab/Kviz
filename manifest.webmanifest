@@ -1,11 +1,11 @@
 {
-  "name": "Učící dobrodružství",
-  "short_name": "Králíček",
-  "description": "PWA hra, ve které dítě otázkami pomáhá uzdravit králíčka.",
+  "name": "Hrátky pro předškoláky",
+  "short_name": "Hrátky",
+  "description": "Obrázkové úkoly pro předškoláky s pomalým českým čtením zadání.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#fff4cf",
-  "theme_color": "#ff7a18",
+  "background_color": "#fffdf6",
+  "theme_color": "#7cc7b5",
   "lang": "cs-CZ",
   "icons": [
     {
