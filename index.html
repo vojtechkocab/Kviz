@@ -2,70 +2,134 @@
 <html lang="cs">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#7cc7b5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffe7cf" />
     <meta
       name="description"
-      content="Obrázková PWA aplikace s mluvenými úkoly pro předškoláky."
+      content="Výuková PWA hra pro děti: otázkami pomáháš uzdravit králíčka."
     />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Hrátky pro předškoláky</title>
+    <title>Učící dobrodružství</title>
   </head>
   <body>
-    <main class="app-shell" id="app">
-      <section class="topbar" aria-label="Ovládání">
-        <button class="icon-button" id="homeButton" type="button" aria-label="Domů">
-          <span aria-hidden="true">⌂</span>
-        </button>
-        <div class="progress" aria-label="Postup">
-          <div class="progress-track">
-            <div class="progress-fill" id="progressFill"></div>
+    <main class="phone-app" id="app" aria-live="polite">
+      <section class="screen is-active" data-screen="grade">
+        <p class="eyebrow">Učící dobrodružství</p>
+        <h1>Vyber ročník</h1>
+        <p class="lead">Zatím je připravený 3. ročník. Další ročníky půjdou později snadno přidat.</p>
+        <div class="choice-list">
+          <button class="choice-card" data-grade="3">
+            <span>3. ročník</span>
+            <small>Matika, přírodověda a ostatní otázky</small>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="subject">
+        <p class="eyebrow">3. ročník</p>
+        <h1>Vyber předmět</h1>
+        <div class="choice-list" id="subjectChoices"></div>
+        <button class="ghost-button" data-action="home">Zpět na ročníky</button>
+      </section>
+
+      <section class="screen" data-screen="mode">
+        <p class="eyebrow" id="selectedSubjectLabel">Vybraný předmět</p>
+        <h1>Vyber hru</h1>
+        <div class="choice-list">
+          <button class="choice-card" data-mode="heal-rabbit">
+            <span>Uzdrav králíčka</span>
+            <small>Pomáhej králíčkovi správnými odpověďmi.</small>
+          </button>
+        </div>
+        <button class="ghost-button" data-screen-target="subject">Zpět na předměty</button>
+      </section>
+
+      <section class="screen" data-screen="description">
+        <p class="eyebrow">Uzdrav králíčka</p>
+        <h1>Jak se hraje?</h1>
+        <p class="lead">
+          Na začátku hry je králíček nemocný. Za každou správnou odpověď dostane sílu.
+          Podaří se Ti ho uzdravit, než přijdeš o tři životy?
+        </p>
+        <div class="rabbit-photo-card">
+          <img src="./assets/rabbit-sick.png" alt="Nemocný králíček" />
+        </div>
+        <div class="decision-panel">
+          <h2>Jdeme na to?</h2>
+          <button class="primary-button" data-action="start-intro">ANO</button>
+          <button class="secondary-button" data-action="home">NE</button>
+        </div>
+      </section>
+
+      <section class="screen video-screen" data-screen="video">
+        <video id="storyVideo" class="story-video" playsinline preload="metadata"></video>
+        <button class="ghost-button video-skip" data-action="skip-video">Přeskočit video</button>
+      </section>
+
+      <section class="screen" data-screen="rabbit-prompt">
+        <p class="eyebrow" id="promptStageLabel">Králíček prosí o pomoc</p>
+        <div class="rabbit-image-panel">
+          <img id="rabbitPromptImage" src="./assets/rabbit-prompt-01.png" alt="Králíček prosí o pomoc" />
+        </div>
+        <h1 id="rabbitPromptTitle">Pomůžeš mi?</h1>
+        <p class="lead" id="rabbitPromptText"></p>
+        <div class="decision-panel">
+          <button class="primary-button" data-action="confirm-rabbit-help">ANO</button>
+          <button class="secondary-button" data-action="home">NE</button>
+        </div>
+      </section>
+
+      <section class="screen game-screen" data-screen="quiz">
+        <header class="game-hud">
+          <div class="hud-box">
+            <span>Životy</span>
+            <strong id="livesLabel">❤️❤️❤️</strong>
           </div>
-          <strong id="progressLabel">1/24</strong>
+          <div class="hud-box right">
+            <span>Body</span>
+            <strong id="scoreLabel">0/100</strong>
+          </div>
+        </header>
+
+        <div class="phase-progress">
+          <span id="phaseLabel">Léčení 1/3</span>
+          <div class="progress-track"><div id="scoreFill" class="progress-fill"></div></div>
         </div>
-        <button class="icon-button speak-button" id="speakButton" type="button" aria-label="Přečíst úkol">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
-            <path d="M16 8.5c1.2 1.1 1.2 5.9 0 7"></path>
-            <path d="M18.6 6c2.2 2.2 2.2 9.8 0 12"></path>
-          </svg>
-        </button>
+
+        <article class="question-card">
+          <p class="question-count" id="questionCounter">Otázka 1</p>
+          <h1 id="questionText">Otázka</h1>
+        </article>
+
+        <div class="answers" id="answers"></div>
+        <p class="feedback" id="feedback" hidden></p>
       </section>
 
-      <section class="start-screen is-active" id="startScreen">
-        <div class="mascot" aria-hidden="true">
-          <span>☀️</span>
-          <span>🎒</span>
-          <span>🧸</span>
+      <section class="screen" data-screen="fail">
+        <p class="eyebrow">Králíček potřebuje další pokus</p>
+        <div class="rabbit-image-panel">
+          <img src="./assets/rabbit-prompt-04.png" alt="Nemocný králíček" />
         </div>
-        <h1>Hrátky pro předškoláky</h1>
-        <p>Obrázkové úkoly se čtou nahlas. Dítě vybírá jen klepnutím.</p>
-        <button class="start-button" id="startButton" type="button">
-          <span aria-hidden="true">▶</span>
-          Začít
-        </button>
+        <h1>Teď se to nepovedlo</h1>
+        <p class="lead">Došly tři životy. Králíček se ještě neuzdravil, ale můžeš to zkusit znovu.</p>
+        <button class="primary-button" data-action="restart-game">Zkusit znovu</button>
+        <button class="ghost-button" data-action="home">Zpět na začátek</button>
       </section>
 
-      <section class="task-screen" id="taskScreen" aria-live="polite">
-        <p class="sr-only" id="spokenInstruction"></p>
-        <div class="task-stage" id="taskStage"></div>
-        <div class="answer-grid" id="answerGrid"></div>
+      <section class="screen" data-screen="complete">
+        <p class="eyebrow">Králíček je zdravý</p>
+        <div class="rabbit-image-panel celebration">
+          <img src="./assets/rabbit-prompt-04.png" alt="Zdravý králíček" />
+        </div>
+        <h1>Děkuji za uzdravení!</h1>
+        <p class="lead">Pomohl/a jsi králíčkovi projít celým léčením. Teď už je veselý a zdravý.</p>
+        <button class="primary-button" data-action="home">Zpět na začátek</button>
       </section>
 
-      <section class="finish-screen" id="finishScreen">
-        <div class="finish-mark" aria-hidden="true">★</div>
-        <h1>Hotovo</h1>
-        <p id="finishText"></p>
-        <button class="start-button" id="againButton" type="button">
-          <span aria-hidden="true">↻</span>
-          Znovu
-        </button>
-      </section>
-
-      <div class="toast" id="toast" hidden></div>
+      <div class="bonus-pop" id="bonusPop" hidden></div>
     </main>
 
     <script type="module" src="./app.js"></script>
