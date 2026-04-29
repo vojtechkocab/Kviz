@@ -1,4 +1,4 @@
-const CACHE_NAME = "kralicek-v3";
+const CACHE_NAME = "kralicek-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -13,6 +13,13 @@ const ASSETS = [
   "./assets/rabbit-02.mp4",
   "./assets/rabbit-03.mp4",
   "./assets/rabbit-04.mp4",
+  "./assets/rabbit-story/1.mp4",
+  "./assets/rabbit-story/2.mp4",
+  "./assets/rabbit-story/3.mp4",
+  "./assets/rabbit-story/4.mp4",
+  "./assets/rabbit-story/5.mp4",
+  "./assets/rabbit-story/6.mp4",
+  "./assets/rabbit-story/7.mp4",
   "./assets/rabbit-prompt-01.png",
   "./assets/rabbit-prompt-02.png",
   "./assets/rabbit-prompt-03.png",

@@ -3,6 +3,7 @@ const STARTING_LIVES = 3;
 const CORRECT_POINTS = 5;
 const CORRECT_BONUS_THRESHOLD = 5;
 const CORRECT_BONUS_POINTS = 15;
+const TREATMENT_TRIGGER_THRESHOLD = 3;
 const SPEED_BONUS_THRESHOLD = 3;
 const SPEED_BONUS_POINTS = 15;
 const SPEED_WINDOW_MS = 10_000;
@@ -38,8 +39,10 @@ const SUBJECTS = [
 const PHASES = [
   {
     id: 0,
-    introVideo: "./assets/rabbit-01.mp4",
-    successVideo: "./assets/rabbit-02.mp4",
+    introVideo: "./assets/rabbit-story/1.mp4",
+    treatmentVideo: "./assets/rabbit-story/2.mp4",
+    treatmentLabel: "Mícháš léčivý čaj",
+    successVideo: "./assets/rabbit-story/3.mp4",
     promptLabel: "Králíček prosí o pomoc",
     promptTitle: "Je mi špatně a motá se mi hlava.",
     promptText: "Pomůžeš mi a uzdravíš mě?",
@@ -47,7 +50,9 @@ const PHASES = [
   },
   {
     id: 1,
-    successVideo: "./assets/rabbit-03.mp4",
+    treatmentVideo: "./assets/rabbit-story/4.mp4",
+    treatmentLabel: "Sbíráš vitamíny a sílu",
+    successVideo: "./assets/rabbit-story/5.mp4",
     promptLabel: "Králíčkovi je lépe",
     promptTitle: "Už je mi lépe, ale ještě trošku jsem nemocný.",
     promptText: "Pomůžeš mi ještě?",
@@ -55,7 +60,9 @@ const PHASES = [
   },
   {
     id: 2,
-    successVideo: "./assets/rabbit-04.mp4",
+    treatmentVideo: "./assets/rabbit-story/6.mp4",
+    treatmentLabel: "Podáváš poslední léčivý nápoj",
+    successVideo: "./assets/rabbit-story/7.mp4",
     promptLabel: "Králíček je skoro zdravý",
     promptTitle: "Už jsem skoro zdravý, jen se mi ještě trošku motá hlava.",
     promptText: "Pomůžeš mi ještě?",
@@ -75,6 +82,7 @@ const state = {
   phaseCorrectCount: 0,
   speedStreak: 0,
   speedTimestamps: [],
+  treatmentSeenInPhase: false,
   answered: false,
   pendingAfterVideo: null,
 };
@@ -83,6 +91,7 @@ const screens = [...document.querySelectorAll(".screen")];
 const subjectChoices = document.querySelector("#subjectChoices");
 const selectedSubjectLabel = document.querySelector("#selectedSubjectLabel");
 const storyVideo = document.querySelector("#storyVideo");
+const videoCaption = document.querySelector("#videoCaption");
 const promptStageLabel = document.querySelector("#promptStageLabel");
 const rabbitPromptImage = document.querySelector("#rabbitPromptImage");
 const rabbitPromptTitle = document.querySelector("#rabbitPromptTitle");
@@ -226,10 +235,12 @@ function getQuestionsForSubject(subjectId) {
   return [...math, ...top];
 }
 
-function playVideo(src, afterVideo) {
+function playVideo(src, afterVideo, caption = "") {
   state.pendingAfterVideo = afterVideo;
   storyVideo.src = src;
   storyVideo.currentTime = 0;
+  videoCaption.textContent = caption;
+  videoCaption.hidden = !caption;
   showScreen("video");
 
   const playPromise = storyVideo.play();
@@ -243,10 +254,17 @@ function playVideo(src, afterVideo) {
 function finishVideoStep() {
   storyVideo.pause();
   storyVideo.removeAttribute("controls");
+  videoCaption.hidden = true;
 
   if (state.pendingAfterVideo === "intro-prompt") {
     renderRabbitPrompt(PHASES[0]);
     showScreen("rabbit-prompt");
+    return;
+  }
+
+  if (state.pendingAfterVideo === "resume-quiz") {
+    showScreen("quiz");
+    renderQuestion();
     return;
   }
 
@@ -282,6 +300,7 @@ function resetPhaseState() {
   state.phaseCorrectCount = 0;
   state.speedStreak = 0;
   state.speedTimestamps = [];
+  state.treatmentSeenInPhase = false;
   state.answered = false;
   updateHud();
 }
@@ -365,6 +384,19 @@ async function answerQuestion(selectedOption, clickedButton, question) {
     return;
   }
 
+  if (
+    isCorrect &&
+    !state.treatmentSeenInPhase &&
+    state.phaseCorrectCount >= TREATMENT_TRIGGER_THRESHOLD
+  ) {
+    state.treatmentSeenInPhase = true;
+    window.setTimeout(() => {
+      const phase = PHASES[state.currentPhase];
+      playVideo(phase.treatmentVideo, "resume-quiz", phase.treatmentLabel);
+    }, 900);
+    return;
+  }
+
   window.setTimeout(renderQuestion, 900);
 }
 
@@ -418,6 +450,7 @@ function updateHud() {
 
 function goHome() {
   storyVideo.pause();
+  videoCaption.hidden = true;
   state.selectedGrade = null;
   state.selectedSubject = null;
   state.deck = [];

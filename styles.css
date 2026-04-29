@@ -207,6 +207,22 @@ h2 {
   background: #111;
 }
 
+.video-caption {
+  position: absolute;
+  left: calc(var(--unit) * 1.4);
+  right: calc(var(--unit) * 1.4);
+  top: calc(var(--unit) * 1.4);
+  z-index: 2;
+  padding: calc(var(--unit) * 1.2) calc(var(--unit) * 1.5);
+  border-radius: calc(var(--unit) * 1.8);
+  color: white;
+  text-align: center;
+  font-size: clamp(1rem, calc(var(--unit) * 2), 1.28rem);
+  font-weight: 1000;
+  background: rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(4px);
+}
+
 .video-skip {
   position: absolute;
   left: calc(var(--unit) * 1.4);
