@@ -8,11 +8,19 @@ const SMALL_REWARDS_BEFORE_BIG = 3;
 const SPEED_BONUS_THRESHOLD = 3;
 const SPEED_BONUS_POINTS = 15;
 const SPEED_WINDOW_MS = 10_000;
+const REWARD_DISPLAY_MS = 3400;
+const MAX_SAVED_RABBITS = 3;
 
 const DATA_SOURCES = {
   math: "./matematika_400_pro_deti_upraveno.json",
   top: "./TOP_500_dataset_OPRAVENY.json",
 };
+
+const RABBIT_ROOM_IMAGES = [
+  "./assets/rabbit-prompt-04.png",
+  "./assets/rabbit-prompt-03.png",
+  "./assets/rabbit-prompt-04.png",
+];
 
 const ADVENTURES = [
   { id: "rabbit", title: "Uzdrav králíčka" },
@@ -42,13 +50,9 @@ const PHASES = [
   {
     id: 0,
     introVideo: "./assets/rabbit-story/1.mp4",
-    treatmentVideo: "./assets/rabbit-story/2.mp4",
+    treatmentVideo: "./assets/rabbit-story/6.mp4",
     treatmentLabel: "Velká léčba: králíček dostává první pomoc",
-    successVideo: "./assets/rabbit-story/3.mp4",
-    promptLabel: "Králíček prosí o pomoc",
-    promptTitle: "Je mi špatně a motá se mi hlava.",
-    promptText: "Pomůžeš mi a uzdravíš mě?",
-    promptImage: "./assets/rabbit-prompt-01.png",
+    successVideo: "./assets/rabbit-story/2.mp4",
     rewards: [
       { type: "tea", title: "Teplý čaj", text: "Mícháš králíčkovi léčivý čaj." },
       { type: "bottle", title: "Pitíčko", text: "Naléváš čaj do malého pitíčka." },
@@ -57,13 +61,9 @@ const PHASES = [
   },
   {
     id: 1,
-    treatmentVideo: "./assets/rabbit-story/4.mp4",
+    treatmentVideo: "./assets/rabbit-story/5.mp4",
     treatmentLabel: "Velká léčba: vitamíny začínají zabírat",
-    successVideo: "./assets/rabbit-story/5.mp4",
-    promptLabel: "Králíčkovi je lépe",
-    promptTitle: "Už je mi lépe, ale ještě trošku jsem nemocný.",
-    promptText: "Pomůžeš mi ještě?",
-    promptImage: "./assets/rabbit-prompt-02.png",
+    successVideo: "./assets/rabbit-story/3.mp4",
     rewards: [
       { type: "medicine", title: "Medicína", text: "Mícháš kapku medicíny." },
       { type: "compress", title: "Obklad", text: "Přikládáš chladivý obklad." },
@@ -72,13 +72,9 @@ const PHASES = [
   },
   {
     id: 2,
-    treatmentVideo: "./assets/rabbit-story/6.mp4",
+    treatmentVideo: "./assets/rabbit-story/7.mp4",
     treatmentLabel: "Velká léčba: poslední dávka síly",
-    successVideo: "./assets/rabbit-story/7.mp4",
-    promptLabel: "Králíček je skoro zdravý",
-    promptTitle: "Už jsem skoro zdravý, jen se mi ještě trošku motá hlava.",
-    promptText: "Pomůžeš mi ještě?",
-    promptImage: "./assets/rabbit-prompt-03.png",
+    successVideo: "./assets/rabbit-story/4.mp4",
     rewards: [
       { type: "carrot", title: "Mrkev", text: "Přinášíš králíčkovi kousek mrkve." },
       { type: "air", title: "Čerstvý vzduch", text: "Pouštíš do pelíšku čerstvý vzduch." },
@@ -105,9 +101,13 @@ const state = {
   speedTimestamps: [],
   answered: false,
   pendingAfterVideo: null,
+  savedRabbits: loadSavedRabbits(),
+  lastSavedRabbitIndex: null,
+  runToken: 0,
 };
 
 const screens = [...document.querySelectorAll(".screen")];
+const homeButton = document.querySelector("#homeButton");
 const speakButton = document.querySelector("#speakButton");
 const gradeChoices = document.querySelector("#gradeChoices");
 const subjectChoices = document.querySelector("#subjectChoices");
@@ -116,10 +116,6 @@ const selectedGradeLabel = document.querySelector("#selectedGradeLabel");
 const selectedSubjectLabel = document.querySelector("#selectedSubjectLabel");
 const storyVideo = document.querySelector("#storyVideo");
 const videoCaption = document.querySelector("#videoCaption");
-const promptStageLabel = document.querySelector("#promptStageLabel");
-const rabbitPromptImage = document.querySelector("#rabbitPromptImage");
-const rabbitPromptTitle = document.querySelector("#rabbitPromptTitle");
-const rabbitPromptText = document.querySelector("#rabbitPromptText");
 const livesLabel = document.querySelector("#livesLabel");
 const scoreLabel = document.querySelector("#scoreLabel");
 const phaseLabel = document.querySelector("#phaseLabel");
@@ -130,6 +126,11 @@ const answers = document.querySelector("#answers");
 const feedback = document.querySelector("#feedback");
 const rewardStrip = document.querySelector("#rewardStrip");
 const rewardPop = document.querySelector("#rewardPop");
+const roomScene = document.querySelector("#roomScene");
+const roomTitle = document.querySelector("#roomTitle");
+const roomText = document.querySelector("#roomText");
+const roomAction = document.querySelector("#roomAction");
+const roomHome = document.querySelector("#roomHome");
 
 initializeApp().catch((error) => {
   console.error(error);
@@ -162,16 +163,15 @@ function bindEvents() {
 
   document.querySelector("[data-action='start-intro']").addEventListener("click", () => {
     startGameRun();
-    playVideo(PHASES[0].introVideo, "intro-prompt");
-  });
-
-  document.querySelector("[data-action='confirm-rabbit-help']").addEventListener("click", () => {
-    beginPhaseQuestions();
+    playVideo(PHASES[0].introVideo, "start-phase");
   });
 
   document.querySelector("[data-action='skip-video']").addEventListener("click", finishVideoStep);
   storyVideo.addEventListener("ended", finishVideoStep);
+  homeButton.addEventListener("click", goHome);
   speakButton.addEventListener("click", speakCurrentScreen);
+  roomAction.addEventListener("click", startAnotherRabbit);
+  roomHome.addEventListener("click", goHome);
 
   document.querySelector("[data-action='restart-game']").addEventListener("click", () => {
     startGameRun();
@@ -260,6 +260,7 @@ function buildChoiceButton(title, description, locked) {
 }
 
 function startGameRun() {
+  state.runToken += 1;
   state.deck = shuffle(getQuestionsForSubject(state.selectedSubject));
   state.questionIndex = 0;
   state.currentPhase = 0;
@@ -312,43 +313,127 @@ function finishVideoStep() {
   storyVideo.pause();
   storyVideo.removeAttribute("controls");
   videoCaption.hidden = true;
+  const pendingStep = state.pendingAfterVideo;
+  state.pendingAfterVideo = null;
 
-  if (state.pendingAfterVideo === "intro-prompt") {
-    renderRabbitPrompt(PHASES[0]);
-    showScreen("rabbit-prompt");
+  if (pendingStep === "start-phase") {
+    beginPhaseQuestions();
     return;
   }
 
-  if (state.pendingAfterVideo === "resume-quiz") {
+  if (pendingStep === "resume-quiz") {
     showScreen("quiz");
     renderQuestion();
     return;
   }
 
-  if (state.pendingAfterVideo === "phase-complete") {
+  if (pendingStep === "phase-complete") {
     const nextPhaseIndex = state.currentPhase + 1;
     if (nextPhaseIndex >= PHASES.length) {
-      showScreen("complete");
+      completeRabbitRescue();
       return;
     }
 
     state.currentPhase = nextPhaseIndex;
-    renderRabbitPrompt(PHASES[state.currentPhase]);
-    showScreen("rabbit-prompt");
+    beginPhaseQuestions();
   }
-}
-
-function renderRabbitPrompt(phase) {
-  promptStageLabel.textContent = phase.promptLabel;
-  rabbitPromptImage.src = phase.promptImage;
-  rabbitPromptTitle.textContent = phase.promptTitle;
-  rabbitPromptText.textContent = phase.promptText;
 }
 
 function beginPhaseQuestions() {
   resetPhaseState();
   showScreen("quiz");
   renderQuestion();
+}
+
+function completeRabbitRescue() {
+  const nextCount = Math.min(MAX_SAVED_RABBITS, state.savedRabbits + 1);
+  state.lastSavedRabbitIndex = nextCount - 1;
+  state.savedRabbits = nextCount;
+  saveSavedRabbits();
+  renderRabbitRoom();
+  showScreen("room");
+}
+
+function startAnotherRabbit() {
+  if (state.savedRabbits >= MAX_SAVED_RABBITS) {
+    goHome();
+    return;
+  }
+
+  startGameRun();
+  playVideo(PHASES[0].introVideo, "start-phase");
+}
+
+function renderRabbitRoom() {
+  const savedCount = state.savedRabbits;
+  const allSaved = savedCount >= MAX_SAVED_RABBITS;
+
+  roomTitle.textContent = allSaved
+    ? "Všichni tři králíčci jsou v bezpečí"
+    : savedCount === 1
+      ? "První králíček je v pokoji"
+      : "Dva králíčci už jsou v pokoji";
+  roomText.textContent = allSaved
+    ? "Pokoj je plný radosti. Všichni tři králíčci jsou zdraví a odpočívají."
+    : "Chceš zachránit dalšího králíčka?";
+  roomAction.textContent = allSaved ? "Zpět na začátek" : "Zachránit dalšího králíčka";
+
+  roomScene.innerHTML = `
+    <div class="room-window">
+      <span></span>
+      <span></span>
+    </div>
+    <div class="room-shelf">
+      <span class="room-plant"></span>
+      <span class="room-book one"></span>
+      <span class="room-book two"></span>
+    </div>
+    <div class="room-floor"></div>
+    <div class="room-rug"></div>
+    <div class="room-rabbits">
+      ${Array.from({ length: MAX_SAVED_RABBITS }, (_, index) => renderRoomRabbit(index)).join("")}
+    </div>
+  `;
+}
+
+function renderRoomRabbit(index) {
+  if (index >= state.savedRabbits) {
+    return `
+      <div class="room-rabbit-slot empty slot-${index + 1}">
+        <span>volný pelíšek</span>
+      </div>
+    `;
+  }
+
+  const isNew = index === state.lastSavedRabbitIndex;
+  return `
+    <div class="room-rabbit-slot filled slot-${index + 1} ${isNew ? "new-arrival" : ""}">
+      <img src="${RABBIT_ROOM_IMAGES[index]}" alt="Zachráněný králíček ${index + 1}" />
+      <span class="room-pillow"></span>
+    </div>
+  `;
+}
+
+function goHome() {
+  resetNavigationToHome();
+  showScreen("adventure");
+}
+
+function loadSavedRabbits() {
+  try {
+    const value = Number(window.localStorage.getItem("savedRabbits") ?? 0);
+    return Number.isFinite(value) ? Math.min(MAX_SAVED_RABBITS, Math.max(0, value)) : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function saveSavedRabbits() {
+  try {
+    window.localStorage.setItem("savedRabbits", String(state.savedRabbits));
+  } catch {
+    // Hra funguje i bez localStorage, jen se pokoj po zavření neuloží.
+  }
 }
 
 function resetPhaseState() {
@@ -413,6 +498,7 @@ async function answerQuestion(selectedOption, clickedButton, question) {
   }
 
   state.answered = true;
+  const activeRun = state.runToken;
   const isCorrect = selectedOption.isCorrect;
 
   [...answers.querySelectorAll(".answer-button")].forEach((button) => {
@@ -434,27 +520,43 @@ async function answerQuestion(selectedOption, clickedButton, question) {
 
   updateHud();
 
+  if (activeRun !== state.runToken) {
+    return;
+  }
+
   if (state.lives <= 0) {
-    window.setTimeout(() => showScreen("fail"), 900);
+    window.setTimeout(() => {
+      if (activeRun === state.runToken) {
+        showScreen("fail");
+      }
+    }, 900);
     return;
   }
 
   if (state.phaseScore >= TARGET_SCORE) {
     window.setTimeout(() => {
-      playVideo(PHASES[state.currentPhase].successVideo, "phase-complete");
+      if (activeRun === state.runToken) {
+        playVideo(PHASES[state.currentPhase].successVideo, "phase-complete");
+      }
     }, 900);
     return;
   }
 
   if (shouldPlayBigTreatment) {
     window.setTimeout(() => {
-      const phase = PHASES[state.currentPhase];
-      playVideo(phase.treatmentVideo, "resume-quiz", phase.treatmentLabel);
+      if (activeRun === state.runToken) {
+        const phase = PHASES[state.currentPhase];
+        playVideo(phase.treatmentVideo, "resume-quiz", phase.treatmentLabel);
+      }
     }, 500);
     return;
   }
 
-  window.setTimeout(renderQuestion, 900);
+  window.setTimeout(() => {
+    if (activeRun === state.runToken) {
+      renderQuestion();
+    }
+  }, 900);
 }
 
 async function handleCorrectAnswer() {
@@ -549,7 +651,7 @@ function showSmallReward(reward) {
       rewardPop.hidden = true;
       rewardPop.innerHTML = "";
       resolve();
-    }, 1400);
+    }, REWARD_DISPLAY_MS);
   });
 }
 
@@ -572,8 +674,12 @@ function updateHud() {
 }
 
 function resetNavigationToHome() {
+  state.runToken += 1;
   storyVideo.pause();
+  storyVideo.removeAttribute("controls");
   videoCaption.hidden = true;
+  rewardPop.hidden = true;
+  rewardPop.innerHTML = "";
   state.selectedGrade = null;
   state.selectedSubject = null;
   state.deck = [];
@@ -624,6 +730,8 @@ function showScreen(screenName) {
   screens.forEach((screen) => {
     screen.classList.toggle("is-active", screen.dataset.screen === screenName);
   });
+
+  homeButton.hidden = screenName === "adventure";
 
   if (screenName !== "video") {
     storyVideo.pause();

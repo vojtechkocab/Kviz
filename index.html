@@ -16,6 +16,9 @@
   </head>
   <body>
     <main class="phone-app" id="app" aria-live="polite">
+      <button class="home-button" id="homeButton" type="button" aria-label="Domů" hidden>
+        &#8962;
+      </button>
       <button class="speak-button" id="speakButton" type="button" aria-label="Přečíst obrazovku">
         🔊
       </button>
@@ -96,19 +99,6 @@
         <button class="ghost-button video-skip" data-action="skip-video">Přeskočit video</button>
       </section>
 
-      <section class="screen" data-screen="rabbit-prompt">
-        <p class="eyebrow" id="promptStageLabel">Králíček prosí o pomoc</p>
-        <div class="rabbit-image-panel">
-          <img id="rabbitPromptImage" src="./assets/rabbit-prompt-01.png" alt="Králíček prosí o pomoc" />
-        </div>
-        <h1 id="rabbitPromptTitle">Pomůžeš mi?</h1>
-        <p class="lead" id="rabbitPromptText"></p>
-        <div class="decision-panel">
-          <button class="primary-button" data-action="confirm-rabbit-help">ANO</button>
-          <button class="secondary-button" data-screen-target="adventure">NE</button>
-        </div>
-      </section>
-
       <section class="screen game-screen" data-screen="quiz">
         <header class="game-hud">
           <div class="hud-box">
@@ -148,14 +138,15 @@
         <button class="ghost-button" data-screen-target="adventure">Zpět na příběhy</button>
       </section>
 
-      <section class="screen" data-screen="complete">
-        <p class="eyebrow">Králíček je zdravý</p>
-        <div class="rabbit-image-panel celebration">
-          <img src="./assets/rabbit-prompt-04.png" alt="Zdravý králíček" />
+      <section class="screen" data-screen="room">
+        <p class="eyebrow">Pokoj pro králíčky</p>
+        <h1 id="roomTitle">Králíček je v bezpečí</h1>
+        <div class="room-scene" id="roomScene" aria-label="Pokoj se zachráněnými králíčky"></div>
+        <p class="lead" id="roomText">Chceš zachránit dalšího králíčka?</p>
+        <div class="room-actions">
+          <button class="primary-button" id="roomAction" type="button">Zachránit dalšího králíčka</button>
+          <button class="ghost-button" id="roomHome" type="button">Zpět na začátek</button>
         </div>
-        <h1>Děkuji za uzdravení!</h1>
-        <p class="lead">Pomohl/a jsi králíčkovi projít celým léčením. Teď už je veselý a zdravý.</p>
-        <button class="primary-button" data-screen-target="adventure">Zpět na příběhy</button>
       </section>
 
       <div class="reward-pop" id="rewardPop" hidden></div>

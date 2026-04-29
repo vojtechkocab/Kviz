@@ -54,10 +54,10 @@ button {
   padding: calc(var(--unit) * 3.1);
 }
 
+.home-button,
 .speak-button {
   position: absolute;
   top: calc(var(--unit) * 1.3);
-  right: calc(var(--unit) * 1.3);
   z-index: 8;
   width: calc(var(--unit) * 5.6);
   height: calc(var(--unit) * 5.6);
@@ -69,6 +69,22 @@ button {
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 10px 22px rgba(88, 48, 28, 0.12);
   cursor: pointer;
+}
+
+.home-button {
+  left: calc(var(--unit) * 1.3);
+  color: var(--ink);
+  font-size: clamp(1.45rem, 2.8dvh, 1.8rem);
+  line-height: 1;
+}
+
+.speak-button {
+  right: calc(var(--unit) * 1.3);
+}
+
+.home-button[hidden],
+.speak-button[hidden] {
+  display: none;
 }
 
 .screen {
@@ -325,6 +341,207 @@ h2 {
   background: linear-gradient(180deg, #fff4bc, #d8edff);
 }
 
+.room-scene {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: calc(var(--unit) * 3);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.75), transparent 24%),
+    linear-gradient(180deg, #f8dfc6 0 58%, #c89b70 58% 100%);
+  box-shadow: inset 0 -18px 40px rgba(88, 48, 28, 0.16);
+}
+
+.room-window {
+  position: absolute;
+  top: 8%;
+  left: 9%;
+  width: 31%;
+  height: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+  padding: 5px;
+  border-radius: 18px;
+  background: #fff8e8;
+  box-shadow: 0 12px 26px rgba(88, 48, 28, 0.12);
+}
+
+.room-window span {
+  border-radius: 12px;
+  background: linear-gradient(180deg, #afe4ff, #efffff 58%, #9ed48f);
+}
+
+.room-shelf {
+  position: absolute;
+  top: 16%;
+  right: 8%;
+  width: 34%;
+  height: 10%;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #a46d42, #805331);
+  box-shadow: 0 12px 20px rgba(88, 48, 28, 0.15);
+}
+
+.room-plant,
+.room-book {
+  position: absolute;
+  bottom: 76%;
+  display: block;
+}
+
+.room-plant {
+  left: 12%;
+  width: 22%;
+  height: 92%;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(180deg, #80cfa9 0 42%, #d86f8a 42%);
+}
+
+.room-plant::before {
+  content: "";
+  position: absolute;
+  left: -24%;
+  top: -30%;
+  width: 150%;
+  height: 58%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #5da97d 0 58%, transparent 60%);
+}
+
+.room-book {
+  width: 11%;
+  height: 76%;
+  border-radius: 5px 5px 2px 2px;
+}
+
+.room-book.one {
+  right: 31%;
+  background: #8fd1f4;
+  transform: rotate(-6deg);
+}
+
+.room-book.two {
+  right: 18%;
+  background: #ffd75f;
+  transform: rotate(5deg);
+}
+
+.room-floor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 42%;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px) 0 0 / 22% 100%,
+    linear-gradient(180deg, #d8ad7e, #b77d4d);
+}
+
+.room-rug {
+  position: absolute;
+  left: 17%;
+  right: 17%;
+  bottom: 6%;
+  height: 23%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255, 244, 188, 0.95), rgba(255, 143, 98, 0.38) 70%, transparent 72%);
+}
+
+.room-rabbits {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 7%;
+  height: 49%;
+}
+
+.room-rabbit-slot {
+  position: absolute;
+  bottom: 0;
+  width: 34%;
+  height: 74%;
+  display: grid;
+  place-items: end center;
+}
+
+.room-rabbit-slot.slot-1 {
+  left: 0;
+  z-index: 2;
+}
+
+.room-rabbit-slot.slot-2 {
+  left: 33%;
+  z-index: 3;
+}
+
+.room-rabbit-slot.slot-3 {
+  right: 0;
+  z-index: 2;
+}
+
+.room-rabbit-slot.empty {
+  align-content: end;
+  padding-bottom: calc(var(--unit) * 1.4);
+  border-radius: 999px 999px 28px 28px;
+  color: rgba(115, 91, 82, 0.72);
+  font-size: clamp(0.68rem, 1.25dvh, 0.8rem);
+  font-weight: 900;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.5));
+  border: 2px dashed rgba(115, 91, 82, 0.22);
+}
+
+.room-rabbit-slot.filled img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  object-position: center 45%;
+  border-radius: 32px 32px 42px 42px;
+  box-shadow: 0 18px 34px rgba(88, 48, 28, 0.22);
+  border: 4px solid rgba(255, 255, 255, 0.78);
+}
+
+.room-rabbit-slot.slot-1 img {
+  transform: rotate(-3deg);
+}
+
+.room-rabbit-slot.slot-2 img {
+  height: 100%;
+}
+
+.room-rabbit-slot.slot-3 img {
+  transform: rotate(3deg) scaleX(-1);
+}
+
+.room-pillow {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: -2%;
+  height: 22%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 8px 18px rgba(88, 48, 28, 0.12);
+}
+
+.room-rabbit-slot.new-arrival {
+  animation: rabbitWalkIn 2200ms ease-out both;
+}
+
+.room-actions {
+  margin-top: auto;
+  display: grid;
+  gap: calc(var(--unit) * 1);
+}
+
+.room-actions .ghost-button {
+  margin-top: 0;
+}
+
 .game-hud {
   display: flex;
   justify-content: space-between;
@@ -471,7 +688,7 @@ h2 {
   text-align: center;
   background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(7px);
-  animation: rewardOverlay 1400ms ease forwards;
+  animation: rewardOverlay 3400ms ease forwards;
 }
 
 .reward-pop[hidden] {
@@ -480,7 +697,7 @@ h2 {
 
 .reward-card {
   width: min(86%, 360px);
-  padding: calc(var(--unit) * 2.2);
+  padding: calc(var(--unit) * 2.8);
   border-radius: calc(var(--unit) * 2.8);
   background: linear-gradient(180deg, #fffdf4, #e8f7ff);
   box-shadow: 0 22px 60px rgba(88, 48, 28, 0.2);
@@ -496,6 +713,7 @@ h2 {
   color: var(--muted);
   font-weight: 800;
   line-height: 1.35;
+  font-size: clamp(0.98rem, 2dvh, 1.18rem);
 }
 
 .reward-animation {
@@ -729,8 +947,8 @@ h2 {
     transform: scale(0.92);
   }
 
-  18%,
-  76% {
+  10%,
+  88% {
     opacity: 1;
     transform: scale(1);
   }
@@ -809,6 +1027,27 @@ h2 {
   50% {
     transform: scale(1.25);
     opacity: 1;
+  }
+}
+
+@keyframes rabbitWalkIn {
+  0% {
+    opacity: 0;
+    transform: translateX(130%) translateY(10%) scale(0.82);
+  }
+
+  45% {
+    opacity: 1;
+    transform: translateX(18%) translateY(-7%) scale(0.96);
+  }
+
+  68% {
+    transform: translateX(0) translateY(3%) scale(1.02);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
   }
 }
 
