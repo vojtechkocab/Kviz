@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffe7cf" />
+    <meta name="theme-color" content="#e8f7ff" />
     <meta
       name="description"
-      content="Výuková PWA hra pro děti: otázkami pomáháš uzdravit králíčka."
+      content="Výuková PWA hra pro děti: dobrodružství, otázky a odměny za učení."
     />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
@@ -16,43 +16,69 @@
   </head>
   <body>
     <main class="phone-app" id="app" aria-live="polite">
-      <section class="screen is-active" data-screen="grade">
+      <button class="speak-button" id="speakButton" type="button" aria-label="Přečíst obrazovku">
+        🔊
+      </button>
+
+      <section class="screen is-active" data-screen="adventure">
         <p class="eyebrow">Učící dobrodružství</p>
-        <h1>Vyber ročník</h1>
-        <p class="lead">Zatím je připravený 3. ročník. Další ročníky půjdou později snadno přidat.</p>
-        <div class="choice-list">
-          <button class="choice-card" data-grade="3">
-            <span>3. ročník</span>
-            <small>Matika, přírodověda a ostatní otázky</small>
+        <h1>Vyber příběh</h1>
+        <p class="lead">Každé dobrodružství učí trochu jinak. Dnes je otevřený králíček.</p>
+        <div class="adventure-grid">
+          <button class="adventure-card active" data-adventure="rabbit">
+            <span class="card-icon">🐰</span>
+            <strong>Uzdrav králíčka</strong>
+            <small>Pečuj, sbírej odměny a pomoz mu zesílit.</small>
+          </button>
+          <button class="adventure-card locked" disabled>
+            <span class="card-icon">🚀</span>
+            <strong>Vrať se na Zemi</strong>
+            <small>Brzy</small>
+          </button>
+          <button class="adventure-card locked" disabled>
+            <span class="card-icon">🏙️</span>
+            <strong>Postav město</strong>
+            <small>Brzy</small>
+          </button>
+          <button class="adventure-card locked" disabled>
+            <span class="card-icon">👗</span>
+            <strong>Obleč panenku</strong>
+            <small>Brzy</small>
+          </button>
+          <button class="adventure-card locked" disabled>
+            <span class="card-icon">🌱</span>
+            <strong>Zachraň zahradu</strong>
+            <small>Brzy</small>
+          </button>
+          <button class="adventure-card locked" disabled>
+            <span class="card-icon">🦁</span>
+            <strong>Otevři zoo</strong>
+            <small>Brzy</small>
           </button>
         </div>
+      </section>
+
+      <section class="screen" data-screen="grade">
+        <p class="eyebrow" id="selectedAdventureLabel">Uzdrav králíčka</p>
+        <h1>Vyber ročník</h1>
+        <div class="choice-list" id="gradeChoices"></div>
+        <button class="ghost-button" data-screen-target="adventure">Zpět na příběhy</button>
       </section>
 
       <section class="screen" data-screen="subject">
-        <p class="eyebrow">3. ročník</p>
+        <p class="eyebrow" id="selectedGradeLabel">3. ročník</p>
         <h1>Vyber předmět</h1>
         <div class="choice-list" id="subjectChoices"></div>
-        <button class="ghost-button" data-action="home">Zpět na ročníky</button>
-      </section>
-
-      <section class="screen" data-screen="mode">
-        <p class="eyebrow" id="selectedSubjectLabel">Vybraný předmět</p>
-        <h1>Vyber hru</h1>
-        <div class="choice-list">
-          <button class="choice-card" data-mode="heal-rabbit">
-            <span>Uzdrav králíčka</span>
-            <small>Pomáhej králíčkovi správnými odpověďmi.</small>
-          </button>
-        </div>
-        <button class="ghost-button" data-screen-target="subject">Zpět na předměty</button>
+        <button class="ghost-button" data-screen-target="grade">Zpět na ročníky</button>
       </section>
 
       <section class="screen" data-screen="description">
-        <p class="eyebrow">Uzdrav králíčka</p>
-        <h1>Jak se hraje?</h1>
+        <p class="eyebrow" id="selectedSubjectLabel">Matika</p>
+        <h1>Uzdrav králíčka</h1>
         <p class="lead">
-          Na začátku hry je králíček nemocný. Za každou správnou odpověď dostane sílu.
-          Podaří se Ti ho uzdravit, než přijdeš o tři životy?
+          Na začátku hry je králíček nemocný. Za správné odpovědi získáš malé
+          odměny: čaj, vitamíny, obklad nebo deku. Když jich nasbíráš několik,
+          přijde velká léčba.
         </p>
         <div class="rabbit-photo-card">
           <img src="./assets/rabbit-sick.png" alt="Nemocný králíček" />
@@ -60,7 +86,7 @@
         <div class="decision-panel">
           <h2>Jdeme na to?</h2>
           <button class="primary-button" data-action="start-intro">ANO</button>
-          <button class="secondary-button" data-action="home">NE</button>
+          <button class="secondary-button" data-screen-target="adventure">NE</button>
         </div>
       </section>
 
@@ -79,7 +105,7 @@
         <p class="lead" id="rabbitPromptText"></p>
         <div class="decision-panel">
           <button class="primary-button" data-action="confirm-rabbit-help">ANO</button>
-          <button class="secondary-button" data-action="home">NE</button>
+          <button class="secondary-button" data-screen-target="adventure">NE</button>
         </div>
       </section>
 
@@ -94,6 +120,8 @@
             <strong id="scoreLabel">0/100</strong>
           </div>
         </header>
+
+        <div class="reward-strip" id="rewardStrip"></div>
 
         <div class="phase-progress">
           <span id="phaseLabel">Léčení 1/3</span>
@@ -117,7 +145,7 @@
         <h1>Teď se to nepovedlo</h1>
         <p class="lead">Došly tři životy. Králíček se ještě neuzdravil, ale můžeš to zkusit znovu.</p>
         <button class="primary-button" data-action="restart-game">Zkusit znovu</button>
-        <button class="ghost-button" data-action="home">Zpět na začátek</button>
+        <button class="ghost-button" data-screen-target="adventure">Zpět na příběhy</button>
       </section>
 
       <section class="screen" data-screen="complete">
@@ -127,10 +155,10 @@
         </div>
         <h1>Děkuji za uzdravení!</h1>
         <p class="lead">Pomohl/a jsi králíčkovi projít celým léčením. Teď už je veselý a zdravý.</p>
-        <button class="primary-button" data-action="home">Zpět na začátek</button>
+        <button class="primary-button" data-screen-target="adventure">Zpět na příběhy</button>
       </section>
 
-      <div class="bonus-pop" id="bonusPop" hidden></div>
+      <div class="reward-pop" id="rewardPop" hidden></div>
     </main>
 
     <script type="module" src="./app.js"></script>

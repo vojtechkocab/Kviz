@@ -3,7 +3,8 @@ const STARTING_LIVES = 3;
 const CORRECT_POINTS = 5;
 const CORRECT_BONUS_THRESHOLD = 5;
 const CORRECT_BONUS_POINTS = 15;
-const TREATMENT_TRIGGER_THRESHOLD = 3;
+const SMALL_REWARD_THRESHOLD = 2;
+const SMALL_REWARDS_BEFORE_BIG = 3;
 const SPEED_BONUS_THRESHOLD = 3;
 const SPEED_BONUS_POINTS = 15;
 const SPEED_WINDOW_MS = 10_000;
@@ -13,65 +14,82 @@ const DATA_SOURCES = {
   top: "./TOP_500_dataset_OPRAVENY.json",
 };
 
-const SUBJECTS = [
-  {
-    id: "math",
-    title: "Matika",
-    description: "Počítání, násobení, dělení a slovní příklady.",
-  },
-  {
-    id: "science",
-    title: "Přírodověda",
-    description: "Zvířata a příroda.",
-  },
-  {
-    id: "other",
-    title: "Ostatní",
-    description: "Logika, svět a Česká republika.",
-  },
-  {
-    id: "all",
-    title: "Vše dohromady",
-    description: "Smíchané otázky ze všech sad.",
-  },
+const ADVENTURES = [
+  { id: "rabbit", title: "Uzdrav králíčka" },
 ];
+
+const GRADES = [
+  { id: "preschool", title: "Předškolák", description: "Brzy", locked: true },
+  { id: "1", title: "1. ročník", description: "Brzy", locked: true },
+  { id: "2", title: "2. ročník", description: "Brzy", locked: true },
+  { id: "3", title: "3. ročník", description: "Otevřeno", locked: false },
+  { id: "4", title: "4. ročník", description: "Brzy", locked: true },
+  { id: "5", title: "5. ročník", description: "Brzy", locked: true },
+];
+
+const SUBJECTS_BY_GRADE = {
+  "3": [
+    { id: "math", title: "Matika", description: "Počítání, násobení a dělení.", locked: false },
+    { id: "czech", title: "Čeština", description: "Brzy", locked: true },
+    { id: "science", title: "Přírodověda", description: "Zvířata a příroda.", locked: false },
+    { id: "logic", title: "Logika", description: "Přemýšlení a řešení úkolů.", locked: false },
+    { id: "other", title: "Ostatní", description: "Svět, ČR a všeobecné znalosti.", locked: false },
+    { id: "all", title: "Vše dohromady", description: "Smíchané otázky ze všech sad.", locked: false },
+  ],
+};
 
 const PHASES = [
   {
     id: 0,
     introVideo: "./assets/rabbit-story/1.mp4",
     treatmentVideo: "./assets/rabbit-story/2.mp4",
-    treatmentLabel: "Mícháš léčivý čaj",
+    treatmentLabel: "Velká léčba: králíček dostává první pomoc",
     successVideo: "./assets/rabbit-story/3.mp4",
     promptLabel: "Králíček prosí o pomoc",
     promptTitle: "Je mi špatně a motá se mi hlava.",
     promptText: "Pomůžeš mi a uzdravíš mě?",
     promptImage: "./assets/rabbit-prompt-01.png",
+    rewards: [
+      { type: "tea", title: "Teplý čaj", text: "Mícháš králíčkovi léčivý čaj." },
+      { type: "bottle", title: "Pitíčko", text: "Naléváš čaj do malého pitíčka." },
+      { type: "vitamins", title: "Vitamíny", text: "Sbíráš první vitamíny na posílení." },
+    ],
   },
   {
     id: 1,
     treatmentVideo: "./assets/rabbit-story/4.mp4",
-    treatmentLabel: "Sbíráš vitamíny a sílu",
+    treatmentLabel: "Velká léčba: vitamíny začínají zabírat",
     successVideo: "./assets/rabbit-story/5.mp4",
     promptLabel: "Králíčkovi je lépe",
     promptTitle: "Už je mi lépe, ale ještě trošku jsem nemocný.",
     promptText: "Pomůžeš mi ještě?",
     promptImage: "./assets/rabbit-prompt-02.png",
+    rewards: [
+      { type: "medicine", title: "Medicína", text: "Mícháš kapku medicíny." },
+      { type: "compress", title: "Obklad", text: "Přikládáš chladivý obklad." },
+      { type: "blanket", title: "Deka", text: "Přikrýváš králíčka měkkou dekou." },
+    ],
   },
   {
     id: 2,
     treatmentVideo: "./assets/rabbit-story/6.mp4",
-    treatmentLabel: "Podáváš poslední léčivý nápoj",
+    treatmentLabel: "Velká léčba: poslední dávka síly",
     successVideo: "./assets/rabbit-story/7.mp4",
     promptLabel: "Králíček je skoro zdravý",
     promptTitle: "Už jsem skoro zdravý, jen se mi ještě trošku motá hlava.",
     promptText: "Pomůžeš mi ještě?",
     promptImage: "./assets/rabbit-prompt-03.png",
+    rewards: [
+      { type: "carrot", title: "Mrkev", text: "Přinášíš králíčkovi kousek mrkve." },
+      { type: "air", title: "Čerstvý vzduch", text: "Pouštíš do pelíšku čerstvý vzduch." },
+      { type: "stars", title: "Síla", text: "Králíček dostává poslední kousek síly." },
+    ],
   },
 ];
 
 const state = {
   datasets: null,
+  selectedAdventure: null,
   selectedGrade: null,
   selectedSubject: null,
   deck: [],
@@ -80,15 +98,21 @@ const state = {
   phaseScore: 0,
   lives: STARTING_LIVES,
   phaseCorrectCount: 0,
+  smallRewardCorrectCount: 0,
+  smallRewardsEarned: 0,
+  bigTreatmentSeen: false,
   speedStreak: 0,
   speedTimestamps: [],
-  treatmentSeenInPhase: false,
   answered: false,
   pendingAfterVideo: null,
 };
 
 const screens = [...document.querySelectorAll(".screen")];
+const speakButton = document.querySelector("#speakButton");
+const gradeChoices = document.querySelector("#gradeChoices");
 const subjectChoices = document.querySelector("#subjectChoices");
+const selectedAdventureLabel = document.querySelector("#selectedAdventureLabel");
+const selectedGradeLabel = document.querySelector("#selectedGradeLabel");
 const selectedSubjectLabel = document.querySelector("#selectedSubjectLabel");
 const storyVideo = document.querySelector("#storyVideo");
 const videoCaption = document.querySelector("#videoCaption");
@@ -104,7 +128,8 @@ const questionCounter = document.querySelector("#questionCounter");
 const questionText = document.querySelector("#questionText");
 const answers = document.querySelector("#answers");
 const feedback = document.querySelector("#feedback");
-const bonusPop = document.querySelector("#bonusPop");
+const rewardStrip = document.querySelector("#rewardStrip");
+const rewardPop = document.querySelector("#rewardPop");
 
 initializeApp().catch((error) => {
   console.error(error);
@@ -115,7 +140,7 @@ async function initializeApp() {
   registerServiceWorker();
   bindEvents();
   state.datasets = await loadDatasets();
-  renderSubjects();
+  renderGradeChoices();
 }
 
 function registerServiceWorker() {
@@ -129,13 +154,10 @@ function registerServiceWorker() {
 }
 
 function bindEvents() {
-  document.querySelector("[data-grade='3']").addEventListener("click", () => {
-    state.selectedGrade = 3;
-    showScreen("subject");
-  });
-
-  document.querySelector("[data-mode='heal-rabbit']").addEventListener("click", () => {
-    showScreen("description");
+  document.querySelector("[data-adventure='rabbit']").addEventListener("click", () => {
+    state.selectedAdventure = "rabbit";
+    selectedAdventureLabel.textContent = ADVENTURES[0].title;
+    showScreen("grade");
   });
 
   document.querySelector("[data-action='start-intro']").addEventListener("click", () => {
@@ -149,10 +171,7 @@ function bindEvents() {
 
   document.querySelector("[data-action='skip-video']").addEventListener("click", finishVideoStep);
   storyVideo.addEventListener("ended", finishVideoStep);
-
-  document.querySelectorAll("[data-action='home']").forEach((button) => {
-    button.addEventListener("click", goHome);
-  });
+  speakButton.addEventListener("click", speakCurrentScreen);
 
   document.querySelector("[data-action='restart-game']").addEventListener("click", () => {
     startGameRun();
@@ -160,7 +179,12 @@ function bindEvents() {
   });
 
   document.querySelectorAll("[data-screen-target]").forEach((button) => {
-    button.addEventListener("click", () => showScreen(button.dataset.screenTarget));
+    button.addEventListener("click", () => {
+      if (button.dataset.screenTarget === "adventure") {
+        resetNavigationToHome();
+      }
+      showScreen(button.dataset.screenTarget);
+    });
   });
 }
 
@@ -188,23 +212,51 @@ function normalizeQuestions(questions, source) {
   }));
 }
 
-function renderSubjects() {
-  subjectChoices.innerHTML = "";
+function renderGradeChoices() {
+  gradeChoices.innerHTML = "";
 
-  SUBJECTS.forEach((subject) => {
-    const button = document.createElement("button");
-    button.className = "choice-card";
-    button.type = "button";
-    button.innerHTML = `<span>${subject.title}</span><small>${subject.description}</small>`;
-    button.addEventListener("click", () => selectSubject(subject));
+  GRADES.forEach((grade) => {
+    const button = buildChoiceButton(grade.title, grade.description, grade.locked);
+    button.addEventListener("click", () => {
+      if (grade.locked) {
+        return;
+      }
+
+      state.selectedGrade = grade.id;
+      selectedGradeLabel.textContent = grade.title;
+      renderSubjectChoices();
+      showScreen("subject");
+    });
+    gradeChoices.appendChild(button);
+  });
+}
+
+function renderSubjectChoices() {
+  subjectChoices.innerHTML = "";
+  const subjects = SUBJECTS_BY_GRADE[state.selectedGrade] ?? [];
+
+  subjects.forEach((subject) => {
+    const button = buildChoiceButton(subject.title, subject.description, subject.locked);
+    button.addEventListener("click", () => {
+      if (subject.locked) {
+        return;
+      }
+
+      state.selectedSubject = subject.id;
+      selectedSubjectLabel.textContent = subject.title;
+      showScreen("description");
+    });
     subjectChoices.appendChild(button);
   });
 }
 
-function selectSubject(subject) {
-  state.selectedSubject = subject.id;
-  selectedSubjectLabel.textContent = subject.title;
-  showScreen("mode");
+function buildChoiceButton(title, description, locked) {
+  const button = document.createElement("button");
+  button.className = locked ? "choice-card locked" : "choice-card";
+  button.type = "button";
+  button.disabled = locked;
+  button.innerHTML = `<span>${locked ? "🔒 " : ""}${title}</span><small>${description}</small>`;
+  return button;
 }
 
 function startGameRun() {
@@ -218,7 +270,8 @@ function getQuestionsForSubject(subjectId) {
   const math = state.datasets.math;
   const top = state.datasets.top;
   const scienceCategories = new Set(["zvířata", "příroda"]);
-  const otherCategories = new Set(["logika", "svět", "ČR"]);
+  const logicCategories = new Set(["logika"]);
+  const otherCategories = new Set(["svět", "ČR"]);
 
   if (subjectId === "math") {
     return math;
@@ -226,6 +279,10 @@ function getQuestionsForSubject(subjectId) {
 
   if (subjectId === "science") {
     return top.filter((question) => scienceCategories.has(question.category));
+  }
+
+  if (subjectId === "logic") {
+    return top.filter((question) => logicCategories.has(question.category));
   }
 
   if (subjectId === "other") {
@@ -298,11 +355,14 @@ function resetPhaseState() {
   state.phaseScore = 0;
   state.lives = STARTING_LIVES;
   state.phaseCorrectCount = 0;
+  state.smallRewardCorrectCount = 0;
+  state.smallRewardsEarned = 0;
+  state.bigTreatmentSeen = false;
   state.speedStreak = 0;
   state.speedTimestamps = [];
-  state.treatmentSeenInPhase = false;
   state.answered = false;
   updateHud();
+  renderRewardStrip();
 }
 
 function renderQuestion() {
@@ -362,9 +422,11 @@ async function answerQuestion(selectedOption, clickedButton, question) {
     }
   });
 
+  let shouldPlayBigTreatment = false;
+
   if (isCorrect) {
     clickedButton.classList.add("correct");
-    await handleCorrectAnswer();
+    shouldPlayBigTreatment = await handleCorrectAnswer();
   } else {
     clickedButton.classList.add("wrong");
     handleWrongAnswer(question.correctAnswer);
@@ -384,16 +446,11 @@ async function answerQuestion(selectedOption, clickedButton, question) {
     return;
   }
 
-  if (
-    isCorrect &&
-    !state.treatmentSeenInPhase &&
-    state.phaseCorrectCount >= TREATMENT_TRIGGER_THRESHOLD
-  ) {
-    state.treatmentSeenInPhase = true;
+  if (shouldPlayBigTreatment) {
     window.setTimeout(() => {
       const phase = PHASES[state.currentPhase];
       playVideo(phase.treatmentVideo, "resume-quiz", phase.treatmentLabel);
-    }, 900);
+    }, 500);
     return;
   }
 
@@ -402,25 +459,60 @@ async function answerQuestion(selectedOption, clickedButton, question) {
 
 async function handleCorrectAnswer() {
   const now = Date.now();
+  let shouldPlayBigTreatment = false;
+
   state.phaseScore = Math.min(TARGET_SCORE, state.phaseScore + CORRECT_POINTS);
   state.phaseCorrectCount += 1;
+  state.smallRewardCorrectCount += 1;
   state.speedStreak += 1;
   state.speedTimestamps.push(now);
   feedback.textContent = `Správně. Králíček získal ${CORRECT_POINTS} bodů.`;
   feedback.classList.add("good");
 
+  if (state.smallRewardCorrectCount >= SMALL_REWARD_THRESHOLD) {
+    const reward = getCurrentReward();
+    state.smallRewardCorrectCount = 0;
+    state.smallRewardsEarned += 1;
+    await showSmallReward(reward);
+    renderRewardStrip();
+  }
+
   if (state.phaseCorrectCount % CORRECT_BONUS_THRESHOLD === 0) {
-    await showBonus(`BONUS ZA SPRÁVNÉ ODPOVĚDI\n+${CORRECT_BONUS_POINTS}`);
+    await showSmallReward({
+      type: "stars",
+      title: `Bonus +${CORRECT_BONUS_POINTS}`,
+      text: "Pět správných odpovědí po sobě dodalo králíčkovi sílu.",
+    });
     state.phaseScore = Math.min(TARGET_SCORE, state.phaseScore + CORRECT_BONUS_POINTS);
   }
 
   if (state.speedStreak % SPEED_BONUS_THRESHOLD === 0) {
     const startIndex = state.speedTimestamps.length - SPEED_BONUS_THRESHOLD;
     if (now - state.speedTimestamps[startIndex] <= SPEED_WINDOW_MS) {
-      await showBonus(`BONUS ZA RYCHLOST\n+${SPEED_BONUS_POINTS}`);
+      await showSmallReward({
+        type: "vitamins",
+        title: `Rychlost +${SPEED_BONUS_POINTS}`,
+        text: "Tři rychlé odpovědi přinesly vitamínovou energii.",
+      });
       state.phaseScore = Math.min(TARGET_SCORE, state.phaseScore + SPEED_BONUS_POINTS);
     }
   }
+
+  if (
+    !state.bigTreatmentSeen &&
+    state.smallRewardsEarned >= SMALL_REWARDS_BEFORE_BIG
+  ) {
+    state.bigTreatmentSeen = true;
+    shouldPlayBigTreatment = true;
+  }
+
+  return shouldPlayBigTreatment;
+}
+
+function getCurrentReward() {
+  const phase = PHASES[state.currentPhase];
+  const rewardIndex = Math.min(state.smallRewardsEarned, phase.rewards.length - 1);
+  return phase.rewards[rewardIndex];
 }
 
 function handleWrongAnswer(correctAnswer) {
@@ -431,14 +523,45 @@ function handleWrongAnswer(correctAnswer) {
   feedback.classList.add("bad");
 }
 
-function showBonus(text) {
+function showSmallReward(reward) {
   return new Promise((resolve) => {
-    bonusPop.textContent = text;
-    bonusPop.hidden = false;
+    rewardPop.innerHTML = `
+      <div class="reward-card">
+        <div class="reward-animation reward-${reward.type}">
+          <span class="steam one"></span>
+          <span class="steam two"></span>
+          <span class="vitamin v1"></span>
+          <span class="vitamin v2"></span>
+          <span class="vitamin v3"></span>
+          <span class="cup"></span>
+          <span class="bottle"></span>
+          <span class="blanket"></span>
+          <span class="carrot"></span>
+          <span class="spark s1"></span>
+          <span class="spark s2"></span>
+        </div>
+        <h2>${reward.title}</h2>
+        <p>${reward.text}</p>
+      </div>
+    `;
+    rewardPop.hidden = false;
     window.setTimeout(() => {
-      bonusPop.hidden = true;
+      rewardPop.hidden = true;
+      rewardPop.innerHTML = "";
       resolve();
-    }, 950);
+    }, 1400);
+  });
+}
+
+function renderRewardStrip() {
+  const phase = PHASES[state.currentPhase];
+  rewardStrip.innerHTML = "";
+
+  phase.rewards.forEach((reward, index) => {
+    const item = document.createElement("span");
+    item.className = index < state.smallRewardsEarned ? "reward-token earned" : "reward-token";
+    item.textContent = reward.title;
+    rewardStrip.appendChild(item);
   });
 }
 
@@ -448,7 +571,7 @@ function updateHud() {
   scoreFill.style.width = `${state.phaseScore}%`;
 }
 
-function goHome() {
+function resetNavigationToHome() {
   storyVideo.pause();
   videoCaption.hidden = true;
   state.selectedGrade = null;
@@ -458,13 +581,53 @@ function goHome() {
   state.currentPhase = 0;
   state.pendingAfterVideo = null;
   resetPhaseState();
-  showScreen("grade");
+}
+
+function speakCurrentScreen() {
+  if (!("speechSynthesis" in window)) {
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  const activeScreen = document.querySelector(".screen.is-active");
+  const text = getSpeakText(activeScreen);
+  if (!text) {
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "cs-CZ";
+  utterance.rate = 0.92;
+  window.speechSynthesis.speak(utterance);
+}
+
+function getSpeakText(screen) {
+  if (!screen) {
+    return "";
+  }
+
+  if (screen.dataset.screen === "quiz") {
+    const options = [...answers.querySelectorAll(".answer-button")]
+      .map((button, index) => `Možnost ${index + 1}: ${button.textContent}`)
+      .join(". ");
+    return `${questionText.textContent}. ${options}`;
+  }
+
+  return [...screen.querySelectorAll(".eyebrow, h1, h2, .lead, .choice-card span, .choice-card small")]
+    .filter((element) => !element.closest("[disabled]"))
+    .map((element) => element.textContent.trim())
+    .filter(Boolean)
+    .join(". ");
 }
 
 function showScreen(screenName) {
   screens.forEach((screen) => {
     screen.classList.toggle("is-active", screen.dataset.screen === screenName);
   });
+
+  if (screenName !== "video") {
+    storyVideo.pause();
+  }
 }
 
 function shuffle(items) {
