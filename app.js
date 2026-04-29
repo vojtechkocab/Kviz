@@ -22,6 +22,97 @@ const RABBIT_ROOM_IMAGES = [
   "./assets/rabbit-prompt-04.png",
 ];
 
+const IMAGE_QUESTIONS = [
+  {
+    id: "image-horse-name",
+    text: "Co je to za zvíře?",
+    image: "./assets/question-images/horse.jpg",
+    imageAlt: "Bílý kůň u ohrady",
+    options: ["kůň", "kráva", "pes"],
+    correctAnswer: "kůň",
+    acceptedAnswers: ["kun", "konik", "koník"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-horse-group",
+    text: "Do jaké skupiny živočichů patří zvíře na obrázku?",
+    image: "./assets/question-images/horse.jpg",
+    imageAlt: "Bílý kůň u ohrady",
+    options: ["savec", "pták", "ryba"],
+    correctAnswer: "savec",
+    acceptedAnswers: ["savci"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-dog-name",
+    text: "Co je to za zvíře?",
+    image: "./assets/question-images/dog.jpg",
+    imageAlt: "Malý pes sedí venku v trávě",
+    options: ["pes", "kočka", "kůň"],
+    correctAnswer: "pes",
+    acceptedAnswers: ["pejsek"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-dog-group",
+    text: "Do jaké skupiny živočichů patří zvíře na obrázku?",
+    image: "./assets/question-images/dog.jpg",
+    imageAlt: "Malý pes sedí venku v trávě",
+    options: ["savec", "plaz", "hmyz"],
+    correctAnswer: "savec",
+    acceptedAnswers: ["savci"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-cat-name",
+    text: "Co je to za zvíře?",
+    image: "./assets/question-images/cat.jpg",
+    imageAlt: "Kočka leží na sešitě",
+    options: ["kočka", "pes", "kráva"],
+    correctAnswer: "kočka",
+    acceptedAnswers: ["kocka", "kočička", "kocicka"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-cat-group",
+    text: "Do jaké skupiny živočichů patří zvíře na obrázku?",
+    image: "./assets/question-images/cat.jpg",
+    imageAlt: "Kočka leží na sešitě",
+    options: ["savec", "obojživelník", "ryba"],
+    correctAnswer: "savec",
+    acceptedAnswers: ["savci"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-cow-name",
+    text: "Co je to za zvíře?",
+    image: "./assets/question-images/cow.jpg",
+    imageAlt: "Krávy stojí na louce",
+    options: ["kráva", "kůň", "kočka"],
+    correctAnswer: "kráva",
+    acceptedAnswers: ["krava"],
+    category: "zvířata",
+    source: "image",
+  },
+  {
+    id: "image-cow-group",
+    text: "Do jaké skupiny živočichů patří zvíře na obrázku?",
+    image: "./assets/question-images/cow.jpg",
+    imageAlt: "Krávy stojí na louce",
+    options: ["savec", "pták", "plaz"],
+    correctAnswer: "savec",
+    acceptedAnswers: ["savci"],
+    category: "zvířata",
+    source: "image",
+  },
+];
+
 const ADVENTURES = [
   { id: "rabbit", title: "Uzdrav králíčka" },
 ];
@@ -100,6 +191,7 @@ const state = {
   speedStreak: 0,
   speedTimestamps: [],
   answered: false,
+  currentAnswerMode: "choice",
   pendingAfterVideo: null,
   savedRabbits: loadSavedRabbits(),
   lastSavedRabbitIndex: null,
@@ -120,7 +212,10 @@ const livesLabel = document.querySelector("#livesLabel");
 const scoreLabel = document.querySelector("#scoreLabel");
 const phaseLabel = document.querySelector("#phaseLabel");
 const scoreFill = document.querySelector("#scoreFill");
+const questionCard = document.querySelector(".question-card");
 const questionCounter = document.querySelector("#questionCounter");
+const questionImageWrap = document.querySelector("#questionImageWrap");
+const questionImage = document.querySelector("#questionImage");
 const questionText = document.querySelector("#questionText");
 const answers = document.querySelector("#answers");
 const feedback = document.querySelector("#feedback");
@@ -207,6 +302,9 @@ function normalizeQuestions(questions, source) {
     options: question.options,
     correctIndex: question.correct_index,
     correctAnswer: question.options[question.correct_index],
+    acceptedAnswers: question.acceptedAnswers ?? question.accepted_answers ?? [],
+    image: question.image ?? null,
+    imageAlt: question.imageAlt ?? "",
     category: question.category,
     source,
   }));
@@ -279,7 +377,10 @@ function getQuestionsForSubject(subjectId) {
   }
 
   if (subjectId === "science") {
-    return top.filter((question) => scienceCategories.has(question.category));
+    return [
+      ...top.filter((question) => scienceCategories.has(question.category)),
+      ...IMAGE_QUESTIONS,
+    ];
   }
 
   if (subjectId === "logic") {
@@ -290,7 +391,7 @@ function getQuestionsForSubject(subjectId) {
     return top.filter((question) => otherCategories.has(question.category));
   }
 
-  return [...math, ...top];
+  return [...math, ...top, ...IMAGE_QUESTIONS];
 }
 
 function playVideo(src, afterVideo, caption = "") {
@@ -446,22 +547,46 @@ function resetPhaseState() {
   state.speedStreak = 0;
   state.speedTimestamps = [];
   state.answered = false;
+  state.currentAnswerMode = "choice";
   updateHud();
   renderRewardStrip();
 }
 
 function renderQuestion() {
   const question = getNextQuestion();
+  const questionNumber = state.questionIndex;
+  state.currentAnswerMode = questionNumber % 3 === 0 ? "text" : "choice";
   state.answered = false;
   feedback.hidden = true;
   feedback.textContent = "";
   feedback.className = "feedback";
 
   phaseLabel.textContent = `Léčení ${state.currentPhase + 1}/3`;
-  questionCounter.textContent = `Otázka ${state.questionIndex}`;
+  questionCounter.textContent = state.currentAnswerMode === "text"
+    ? `Otázka ${questionNumber} - napiš odpověď`
+    : `Otázka ${questionNumber}`;
   questionText.textContent = question.text;
   answers.innerHTML = "";
+  answers.className = state.currentAnswerMode === "text" ? "answers text-mode" : "answers";
+  renderQuestionImage(question);
 
+  if (state.currentAnswerMode === "text") {
+    renderTextAnswer(question);
+  } else {
+    renderChoiceAnswers(question);
+  }
+
+  updateHud();
+}
+
+function renderQuestionImage(question) {
+  questionCard.classList.toggle("has-image", Boolean(question.image));
+  questionImageWrap.hidden = !question.image;
+  questionImage.src = question.image ?? "";
+  questionImage.alt = question.imageAlt ?? "";
+}
+
+function renderChoiceAnswers(question) {
   const shuffledOptions = shuffle(
     question.options.map((option) => ({
       text: option,
@@ -469,16 +594,49 @@ function renderQuestion() {
     })),
   );
 
-  shuffledOptions.forEach((option) => {
+  shuffledOptions.forEach((option, index) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "answer-button";
-    button.textContent = option.text;
+    button.textContent = `${String.fromCharCode(65 + index)}. ${option.text}`;
+    button.dataset.answerText = option.text;
     button.addEventListener("click", () => answerQuestion(option, button, question));
     answers.appendChild(button);
   });
+}
 
-  updateHud();
+function renderTextAnswer(question) {
+  const inputMode = /^[0-9\s.,:-]+$/.test(String(question.correctAnswer)) ? "decimal" : "text";
+  const form = document.createElement("form");
+  form.className = "written-answer";
+  form.innerHTML = `
+    <label for="writtenAnswer">Napiš odpověď</label>
+    <input id="writtenAnswer" class="written-input" type="text" autocomplete="off" inputmode="${inputMode}" enterkeyhint="done" />
+    <button class="written-submit" type="submit">Zkontrolovat</button>
+  `;
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const input = form.querySelector(".written-input");
+    const value = input.value.trim();
+
+    if (!value) {
+      input.focus();
+      return;
+    }
+
+    answerQuestion(
+      {
+        text: value,
+        isCorrect: isWrittenAnswerCorrect(question, value),
+      },
+      form,
+      question,
+    );
+  });
+
+  answers.appendChild(form);
+  form.querySelector(".written-input").focus({ preventScroll: true });
 }
 
 function getNextQuestion() {
@@ -503,9 +661,13 @@ async function answerQuestion(selectedOption, clickedButton, question) {
 
   [...answers.querySelectorAll(".answer-button")].forEach((button) => {
     button.disabled = true;
-    if (button.textContent === question.correctAnswer) {
+    if (button.dataset.answerText === question.correctAnswer) {
       button.classList.add("correct");
     }
+  });
+
+  [...answers.querySelectorAll("input, button")].forEach((control) => {
+    control.disabled = true;
   });
 
   let shouldPlayBigTreatment = false;
@@ -625,6 +787,25 @@ function handleWrongAnswer(correctAnswer) {
   feedback.classList.add("bad");
 }
 
+function isWrittenAnswerCorrect(question, value) {
+  const normalizedValue = normalizeWrittenAnswer(value);
+  const acceptedAnswers = [question.correctAnswer, ...(question.acceptedAnswers ?? [])]
+    .map(normalizeWrittenAnswer)
+    .filter(Boolean);
+
+  return acceptedAnswers.includes(normalizedValue);
+}
+
+function normalizeWrittenAnswer(value) {
+  return String(value)
+    .toLocaleLowerCase("cs-CZ")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[.,;:!?()[\]{}"'`´]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function showSmallReward(reward) {
   return new Promise((resolve) => {
     rewardPop.innerHTML = `
@@ -713,10 +894,13 @@ function getSpeakText(screen) {
   }
 
   if (screen.dataset.screen === "quiz") {
-    const options = [...answers.querySelectorAll(".answer-button")]
-      .map((button, index) => `Možnost ${index + 1}: ${button.textContent}`)
-      .join(". ");
-    return `${questionText.textContent}. ${options}`;
+    const imageText = questionImageWrap.hidden ? "" : `Na obrázku je: ${questionImage.alt}. `;
+    const options = state.currentAnswerMode === "text"
+      ? "Napiš odpověď do políčka."
+      : [...answers.querySelectorAll(".answer-button")]
+        .map((button, index) => `Možnost ${index + 1}: ${button.dataset.answerText}`)
+        .join(". ");
+    return `${imageText}${questionText.textContent}. ${options}`;
   }
 
   return [...screen.querySelectorAll(".eyebrow, h1, h2, .lead, .choice-card span, .choice-card small")]
